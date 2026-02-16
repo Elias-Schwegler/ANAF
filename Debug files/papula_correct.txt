@@ -1,0 +1,1218 @@
+=== PDF PAGE 779 (solutions) ===
+756 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+3) a) Kreis: ðx (cid:4) 1Þ2 þ ðy þ 2Þ2 ¼ 25; M ¼ ð1; (cid:4)2Þ; r ¼ 5
+x2 y2
+b) Hyperbel: (cid:4) ¼ 1; M ¼ ð0;0Þ; a ¼ 2; b ¼ 2 (rechtwinkligeHyperbel)
+4 4
+ðx (cid:4) 1Þ2 y2
+c) Ellipse: þ ¼ 1; M ¼ ð1;0Þ; a ¼ 4; b ¼ 3
+16 9
+d) Kreis: ðx þ 3Þ2 þ ðy (cid:4) 1,5Þ2 ¼ 11,25; M ¼ ð(cid:4)3;1,5Þ; r ¼ 3,354
+9
+e) Parabel: ðy þ 3Þ2 ¼ ðx þ 2Þ; S ¼ ð(cid:4)2; (cid:4) 3Þ (nachrechtsgeo¨ffneteParabel)
+2
+ðx (cid:4) 1Þ2 ðy þ 1Þ2 pffiffiffiffi 1 pffiffiffiffi
+f) Ellipse: þ ¼ 1; M ¼ ð1; (cid:4) 1Þ; a ¼ 7; b ¼ 7
+7 7=4 2
+(cid:9) (cid:10) (cid:9) (cid:10)
+1 2 4 2
+x (cid:4) y þ (cid:9) (cid:10)
+2 3 1 4
+g) Ellipse: þ ¼ 1; M ¼ ; (cid:4) ; a ¼ 6; b ¼ 4
+36 16 2 3
+h) Parabel: ðy (cid:4) 2Þ2 ¼ (cid:4)2ðx (cid:4) 2Þ; S ¼ ð2;2Þ (nachlinksgeo¨ffneteParabel)
+4) Parabelansatz: y ¼ ax2 þ b; b ¼ 20m; rechtesAuflager: P ¼ ð100m; (cid:4)10mÞ
+Punkt P einsetzen ) a ¼ (cid:4)0,003m(cid:4)1
+GleichungdesBru¨ckenbogens: y ¼ (cid:4)0,003m(cid:4)1 (cid:7) x2 þ 20m
+SchnittpunktemitderFahrbahn ðy ¼ 0Þ: x 1=2 ¼ (cid:3)81,65m
+Abschnitt 9 und 10
+1) Gradmaß 40,36(cid:11) 81,19(cid:11) (cid:4)322,08(cid:11) 278,19(cid:11) (cid:4)78,46(cid:11) 4,83(cid:11) 118,6(cid:11)
+Bogenmaß 0,7044 1,4171 (cid:4)5,6213 4,8553 (cid:4)1,3694 0,0843 2,0700
+2) a) 0,2164 b) (cid:4)0,6198 c) 0,4685 d) (cid:4)0,0384 e) 0,9997
+f) (cid:4)0,5774 g) (cid:4)1,2810 h) 0,4063 i) (cid:4)0,1113 j) 0,9239
+3) Der trigonometrische Pythagoras folgt unmittelbar aus dem Additionstheorem (III-131)
+(fu¨r x ¼ x ¼ x undunteresVorzeichen): cos0 ¼ cosx (cid:7) cosx þ sinx (cid:7) sinx )
+1 2
+cos2x þ sin2x ¼ cos0 ¼ 1
+4) Nullstellen: x ¼ 0; x ¼ p; Produktansatz: y ¼ aðx (cid:4) 0Þðx (cid:4) pÞ ¼ axðx (cid:4) pÞ;
+1 2
+4 4 4 4
+Maximum: yðx ¼ p=2Þ ¼ 1 ) a ¼ (cid:4) ; y ¼ (cid:4) xðx (cid:4) pÞ ¼ (cid:4) x2 þ x
+p2 p2 p2 p
+5) y ¼ A (cid:7) sinðbx þ cÞ bzw: y ¼ A (cid:7) cosðbx þ cÞ mit A > 0 und p ¼ 2p=b
+Phasenverschiebung: bx þ c ¼ 0 ) x ¼ (cid:4)c=b
+0 0
+a) A ¼ 2; p ¼ 2p=3; x ¼ p=18 b) A ¼ 5; p ¼ p; x ¼ (cid:4)2,1
+0 0
+c) A ¼ 10; p ¼ 2; x ¼ 3 d) A ¼ 2,4; p ¼ p=2; x ¼ p=8
+0 0
+
+=== PDF PAGE 780 (solutions) ===
+III Funktionen und Kurven 757
+6) a) A ¼ 4; p ¼ 2p=3; x ¼ (cid:4)2=3; Funktionsverlauf:BildA-40
+0
+y
+y=4·sin(3x+2)
+4
+BildA-40
+2 x
+–
+3
+–4
+2p
+p=
+3
+b) A ¼ 2; p ¼ p; x ¼ p=2; Funktionsverlauf:BildA-41
+0
+y
+y=2·cos(2x–p)
+2
+BildA-41
+p p x
+–
+4 2
+–2
+p=p
+2p p p
+7) A ¼ 5cm; T ¼ 14s; w ¼ ¼ s(cid:4)1; 1:Maximum: wt þ j ¼ )
+T 7 1 2
+p p j
+j ¼ (cid:4) wt ¼ ; „Startpunkt“ t : wt þ j ¼ 0 ) t ¼ (cid:4) ¼ (cid:4)0,5s
+2 1 14 0 0 0 w
+(cid:4) (cid:5)
+p p
+yðtÞ ¼ 5cm (cid:7) sin s(cid:4)1 (cid:7) t þ ; Funktionsverlauf:BildA-42
+7 14
+y/cm y=5cm·sin p s–1·t+ p
+7 14
+5
+10 BildA-42
+–0,5 3 t/s
+–5
+T=14s
+2p p
+8) i ¼ 2A; T ¼ 10ms; w ¼ ¼ ; „Startpunkt“ t ¼ (cid:4)1ms: wt þ j ¼ 0 )
+0 T 5ms 0 0
+(cid:4) (cid:5)
+p p p
+j ¼ (cid:4)wt ¼ ; iðtÞ ¼ 2A (cid:7) sin (cid:7) t þ
+0 5 5ms 5
+
+=== PDF PAGE 781 (solutions) ===
+758 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+9) a) A ¼ 2; w ¼ 2; T ¼ 2p=w ¼ p; „Startpunkt“ t : 2t (cid:4) 4 ¼ 0 ) t ¼ 2
+0 0 0
+Funktionsverlauf: BildA-43
+y
+y=2·sin(2t–4)
+2
+BildA-43
+2 t
+–2
+T=p
+b) A ¼ 3; w ¼ 0,5; T ¼ 2p=w ¼ 4p; 1.Maximum t : 0,5t (cid:4) p=8 ¼ 0 )
+0 0
+t ¼ p=4; Funktionsverlauf: BildA-44
+0
+y
+p
+1.Maximum y=3·cos 0,5t–
+3 8
+BildA-44
+p t
+4
+–3
+T=4p
+10) DerReihenachzeichnen: sinx ! ðsinxÞ2 ¼ sin2x ! (cid:4)sin2x ! 1 (cid:4) sin2x
+sinx ! sin2x : Nullstellen bleiben erhalten und werden zugleich zu Minima, Maxima blei-
+ben,MinimawerdenzuMaxima.
+sin2x ! (cid:4)sin2x : Spiegelunganderx-Achse(ausMinimawerdenMaximaundumgekehrt).
+(cid:4)sin2x ! 1 (cid:4) sin2x : x-Achseum1Einheitnachuntenverschieben(BildA-45).
+Periode: p ¼ p; Nullstellen(gleichzeitigrelativeMinima): x k ¼ p=2 þ k (cid:7) p;
+RelativeMaxima: x ¼ k (cid:7) p ðk 2 ZÞ
+k
+y
+y=1–sin2x
+1
+p 3 5
+p p
+2 2 2
+BildA-45
+1 p=p 5 x
+
+=== PDF PAGE 782 (solutions) ===
+III Funktionen und Kurven 759
+11) AnfangslagederZeiger: BildA-46 +cos
+(cid:9) (cid:10)
+3
+a) y ¼ 5 (cid:7) sin 3t þ p b)
+2
+30° 3
+(cid:4) (cid:5)
+p
+b) y ¼ 3 (cid:7) sin pt þ 8,11°
+3
+(cid:9) (cid:10) +sin
+5 x
+c) y ¼ 3 (cid:7) sin 2t þ p 4
+4 45° d)
+3
+d) y ¼ 4 (cid:7) sinð0,5t þ 6,1416Þ c)
+5
+a)
+BildA-46
+12) a) Zeigerdiagramm:BildA-47 b) Zeigerdiagramm:BildA-48
+cos cos
+p/2 p/2
+cost cost
+1 1
+1 1
+sin sin
+sint sint
+BildA-47 BildA-48
+13) a) 0,5980 b) (cid:4)1,2614 c) 1,0781 d) 4,4304
+e) 0,8084 f) 0,3082 g) 1,1837 h) 2,8198
+14) a) u ðtÞ ¼ 160V (cid:7) sinðwt þ p=4Þ; u ¼ 100V; u ¼ 160V; j ¼ 0; j ¼ p=4
+2 10 20 1 2
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+u ¼ u2 þ u2 þ 2u (cid:7) u (cid:7) cosðj (cid:4) j Þ ¼
+0 10 20 10 20 2 1
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+¼ 1002 þ 1602 þ 2 (cid:7) 100 (cid:7) 160 (cid:7) cosðp=4 (cid:4) 0ÞV ¼ 241,30V
+u (cid:7) sinj þ u (cid:7) sinj 100 (cid:7) sin0 þ 160 (cid:7) sinðp=4Þ
+tanj ¼ 10 1 20 2 ¼ ¼ 0,5308 )
+u (cid:7) cosj þ u (cid:7) cosj 100 (cid:7) cos0 þ 160 (cid:7) cosðp=4Þ
+10 1 20 2
+j ¼ arctan 0,5308 ¼ 0,4880
+uðtÞ ¼ 241,30V (cid:7) sinð500s(cid:4)1 (cid:7) t þ 0,4880Þ
+b) u ¼ 380V; u ¼ 200V; j ¼ (cid:4)p=6; j ¼ p=8
+10 20 1 2
+WeitererLo¨sungswegwieinAufgabea):
+u ¼ 526,24V; tanj ¼ (cid:4)0,2208 ) j ¼ arctanð(cid:4)0,2208Þ ¼ (cid:4)0,2173
+0
+uðtÞ ¼ 526,24V (cid:7) sinð1000s(cid:4)1 (cid:7) t (cid:4) 0,2173Þ
+
+=== PDF PAGE 783 (solutions) ===
+760 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+15) y ðtÞ ¼ 20cm (cid:7) sinð4,5s(cid:4)1 (cid:7) t þ 5p=6Þ
+2
+A ¼ 12cm; A ¼ 20cm; j ¼ p=5; j ¼ 5p=6
+1 2 1 2
+Lo¨sungswegwieinAufgabe14): cos
+A ¼ 18,68cm; tanj ¼ (cid:4)2,2402 )
+y(t)
+j ¼ arctanð(cid:4)2,2402Þ þ p ¼ 1,9906
+(jliegtim2.Quadrant,sieheBildA-49) A
+y (t)
+yðtÞ ¼ y ðtÞ þ y ðtÞ ¼ 2
+1 2
+y (t)
+¼ 18,68cm (cid:7) sinð4,5s(cid:4)1 (cid:7) t þ 1,9906Þ f 1
+sin
+BildA-49
+16) a) u ¼ 2x þ 5; x ¼ 0,5ðu (cid:4) 5Þ; sinu ¼ 0,4
+SchnittpunktederKurven y ¼ sinu und y ¼ 0,4 (sieheBildA-50):
+u ¼ arcsin0,4 þ k (cid:7) 2p ¼ 0,4115 þ k (cid:7) 2p
+1k
+u ¼ ðp (cid:4) arcsin0,4Þ þ k (cid:7) 2p ¼ 2,7301þ k (cid:7) 2p
+2k
+x ¼ 0,5ðu (cid:4) 5Þ ¼
+1k 1k
+y
+¼ (cid:4)2,2943 þ k (cid:7) p
+1 y=sinu
+x ¼ 0,5ðu (cid:4) 5Þ ¼
+2k 2k y=0,4
+¼ (cid:4)1,1350 þ k (cid:7) p
+(mit k 2 ZÞ
+p 2p 3p u
+arcsin0,4
+–1
+BildA-50 p–arcsin0,4
+b) u ¼ 2ðx þ 1Þ; x ¼ 0,5ðu (cid:4) 2Þ; tanu ¼ 1
+SchnittpunktederKurven y ¼ tanu und y ¼ 1 (sieheBildA-51):
+u ¼ arctan1 þ k (cid:7) p ¼
+k y
+p
+¼ þ k (cid:7) p
+4
+2
+y=tanu
+x ¼ 0,5ðu (cid:4) 2Þ ¼
+k k y=1
+p 1
+¼ (cid:4)0,6073 þ k (cid:7)
+2
+(mit k 2 ZÞ
+p p p u
+–
+2 2
+BildA-51 arctan1
+
+=== PDF PAGE 784 (solutions) ===
+III Funktionen und Kurven 761
+c) Quadrieren: cosðx (cid:4) 1Þ ¼ 0,5; u ¼ x (cid:4) 1; x ¼ u þ 1; cosu ¼ 0,5
+SchnittpunktederKurven y ¼ cosu undy ¼ 0,5(sieheBildA-52):
+u ¼ arccosð0,5Þ þ k (cid:7) 2p ¼ 1,0472 þ k (cid:7) 2p
+1k
+u ¼ (cid:4)arccosð0,5Þ þ k (cid:7) 2p ¼ (cid:4)1,0472 þ k (cid:7) 2p
+2k
+x ¼ u þ 1 ¼
+1k 1k y
+¼ 2,0472 þ k (cid:7) 2p 1 y=cosu
+x 2k ¼ u 2k þ 1 ¼ y=0,5
+¼ (cid:4)0,0472 þ k (cid:7) 2p
+(mit k 2 ZÞ
+p 2p u
+–arccos0,5
+–1
+BildA-52 arccos0,5
+sin2x
+d) Quadrieren: sin2x ¼ 1 (cid:4) sin2x ¼ cos2x ) ¼ tan2x ¼ 1 ) tanx ¼ (cid:3)1
+cops2ffiffiffixffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+Weiterer Lo¨sungsweg wie in Aufgabe b). Wegen 1 (cid:4) sin2x (cid:8) 0 und somit auch
+sinx (cid:8) 0 mu¨ssen die Hauptwerte der Lo¨sungen im 1. oder 2. Quadranten liegen
+ð0 (cid:5) x (cid:5) pÞ! AusBildA-53folgt(Schnittpunktevon y ¼ tanx mit y ¼ (cid:3)1Þ:
+tanx ¼ 1 ) x ¼ arctan1 ¼ p=4
+p 3
+tanx ¼ (cid:4)1 ) x ¼ arctanð(cid:4)1Þ þ p ¼ (cid:4) þ p ¼ p
+4 4
+Weitere Lo¨sungen der Ausgangs-
+y
+gleichung liegen im Abstand von
+ganzzahligen VielfachenderPeri- y=tanx
+ode2p derSinusfunktion: y=1
+1
+p
+x ¼ þ k (cid:7) 2p
+1k 4 arctan(–1) arctan(–1)+p
+3
+x ¼ p þ k (cid:7) 2p
+2k 4
+0,5p p x
+arctan1
+–1
+BildA-53 y=–1
+17) Wirsetzen y ¼ arccosx. Darausfolgt x ¼ cosy undweiter:
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+1 (cid:4) x2 ¼ 1 (cid:4) cos2y ¼ siny ¼ sinðarccosxÞ
+18) Gleichungen nach Sinus bzw. Kosinus auflo¨sen und in den „trigonometrischen Pythagoras“
+einsetzen:
+x2 y2
+a) Ellipse: þ ¼ 1; M ¼ ð0;0Þ; a ¼ 3cm; b ¼ 4cm
+ð3cmÞ2 ð4cmÞ2
+b) Kreis: x2 þ y2 ¼ ð5cmÞ2; M ¼ ð0;0Þ; r ¼ 5cm
+
+=== PDF PAGE 785 (solutions) ===
+762 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+Abschnitt 11, 12, und 13
+(cid:8) (cid:9) (cid:10)
+(cid:8)
+1) nðtÞ ¼ n
+0
+(cid:7) e(cid:4)lt ¼ 1
+2
+n
+0
+) e(cid:4)lt ¼ 1
+2
+(cid:8) (cid:8)ln ) (cid:4)lt ¼ ln 1
+2
+¼ (cid:4)ln2 )
+ln2
+t ¼ ¼ 3,305 (cid:7) 105s ¼ 3,825Tage
+l (cid:8)
+(cid:8)
+2) qðTÞ ¼ q 0 (cid:7) e(cid:4) R T C ¼ 0,1q 0 ) e(cid:4) R T C ¼ 0,1 (cid:8) (cid:8)ln ) (cid:4) R T C ¼ ln0,1 ¼ (cid:4)ln10 )
+T ¼ RC (cid:7) ln10 ¼ 0,691ms ¼ 6,91 (cid:7) 10(cid:4)4s
+3) h=m 500 1000 2000 5000 8000
+p=bar 0,952 0,894 0,789 0,542 0,372
+4) Funktionsverlauf:
+y
+sieheBildA-54
+2 y=2·e–0,2t·cos(pt)
+1
+0,5
+0,1 1 1,5 2 t
+–1
+–2 BlidA-54
+(cid:4) (cid:5)
+5) iðt 1 Þ ¼ i 0 1 (cid:4) e(cid:4)R L t1 ¼ 0,95i 0 ) 1 (cid:4) e(cid:4)R L t1 ¼ 0,95 )
+(cid:8)
+e(cid:4)R L t1 ¼ 0,05 (cid:8) (cid:8)ln ) i/A
+R
+(cid:4) L t 1 ¼ ln0,05 ) 4
+L
+t ¼ (cid:4) (cid:7) ln0,05 ¼ 1,50s
+1 R
+Funktionsverlauf: BildA-55 3,8
+i=4A·(1–e–2s–1·t)
+1
+BildA-55
+1 1,5 t/s
+6) A ¼ ð0;10Þ )a þ 2 ¼ 10 ) a ¼ 8
+(cid:8)
+(cid:8)
+B ¼ ð5;3Þ ) 8 (cid:7) e(cid:4)5b þ 2 ¼ 3 ) e(cid:4)5b ¼ 1 (cid:8) (cid:8)ln )
+8
+(cid:9) (cid:10)
+1 ln8
+(cid:4)5b ¼ ln ¼ (cid:4)ln8 ) b ¼ ¼ 0,4159
+8 5
+)
+7) A ¼ ð3,5;12Þ ) a (cid:7)
+e(cid:4)12,25b
+¼ 12 ) a ¼ 12 (cid:7)
+e12,25b
+)
+B ¼ ð8;2,4Þ ) a (cid:7)e(cid:4)64b ¼ 2,4 ) a ¼ 2,4 (cid:7) e64b
+(cid:8)
+2,4 (cid:7) e64b ¼ 12 (cid:7) e12,25b ) e51,75b ¼ 5 (cid:8) ln ) 51,75b ¼ ln5 )
+b ¼
+ln5
+¼ 0,0311; a ¼ 12 (cid:7)
+e12,25(cid:7)0,0311
+¼ 17,565
+51,75
+
+=== PDF PAGE 786 (solutions) ===
+III Funktionen und Kurven 763
+8) TðtÞ ¼ ðT (cid:4) 20Þ (cid:7) e(cid:4)kt þ 20 (ZwischenrechnungenohneEinheiten)
+0
+Tð50Þ ¼ 85 ) ðIÞ ðT (cid:4) 20Þ (cid:7) e(cid:4)50k ¼ 65
+0
+Tð150Þ ¼ 30 ) ðIIÞ ðT (cid:4) 20Þ (cid:7) e(cid:4)150k ¼ 10
+0
+Gleichung(I)durchGleichung(II)dividieren:
+(cid:8)
+ðT 0 (cid:4) 20Þ (cid:7) e(cid:4)50k ¼ 65 ) e100k ¼ 6,5 (cid:8) (cid:8) (cid:8)ln ) k ¼ ln6,5 ¼ 0,0187
+ðT (cid:4) 20Þ (cid:7) e(cid:4)150k 10 100
+0
+ðIÞ ) ðT (cid:4) 20Þ (cid:7)
+e(cid:4)50(cid:7)0,0187
+¼ 65 ) T ¼ 65 (cid:7)
+e0,935
+þ 20 ¼ 185,57
+0 0
+Lo¨sung: T ¼ 185,57(cid:11)C; k ¼ 0,0187min(cid:4)1
+0
+TðtÞ ¼ 165,57(cid:11)C (cid:7) e(cid:4)0,0187min(cid:4)1(cid:7)t þ 20(cid:11)C
+Tðt
+1
+Þ ¼ 165,57(cid:11)C (cid:7) e(cid:4)0,0187min(cid:4)1(cid:7)t1 þ 20(cid:11)C ¼ 60(cid:11)C )
+(cid:8)
+(cid:8)
+e(cid:4)0,0187min(cid:4)1(cid:7)t1 ¼ 0,2416(cid:8)ln ) (cid:4)0,0187min(cid:4)1 (cid:7) t
+1
+¼ ln 0,2416 ) t
+1
+¼ 75,96min
+(cid:4) (cid:5)
+9) xðt Þ ¼ 30cm 1 (cid:4) e (cid:4) 0, t 5 1 s ¼ 15,2cm ) 1 (cid:4) e (cid:4) 0, t 5 1 s ¼ 0,5067 )
+1
+(cid:8)
+e (cid:4) 0, t 5 1 s ¼ 0,4933 (cid:8) (cid:8) (cid:8)ln ) (cid:4)
+0,
+t
+5
+1
+s
+¼ ln0,4933 ) t
+1
+¼ 0,353s
+y
+10) Funktionsverlauf:
+sieheBildA-56 3
+y=(3+8t)·e–2t
+2
+1
+BildA-56 1 2 3 t
+11) H ¼ yðx ¼ l=2Þ (cid:4) yðx ¼ 0Þ ¼ aðcoshðl=2aÞ (cid:4) cosh0Þ ¼ 20mðcosh2,25 (cid:4) 1Þ ¼ 75,93m
+12) a) Logarithmieren ) x2 (cid:4) 2x ¼ ln2 ) x ¼ (cid:4)0,3012; x ¼ 2,3012
+1 2
+b) Die Substitution u ¼ ex fu¨hrt zu der quadratischen Gleichung u2 (cid:4) 3u þ 2 ¼ 0 mit
+den Lo¨sungen u ¼ 1 und u ¼ 2. Durch Ru¨cksubstitution ðx ¼ lnuÞ erha¨lt man
+1 2
+schließlich: x ¼ 0; x ¼ 0,693:
+1 2
+3 1 3
+13) a) lnx1=2 þ (cid:7) lnx ¼ ln2 þ lnx ) (cid:7) lnx þ (cid:7) lnx (cid:4) lnx ¼ ln2 )
+2 2 2
+lnx ¼ ln2 ) x ¼ 2
+b) u ¼ lgx; u2 (cid:4) u ¼ 2 ) u ¼ 2; u ¼ (cid:4)1
+1 2
+Ru¨cksubstitution ðx ¼ 10uÞ: x ¼ 102 ¼ 100; x ¼ 10(cid:4)1 ¼ 0,1
+1 2
+
+=== PDF PAGE 294 ===
+10 Arkusfunktionen 271
+y
+Startpunkt (t=0)
+BildIII-140
+b Lissajous-Figur(Ellipse):
+DiePfeilrichtungkennzeichnet
+denDurchlaufsinndesElektronenstrahls
+a x
+10 Arkusfunktionen
+10.1 Das Problem der Umkehrung trigonometrischer Funktionen
+Die trigonometrischen Funktionen ordnen einem Winkel x in eindeutiger Weise einen
+Funktionswert zu. In den Anwendungen jedoch stellt sich ha¨ufig genau das umgekehrte
+Problem (z.B. beim Lo¨sen einer trigonometrischen Gleichung): Der Funktionswert einer
+bestimmten trigonometrischen Funktion ist bekannt, gesucht ist der zugeho¨rige Winkel.
+So besitzt beispielsweise die einfache trigonometrische Gleichung tanx ¼ 1 unendlich
+viele Lo¨sungen, d.h. es gibt unendlich viele Winkel, deren Tangens gleich Eins ist. Die
+Lo¨sungen dieser Gleichung ko¨nnen bequem auf zeichnerischem Wege als Schnittpunkte
+der Tangensfunktion y ¼ tanx mit der Geraden y ¼ 1 (Parallele zur x-Achse) ermit-
+telt werden (Bild III-141). Sie liegen wegen der Periodizita¨t der Tangensfunktion in
+regelma¨ßigen Absta¨ndenvon einer Periodenla¨nge p:
+p
+x ¼ þ k (cid:7) p ðk 2 ZÞ
+k
+4
+y
+y=tanx
+y=1
+3 p p 3 5 x
+– p – p p
+2 2 2 2 2
+3 p 5 9
+– p p p
+4 4 4 4
+BildIII-141 ZurUmkehrungeinertrigonometrischenFunktion
+
+=== PDF PAGE 295 ===
+272 III Funktionen und Kurven
+Die Umkehrung der Tangensfunktion ist demnach nicht eindeutig. Offensichtlich ist dies
+eine Folge der fehlenden Monotonieeigenschaft (bedingt durch die Periodizita¨t). Ganz
+a¨hnlich liegen die Verha¨ltnisse bei den u¨brigen trigonometrischen Funktionen.
+Beschra¨nken wir uns jedoch bei der Lo¨sung der Gleichung tanx ¼ 1 auf den Winkel-
+bereich (cid:4)p=2 < x < p=2 (hier ist der Tangens streng monoton wachsend), so erha¨lt
+man genau eine Lo¨sung:
+Lo¨sungimIntervall
+tanx ¼ 1 (cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)(cid:4)I x ¼ p=4
+0
+(cid:4)p=2<x<p=2
+Zur Umkehrung der trigonometrischen Funktionen
+Grundsa¨tzlich lassen sich die trigonometrischen Funktionen infolge fehlender Mo-
+notonieeigenschaft nicht umkehren. Beschra¨nkt man sich jedoch auf gewisse Inter-
+valle, in denen die Funktionen streng monotonverlaufen und dabei sa¨mtliche Funk-
+tionswerte annehmen, so ist jede der vier Winkelfunktionen dort umkehrbar. Die
+Umkehrfunktionen werden als Arkusfunktionen oder zyklometrische Funktionen
+bezeichnet. Ihre Funktionswerte sind im Bogen- oder Gradmaß dargestellte Winkel.
+Bei der Auswahl der Intervalle, in denen die Umkehrung vorgenommen werden soll,
+gehen wir wie folgt vor:
+Wenn mo¨glich, wa¨hlen wir ein zum Nullpunkt symmetrisches Intervall, in dem die trigo-
+nometrische Funktion die fu¨r die Umkehrung no¨tigen Voraussetzungen erfu¨llt (! Sinus,
+Tangens). Falls dies jedoch nicht mo¨glich ist, wa¨hlen wir ein im Nullpunkt beginnendes
+Intervall (! Kosinus, Kotangens).
+Die Umkehrfunktionen der vier trigonometrischen Funktionen werden der Reihe nach
+mit arcsinx, arccosx, arctanx und arccotx bezeichnet, auf den Taschenrechnern
+auch mit sin(cid:4)1x, cos(cid:4)1x, tan(cid:4)1x (nicht zu verwechseln mit den Kehrwerten;
+cot(cid:4)1x fehlt auf dem Rechner).
+10.2 Arkussinusfunktion
+Die Sinusfunktion verla¨uft in dem zum Nullpunkt symmetrischen Intervall
+(cid:4)p=2 (cid:5) x (cid:5) p=2 streng monoton wachsend, durchla¨uft dabei ihren gesamten Werte-
+vorrat und ist daher in diesem Intervall umkehrbar. Ihre Umkehrung fu¨hrt zur Arkus-
+sinusfunktion (Bild III-142).
+Definition: Die Arkussinusfunktion y ¼ arcsinx ist die Umkehrfunktion der
+auf das Intervall (cid:4)p=2 (cid:5) x (cid:5) p=2 beschra¨nkten Sinusfunktion
+y ¼ sinx.
+
+=== PDF PAGE 296 ===
+10 Arkusfunktionen 273
+y y
+y=sinx p
+1 2
+y=arcsinx
+p
+–
+2
+p x
+2
+–1 1 x
+–1
+a)
+BildIII-142 ZurUmkehrungderSinusfunktion
+a) Funktionsgraphvon y ¼ sinx – p
+b) Funktionsgraphvon y ¼ arcsinx b) 2
+In der folgenden Tabelle 3 haben wir die wesentlichen Eigenschaften der Arkussinus-
+funktion zusammengestellt.
+Tabelle 3: Eigenschaften der Arkussinusfunktion y ¼ arcsinx (Bild III-142)
+y ¼ sinx y ¼ arcsinx
+p p
+Definitionsbereich (cid:4) (cid:5) x (cid:5) (cid:4)1 (cid:5) x (cid:5) 1
+2 2
+p p
+Wertebereich (cid:4)1 (cid:5) y (cid:5) 1 (cid:4) (cid:5) y (cid:5)
+2 2
+Nullstellen x ¼ 0 x ¼ 0
+0 0
+Symmetrie ungerade ungerade
+Monotonie streng monoton wachsend streng monoton wachsend
+Anmerkung
+Der Arkussinus liefert nur Winkel aus dem 1. und 4.Quadranten.
+& Beispiele
+arcsin0 ¼ 0 arcsin0,5 ¼ p=6 ¼b 30(cid:11) arcsinð(cid:4)0,75Þ ¼ (cid:4)0,8481
+sinðarcsinxÞ ¼ arcsinðsinxÞ ¼ x ðfu¨r (cid:4)1 (cid:5) x (cid:5) 1Þ
+(cid:4) (cid:5)
+p p
+arcsinx ¼ (cid:4) ) x ¼ sinðarcsinxÞ ¼ sin (cid:4) ¼ (cid:4)0,5
+6 6 &
+
+=== PDF PAGE 297 ===
+274 III Funktionen und Kurven
+10.3 Arkuskosinusfunktion
+Die Kosinusfunktion ist im Intervall 0 (cid:5) x (cid:5) p streng monoton fallend, durchla¨uft
+dabei ihren gesamten Wertevorrat und ist daher dort umkehrbar. Ihre Umkehrung fu¨hrt
+zur Arkuskosinusfunktion (Bild III-143).
+Definition: Die Arkuskosinusfunktion y ¼ arccosx istdie Umkehrfunktion derauf
+dasIntervall 0 (cid:5) x (cid:5) p beschra¨nktenKosinusfunktion y ¼ cosx.
+Ihre Eigenschaften entnimmt man Tabelle 4.
+y y
+p
+1
+y=cosx
+p p x
+2 p
+y=arccosx
+2
+–1
+a)
+BildIII-143 ZurUmkehrungderKosinusfunktion
+a) Funktionsgraphvon y ¼ cosx
+b) Funktionsgraphvon y ¼ arccosx b) –1 1 x
+Tabelle 4: Eigenschaften der Arkuskosinusfunktion y ¼ arccosx (Bild III-143)
+y ¼ cosx y ¼ arccosx
+Definitionsbereich 0 (cid:5) x (cid:5) p (cid:4)1 (cid:5) x (cid:5) 1
+Wertebereich (cid:4)1 (cid:5) y (cid:5) 1 0 (cid:5) y (cid:5) p
+p
+Nullstellen x 0 ¼ x 0 ¼ 1
+2
+Monotonie streng monoton fallend streng monoton fallend
+Anmerkung
+Der Arkuskosinus liefert nur Winkel aus dem 1. und 2.Quadranten.
+& Beispiele
+p p
+arccos0 ¼ arccos0,5 ¼ ¼b 60(cid:11) arccosð(cid:4)0,237Þ ¼ 1,8101 &
+2 3
+
+=== PDF PAGE 298 ===
+10 Arkusfunktionen 275
+10.4 Arkustangens- und Arkuskotangensfunktion
+Die Umkehrung der Tangensfunktion erfolgt im zum Nullpunkt symmetrischen Intervall
+(cid:4)p=2 < x < p=2, in dem der Tangens streng monoton wachsend verla¨uft und dabei
+seinen gesamten Wertebereich durchla¨uft. Die Umkehrfunktion wird als Arkustangens-
+funktion bezeichnet (Bild III-144).
+Definition: Die Arkustangensfunktion y ¼ arctanx ist die Umkehrfunktion der
+auf das Intervall (cid:4)p=2 < x < p=2 beschra¨nkten Tangensfunktion
+y ¼ tanx.
+Ihre Funktionseigenschaften sind in Tabelle 5 na¨her beschrieben.
+y y
+p
+y=tanx 2
+y=arctanx
+1
+–1 1 x
+p
+p p x –
+– 2
+2 2
+–1
+b)
+BildIII-144 ZurUmkehrungderTangensfunktion
+a) Funktionsgraphvon y ¼ tanx
+a) b) Funktionsgraphvon y ¼ arctanx
+Tabelle 5: Eigenschaften der Arkustangensfunktion y ¼ arctanx (Bild III-144)
+y ¼ tanx y ¼ arctanx
+p p
+Definitionsbereich (cid:4) < x < (cid:4)1 < x < 1
+2 2
+p p
+Wertebereich (cid:4)1 < y < 1 (cid:4) < y <
+2 2
+Nullstellen x ¼ 0 x ¼ 0
+0 0
+Symmetrie ungerade ungerade
+Monotonie streng monoton wachsend streng monoton wachsend
+p p
+Asymptoten x ¼ (cid:3) y ¼ (cid:3)
+2 2
+Anmerkung
+Der Arkustangens liefert nur Winkel aus dem 1. und 4.Quadranten.
+
+=== PDF PAGE 299 ===
+276 III Funktionen und Kurven
+Die Kotangensfunktion ist im Intervall 0 < x < p umkehrbar. Denn dort ist der
+Kotangens streng monoton fallend und durchla¨uft dabei seinen gesamten Wertebereich.
+Die Umkehrfunktion heißt Arkuskotangensfunktion (Bild III-145).
+Definition: Die Arkuskotangensfunktion y ¼ arccotx ist die Umkehrfunktion der
+auf das Intervall 0 < x < p beschra¨nkten Kotangensfunktion
+y ¼ cotx.
+In Tabelle 6 sind die Eigenschaften dieser Funktion zusammengetragen.
+y y
+p
+y=cotx
+1 p
+y=arccotx
+2
+p p x
+2 –1 1 x
+–1
+b)
+BildIII-145 ZurUmkehrungderKotangensfunktion
+a) Funktionsgraphvon y ¼ cotx
+a) b) Funktionsgraphvon y ¼ arccotx
+Tabelle 6: Eigenschaften der Arkuskotangensfunktion y ¼ arccotx (Bild III-145)
+y ¼ cotx y ¼ arccotx
+Definitionsbereich 0 < x < p (cid:4)1 < x < 1
+Wertebereich (cid:4)1 < y < 1 0 < y < p
+p
+Nullstellen x ¼
+0 2
+Monotonie streng monoton fallend streng monoton fallend
+x ¼ 0 y ¼ 0
+Asymptoten
+x ¼ p y ¼ p
+
+=== PDF PAGE 300 ===
+10 Arkusfunktionen 277
+Anmerkung
+Die Arkuskotangensfunktion spielt in der Praxis keine nennenswerte Rolle. Sie fehlt da-
+her auf den Taschenrechnern. Ihre Funktionswerte werden meist unter Verwendung der
+Beziehung
+p
+arccotx ¼ (cid:4) arctanx ðIII-154Þ
+2
+u¨ber die Arkustangensfunktion berechnet (x im Bogenmaß; bei Verwendung des Grad-
+maßes ist p=2 durch 90(cid:11) zu ersetzen). Man erha¨lt stets Winkel aus dem 1. und 2.Qua-
+dranten.
+& Beispiele
+p
+(1) arctan1 ¼ arctan125,3 ¼ 1,5628 arctanð(cid:4)3pÞ ¼ (cid:4)1,4651
+4
+p p p
+(2) arccot0 ¼ (cid:4) arctan0 ¼ (cid:4) 0 ¼
+2 2 2
+p p
+arccot1,51 ¼ (cid:4) arctan1,51 ¼ (cid:4) 0,9859 ¼ 0,5849
+2 2
+p p
+arccotð(cid:4)23,5Þ ¼ (cid:4) arctanð(cid:4)23,5Þ ¼ (cid:4) ð(cid:4)1,5283Þ ¼ 3,0991
+2 2
+(3) Die Superposition dergleichfrequenten mechanischen Schwingungen
+y ¼ 5cm (cid:7) sinð3s(cid:4)1 (cid:7) tÞ und y ¼ 6cm (cid:7) cosð3s(cid:4)1 (cid:7) tÞ
+1 2
+fu¨hrtzueinerresultierendenSchwingunggleicherFrequenz,derenAmplitude Aund
+Phase j direktausdemZeigerdiagramm(BildIII-146)berechnetwerdenko¨nnen:
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+y=y 1 +y 2 A ¼ ð5cmÞ2 þ ð6cmÞ2 ¼
+y
+2
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffi
+¼ 25 þ 36 cm ¼ 61 cm ¼ 7,81cm
+A
+6cm
+6cm
+tanj¼ ¼ 1,2 )
+f 5cm
+5cm y 1 j¼ arctan1,2 ¼ 0,8761
+BildIII-146
+Die Gleichung der resultierenden Schwingung lautet damit:
+y ¼ y þ y ¼ 5cm (cid:7) sinð3s(cid:4)1 (cid:7) tÞ þ 6cm (cid:7) cosð3s(cid:4)1 (cid:7) tÞ ¼
+1 2
+¼ 7,81cm (cid:7) sinð3s(cid:4)1 (cid:7) t þ 0,8761Þ &
+
+=== PDF PAGE 301 ===
+278 III Funktionen und Kurven
+10.5 Trigonometrische Gleichungen
+Unter einer trigonometrischen Gleichung versteht man eine Gleichung, bei der die Unbe-
+kannte x in den Argumenten trigonometrischer Funktionen auftritt. Den Lo¨sungsmecha-
+nismus zeigen wir anhand eines ausgewa¨hlten Beispiels, da sich ein allgemeines Lo¨-
+sungsverfahren fu¨r Gleichungen dieser Art nicht angeben la¨sst. Der Lo¨sungsweg ist von
+Fall zu Fall verschieden.
+& Beispiel
+sinð2xÞ ¼ 1,5 (cid:7) cosx
+Sto¨rend ist zuna¨chst, dass auf der linken Seite der doppelte Winkel 2x auftritt. Unter
+Verwendung der trigonometrischen Formel sinð2xÞ ¼ 2 (cid:7) sinx (cid:7) cosx la¨sst sich diese
+Ungleichheit in den Argumenten beseitigen und die gegebene Gleichung wie folgt um-
+formen (Vorsicht: nicht durch cosx dividieren, sonst gehen Lo¨sungenverloren!):
+2 (cid:7) sinx (cid:7) cosx ¼ 1,5 (cid:7) cosx oder 2 (cid:7) sinx (cid:7) cosx (cid:4) 1,5 (cid:7) cosx ¼ 0
+(cid:4)(cid:4)(cid:4) cosx ¼ 0
+cosxð2 (cid:7) sinx (cid:4) 1,5Þ ¼ 0(cid:4)(cid:4)(cid:4)
+2 (cid:7) sinx (cid:4) 1,5 ¼ 0
+(ein Produkt ist Null, wenn mindestens ein Faktor Null ist!). Die Ausgangsgleichung
+zerfa¨llt damit in die beiden (wesentlich einfacheren) Gleichungen cosx ¼ 0 und
+2 (cid:7) sinx (cid:4) 1,5 ¼ 0, mit deren Lo¨sung wir uns jetzt bescha¨ftigen wollen.
+Lo¨sungen der Gleichung cosx ¼ 0
+Die Lo¨sungen dieser Gleichung sind die Nullstellen der Kosinusfunktion. Sie liegen nach
+Bild III-147 bei
+p
+x ¼ þ kp ðk 2 ZÞ
+1k
+2
+Da es noch weitere Lo¨sungen geben wird, mu¨ssen wir zur Kennzeichnung der einzelnen
+Werte zwei Indizes verwenden. Dererste Index (hier: 1) kennzeichnet dabei die verschie-
+denen Teillo¨sungsmengen, der zweite Index k ist der Laufindex ðk 2 ZÞ.
+y
+1 y=cosx
+p p 3 5 7 x
+– p p p
+2 2 2 2 2
+–1
+BildIII-147 ZurLo¨sungderGleichung cosx ¼ 0
+
+=== PDF PAGE 302 ===
+10 Arkusfunktionen 279
+Lo¨sungen der Gleichung 2 (cid:7) sinx (cid:4) 1,5 ¼ 0 oder sinx ¼ 0,75
+Die Lo¨sungen dieser trigonometrischen Gleichung ergeben sich als Schnittpunkte zwi-
+schen der Sinuskurve y ¼ sinx und der Parallelen zur x-Achse mit der Gleichung
+y ¼ 0,75 (Bild III-148).
+y
+y=sinx
+1 y=0,75
+0,75
+–2p –p 0 p 2p 3p x
+arcsin0,75
+–1
+p–arcsin0,75
+BildIII-148 ZurLo¨sungderGleichung sinx ¼ 0,75
+Anhand der Skizze erkennt man, dass die Gleichung unendlich viele Lo¨sungen besitzt.
+Die im Intervall (cid:4)p=2 (cid:5) x (cid:5) p=2 liegende Lo¨sung findet man durch Umkehrung,
+d.h. mit Hilfe der Arkussinusfunktion:
+sinx ¼ 0,75 ) x ¼ arcsin0,75 ¼ 0,848
+2
+Weitere Lo¨sungen folgen offensichtlich wegen der Periodizita¨t der Sinusfunktion im Ab-
+stand jeweils einer Periode 2p:
+x ¼ arcsin0,75 þ k (cid:7) 2p ¼ 0,848 þ k (cid:7) 2p ðk 2 ZÞ
+2k
+Sie sind in Bild III-148 durch kurze Pfeile gekennzeichnet. Eine weitere Lo¨sung liegt
+nach der Skizze aus Symmetriegru¨nden bei
+x ¼ p (cid:4) arcsin0,75 ¼ p (cid:4) 0,848 ¼ 2,294
+3
+Wegen der Periodizita¨t sind auch
+x ¼ p (cid:4) arcsin0,75 þ k (cid:7) 2p ¼ 2,294 þ k (cid:7) 2p ðk 2 ZÞ
+3k
+Lo¨sungen der Gleichung sinx ¼ 0,75. Sie entsprechen den langen Pfeilen in Bild
+III-148.
+Damit besitzt die Ausgangsgleichung sinð2xÞ ¼ 1,5 (cid:7) cosx insgesamt folgende Lo¨-
+sungen:
+9
+x
+1k
+¼
+p
+2
+þ k (cid:7) p
+>>>=
+x
+2k
+¼ 0,848 þ k (cid:7) 2p>>>; ðk 2 ZÞ
+x 3k ¼ 2,294 þ k (cid:7) 2p &
+
+=== PDF PAGE 303 ===
+280 III Funktionen und Kurven
+11 Exponentialfunktionen
+Exponentialfunktionen spielen in den Anwendungen eine bedeutende Rolle. Sie werden
+z.B. beno¨tigt bei der Beschreibung von Abkling-, Sa¨ttigungs- und Wachstumsprozessen
+sowie bei geda¨mpften Schwingungen und in der Statistik.
+11.1 Grundbegriffe
+Zu den Exponentialfunktionen gelangt man durch Verallgemeinerung des Begriffes
+Potenz. Potenzen sind dabei Ausdru¨ckevom Typ an:
+a: Grundzahl oder Basiszahl (kurz Basis genannt)
+n: Hochzahl oder Exponent
+Sie genu¨gen den folgenden Rechenregeln (bei gleicher Basis):
+Rechenregeln fu¨r Potenzen Zahlenbeispiele
+(1) am (cid:7) an ¼ amþn 23 (cid:7) 25 ¼ 23þ5 ¼ 28 ¼ 256
+am 35 1 1
+(2) ¼ am(cid:4)n ¼ 35(cid:4)7 ¼ 3(cid:4)2 ¼ ¼
+an 37 32 9
+(3) ðamÞn ¼ am(cid:7)n ð23Þ5 ¼ 23(cid:7)5 ¼ 215 ¼ 32768
+11.2 Definition und Eigenschaften einer Exponentialfunktion
+La¨sst man fu¨r den Exponenten in einer Potenz an mit positiver Basis a 6¼ 1 beliebige
+reelle Werte zu, so gelangt man zu den Exponentialfunktionen.
+Definition: Funktionen vom Typ y ¼ ax mit positiver Basis a > 0 und a 6¼ 1
+heißen Exponentialfunktionen.
+Ihre Eigenschaften haben wir in Tabelle 7 zusammengetragen, wobei wir noch zwischen
+den Fa¨llen 0 < a < 1 und a > 1 unterscheiden.
+Tabelle 7: Eigenschaften der Exponentialfunktionen (Bild III-149)
+y ¼ ax ð0 < a < 1Þ y ¼ ax ða > 1Þ
+Definitionsbereich (cid:4)1 < x < 1 (cid:4)1 < x < 1
+Wertebereich 0 < y < 1 0 < y < 1
+Monotonie streng monoton fallend streng monoton wachsend
+Asymptoten y ¼ 0 ðfu¨rx ! 1Þ y ¼ 0 ðfu¨rx ! (cid:4)1Þ
+
+=== PDF PAGE 304 ===
+11 Exponentialfunktionen 281
+Die streng monoton verlaufenden Exponentialfunktionen besitzen weder Nullstellen
+noch Extremwerte. Ihre Funktionsgraphen schneiden die y-Achse bei y ¼ 1 :
+yð0Þ ¼ a0 ¼ 1. In Bild III-149 ist je ein Vertreter der streng monoton fallenden und
+der streng monoton wachsenden Exponentialfunktionen skizziert.
+y
+1 x
+y=
+3 y=2x
+1
+BildIII-149
+Funktionsgraphenvon y ¼ 2x
+und y ¼ ð1=3Þx
+–1 1 x
+Anmerkung
+Die Exponentialfunktion y ¼ ax ist nicht mit der Potenzfunktion y ¼ xn zu verwech-
+seln. Bei einer Exponentialfunktion ist die Basis a fest, der Exponent aber variabel
+(daher auch die Bezeichnung). Bei einer Potenzfunktion dagegen ist der Exponent fest
+und die Basis variabel.
+& Beispiele
+(1) Streng monoton wachsende Exponentialfunktionen sind beispielsweise
+y ¼ 2x (Bild III-149), y ¼ 5x und y ¼ 10x.
+(2) Streng monoton fallend sind die folgenden Exponentialfunktionen:
+(cid:9) (cid:10) (cid:9) (cid:10)
+1 x 1 x
+y ¼ (Bild III-149), y ¼ und y ¼ 0,1x. &
+3 2
+Spezielle Exponentialfunktionen
+Von besonderer Bedeutung sind die Exponentialfunktionen
+(cid:9) (cid:10)
+1 x
+y ¼ ex und y ¼ ¼ e(cid:4)x ðIII-155Þ
+e
+(Bild III-150). Dabei ist e die durch den Grenzwert
+(cid:9) (cid:10)
+1 n
+e ¼ lim 1 þ ¼ 2,718281 ... ðIII-156Þ
+n
+n!1
+
+=== PDF PAGE 340 ===
+(cid:2)bungsaufgaben 317
+Zu Abschnitt 8
+1) A ¼ ð2;1Þ, B ¼ ð(cid:4)5;0Þ und C ¼ ð8;2Þ sind Punkte eines Kreises. Bestim-
+men Sie die Kreisgleichung. Welchen Radius besitzt der Kreis und wo liegt sein
+Mittelpunkt?
+2) Bestimmen Sie die Gleichung eines Kreises, der die x-Achse in P ¼ ð3;0Þ be-
+1
+ru¨hrt und durch den Punkt P ¼ ð0;1Þ geht.
+2
+3) Welche Kegelschnitte werden durch die folgenden algebraischen Gleichungen
+2.Grades dargestellt? Wo liegt der Mittelpunkt bzw. Scheitelpunkt?
+Anleitung: Die Kegelschnittgleichung durch quadratische Erga¨nzung auf die jewei-
+lige Hauptform bringen.
+aÞ x2 (cid:4) 2x þ y2 þ 4y (cid:4) 20 ¼ 0 bÞ x2 (cid:4) y2 (cid:4) 4 ¼ 0
+cÞ 9x2 þ 16y2 (cid:4) 18x ¼ 135 dÞ 2x2 þ 2y2 þ 12x (cid:4) 6y ¼ 0
+eÞ 2y2 (cid:4) 9x þ 12y¼ 0 fÞ x2 (cid:4) 2x þ 4y2 þ 8y ¼ 2
+gÞ 4x2 þ 9y2 (cid:4) 4x þ 24y¼ 127 hÞ y2 þ 2x ¼ 4y
+4) Ein parabolischer Bru¨ckentra¨ger besitzt die Spannweite 200 m. Die Fahrbahn liegt
+10m u¨ber den Auflagern und 20m unterhalb des Scheitelpunktes des Tra¨gers
+(Bild III-174). Bestimmen Sie die Gleichung des Bru¨ckenbogens und die Schnitt-
+punkte von Fahrbahn und Bogen.
+y
+Scheitel
+20m
+BildIII-174
+10m x
+Fahrbahn
+Auflager
+200m
+Zu Abschnitt 9 und 10
+1) Rechnen Sie die folgenden Winkel vom Grad- ins Bogenmaß bzw. vom Bogen-
+ins Gradmaß um:
+Gradmaß 40,36(cid:11) 278,19(cid:11) (cid:4)78,46(cid:11) 118,6(cid:11)
+Bogenmaß 1,4171 (cid:4)5,6213 0,0843
+
+=== PDF PAGE 341 ===
+318 III Funktionen und Kurven
+2) Berechnen Sie die folgenden Funktionswerte:
+aÞ sin12,5(cid:11) bÞ cos128,3(cid:11) cÞ cos5,2 dÞ tanð(cid:4)3,18Þ
+eÞ cos1,4(cid:11) fÞ cot120(cid:11) gÞ tan14,8 hÞ sinð(cid:4)3,56Þ
+(cid:9) (cid:10)
+3
+iÞ cotð(cid:4)1,46Þ jÞ sin p
+8
+3) Leiten Sie aus dem Additionstheorem der Kosinusfunktion die wichtige trigonome-
+trische Beziehung sin2 x þ cos2 x ¼ 1 her (sog. trigonometrischer Pythagoras).
+4) Die Sinusfunktion y ¼ sinx ist im Intervall 0 (cid:5) x (cid:5) p durch eine Parabel zu
+ersetzen, die mit ihr in den beiden Nullstellen und dem Extremwert (Maximum)
+u¨bereinstimmt. Wie lautet die Funktionsgleichung der Parabel?
+5) BestimmenSiefu¨rdiefolgendenperiodischenFunktionenAmplitude A, Periode p
+undPhasenverschiebung x :
+0
+(cid:4) (cid:5)
+p
+aÞ y ¼ 2 (cid:7) sin 3x (cid:4) bÞ y ¼ 5 (cid:7) cosð2x þ 4,2Þ
+6
+(cid:4) (cid:5)
+p
+cÞ y ¼ 10 (cid:7) sinðpx (cid:4) 3pÞ dÞ y ¼ 2,4 (cid:7) cos 4x (cid:4)
+2
+6) Skizzieren Sie den Funktionsverlauf von:
+aÞ y ¼ 4 (cid:7) sinð3x þ 2Þ bÞ y ¼ 2 (cid:7) cosð2x (cid:4) pÞ
+7) Von einer Sinusschwingung der Form yðtÞ ¼ A (cid:7) sinðwt þ jÞ mit A > 0
+und w > 0 sind folgende Daten bekannt:
+a) Das 1.Maximum y ¼ 5cm wird nach t ¼ 3s,
+max 1
+b) das 1.Minimum y ¼ (cid:4)5cm nach t ¼ 10s erreicht.
+min 2
+Bestimmen Sie A,w und j und skizzieren Sie den Funktionsverlauf.
+8) Wie lautet die Funktionsgleichung des in Bild III-175 skizzierten sinusfo¨rmigen
+Wechselstroms iðtÞ ¼ i (cid:7) sinðwt þ jÞ mit i > 0?
+0 0
+i/A
+2
+BildIII-175
+–1 4 9 t/ms
+–2
+
+=== PDF PAGE 342 ===
+(cid:2)bungsaufgaben 319
+9) Skizzieren Sie den Funktionsverlauf der folgenden harmonischen Schwingungen:
+(cid:4) (cid:5)
+p
+aÞ y ¼ 2 (cid:7) sinð2t (cid:4) 4Þ bÞ y ¼ 3 (cid:7) cos 0,5t (cid:4)
+8
+10) SkizzierenSieausgehendvonderFunktion y ¼ sinx dieFunktion y ¼ 1 (cid:4) sin2 x.
+Wie groß ist ihre Periode, wo liegen ihre Nullstellen und relativen Extremwerte?
+11) Die folgenden Schwingungen sind mit Hilfe des Zeigerdiagramms durch eine
+Sinusschwingung vom Typ yðtÞ ¼ A (cid:7) sinðwt þ jÞ mit A > 0 und w > 0
+darzustellen (Zeigerdiagramm verwenden; j als Hauptwert angeben):
+aÞ y ¼ 5 (cid:7) cosð3t þ pÞ bÞ y ¼ 3 (cid:7) cosðpt (cid:4) p=6Þ
+(cid:4) (cid:5)
+p
+cÞ y ¼ (cid:4)3 (cid:7) cos 2t (cid:4) dÞ y ¼ (cid:4)4 (cid:7) sinð0,5t þ 3Þ
+4
+12) Zeigen Sie anhand des Zeigerdiagramms die Richtigkeit der folgenden trigonome-
+trischen Beziehungen:
+(cid:4) (cid:5) (cid:4) (cid:5)
+p p
+aÞ cost ¼ sin t þ bÞ sint ¼ cos t (cid:4)
+2 2
+13) Berechnen Sie die folgenden Funktionswerte:
+aÞ arcsin0,563 bÞ arctanð(cid:4)3,128Þ cÞ arccos0,473
+pffiffiffiffiffiffiffiffi
+dÞ 5 (cid:7) arcsin 0,6 eÞ arctanðp=3Þ fÞ arccotp
+pffiffiffiffiffiffiffiffi
+gÞ arcsin0,926 hÞ arccosð(cid:4)3 (cid:7) 0,1Þ
+14) Gegeben sind die beiden gleichfrequenten Wechselspannungen u ðtÞ und u ðtÞ.
+1 2
+Berechnen Sie die durch Superposition entstehende resultierende Wechselspan-
+nung uðtÞ ¼ u ðtÞ þ u ðtÞ¼u (cid:7) sinðwt þ jÞ.
+1 2 0
+9
+aÞ u 1 ðtÞ ¼ 100V (cid:7) sinðwtÞ =
+(cid:4) (cid:5)
+p ðw ¼ 500s(cid:4)1Þ
+u ðtÞ ¼ 160V (cid:7) cos wt (cid:4) ;
+2
+4
+(cid:4) (cid:5)9
+p
+bÞ u
+1
+ðtÞ ¼ 380V (cid:7) sin wt (cid:4)
+6
+>>=
+(cid:4) (cid:5) ðw ¼ 1000s(cid:4)1Þ
+u ðtÞ ¼ 200V (cid:7) sin wt þ
+p >>;
+2 8
+
+=== PDF PAGE 343 ===
+320 III Funktionen und Kurven
+15) Bringen Sie die beiden gleichfrequenten mechanischen Schwingungen
+(cid:4) (cid:5)
+p
+y ðtÞ ¼ 12cm (cid:7) sin 4,5s(cid:4)1 (cid:7) t þ
+1
+5
+und
+(cid:4) (cid:5)
+p
+y ðtÞ ¼ 20cm (cid:7) cos 4,5s(cid:4)1 (cid:7) t þ
+2 3
+zur ungesto¨rten (cid:2)berlagerung und berechnen Sie die Amplitude A und Phase j
+der resultierenden Schwingung in der Sinusform. Skizzieren Sie ferner beide Ein-
+zelschwingungen sowie die resultierende Schwingung im Zeigerdiagramm.
+16) Bestimmen Sie sa¨mtliche reellen Lo¨sungen der folgenden trigonometrischen Glei-
+chungen:
+aÞ sinð2x þ 5Þ ¼ 0,4 bÞ tan2ðx þ 1Þ ¼ 1
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+1
+cÞ cosðx (cid:4) 1Þ ¼ pffiffiffiffiffi dÞ sinx ¼ 1 (cid:4) sin2 x
+2
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+17) Beweisen Sie: sinðarccosxÞ ¼ 1 (cid:4) x2 ð(cid:4)1 (cid:5) x (cid:5) 1Þ
+18) xðtÞ und yðtÞ sind zwei aufeinander senkrecht stehende Schwingungen gleicher
+Frequenz. Bestimmen Sie die durch ungesto¨rte (cid:2)berlagerung entstehenden Lissa-
+jous-Figuren fu¨r:
+aÞ xðtÞ ¼ 3cm (cid:7) sinð5s(cid:4)1 (cid:7) tÞ, yðtÞ ¼ (cid:4)4cm (cid:7) cosð5s(cid:4)1 (cid:7) tÞ
+bÞ xðtÞ ¼ (cid:4)5cm (cid:7) cosð2s(cid:4)1 (cid:7) tÞ, yðtÞ ¼ (cid:4)5cm (cid:7) sinð2s(cid:4)1 (cid:7) tÞ
+Zu Abschnitt 11, 12 und 13
+1) Eine radioaktive Substanz zerfa¨llt nach dem Zerfallsgesetz nðtÞ ¼ n (cid:7) e(cid:4)lt
+0
+ðt (cid:8) 0Þ. Fu¨r das Element Radon 222Rn besitzt die Zerfallskonstante l den Wert
+86
+l ¼ 2,0974 (cid:7) 10(cid:4)6s(cid:4)1. BerechnenSiedieHalbwertszeit t.
+2) Wird ein Kondensator mit der Kapazita¨t C u¨ber einen ohmschen Widerstand R
+entladen, so nimmt seine Ladung q exponentiell mit der Zeit t nach der Glei-
+t
+chung qðtÞ ¼ q 0 (cid:7) e(cid:4) RC mit t (cid:8) 0 ab. Berechnen Sie den Zeitpunkt T, von
+demandieKondensatorladungunter10%ihresAnfangswertes qð0Þ ¼ q gesun-
+0
+kenist(Zeitkonstante RC ¼ 0,3ms).
+h
+3) Bestimmen Sie aus der barometrischen Ho¨henformel pðhÞ ¼ 1,013bar (cid:7) e(cid:4) 7991m
+den Luftdruck p in den Ho¨hen h ¼ 500m, h ¼ 1000m, h ¼ 2000m,
+1 2 3
+h ¼ 5000m und h ¼ 8000m.
+4 5
+
+=== PDF PAGE 344 ===
+(cid:2)bungsaufgaben 321
+4) Durch die Gleichung yðtÞ ¼ 2 (cid:7)
+e(cid:4)0,2t
+(cid:7) cosðptÞ mit t (cid:8) 0 wird eine ge-
+da¨mpfte Schwingung beschrieben. Skizzieren Sie den Schwingungsvorgang im
+Intervall 0 (cid:5) t (cid:5) 2 (Schrittweite: Dt ¼ 0,1).
+5) Wir betrachten einen Stromkreis mit einer Induktivita¨t L und einem ohmschen
+Widerstand R. Beim Einschalten der Gleichspannungsquelle erreicht der Strom i
+infolge der Selbstinduktion erst nach einiger Zeit den nach dem Ohmschen Gesetz
+erwarteten Endwert i . Dabei gilt:
+0
+(cid:4) (cid:5)
+iðtÞ ¼ i 0 1 (cid:4) e(cid:4) R L t ðt (cid:8) 0Þ
+Berechnen Sie fu¨r die speziellen Werte i ¼ 4A, R ¼ 5W und L ¼ 2,5H den
+0
+Zeitpunkt t , in dem die Stromsta¨rke95% ihres Endwertes erreicht hat. Skizzieren
+1
+SiedieStrom-Zeit-Funktion.
+6) Bestimmen Sie die Parameter a und b der Funktion y ¼ a (cid:7) e(cid:4)bx þ 2 so,
+dass die Punkte A ¼ ð0;10Þ und B ¼ ð5;3Þ auf der Kurve liegen.
+7) Wie sind die Parameter a und b zu wa¨hlen, damit die Kurve y ¼ a (cid:7) e(cid:4)bx2
+durch die Punkte A ¼ ð3,5;12Þ und B ¼ ð8;2,4Þ verla¨uft?
+8) Eine Flu¨ssigkeit mit der Anfangstemperatur T wird durch ein Ku¨hlmittel mit der
+0
+(konstanten) Temperatur T geku¨hlt ðT < T Þ. Die Temperaturabnahme ver-
+1 1 0
+la¨uft dabei exponentiell nach der Gleichung
+TðtÞ ¼ ðT (cid:4) T Þ (cid:7)e (cid:4)kt þ T ðt (cid:8) 0;k > 0Þ
+0 1 1
+wobei TðtÞ die Temperatur der Flu¨ssigkeit zur Zeit t ist. In einem Versuch mit
+(cid:4)l werden bei einer Ku¨hltemperatur von T ¼ 20(cid:11)C folgende Werte gemessen:
+1
+Nach 50 min betra¨gt die (cid:4)ltemperatur 85(cid:11)C, nach 150 min dagegen nur noch
+30(cid:11)C. Bestimmen Sie T und k und berechnen Sie anschließend, nach welcher
+0
+Zeit t das (cid:4)l eine Temperatur von 60 (cid:11)C erreicht hat.
+1
+9) Der Kolben eines KFZ-Stoßda¨mpfers lege beim Einschieben einen Weg x nach
+dem Zeitgesetz
+(cid:9) (cid:10)
+t
+xðtÞ ¼ 30cm 1 (cid:4) e (cid:4) 0,5s ðt (cid:8) 0sÞ
+zuru¨ck. Nach welcher Zeit t ist der Kolben um 15,2 cm eingeschoben?
+1
+10) Der aperiodische Grenzfall einer (geda¨mpften) Schwingung wird durch eine Funk-
+tion vom Typ yðtÞ ¼ ðA þ BtÞ (cid:7) e(cid:4)lt mit t (cid:8) 0 beschrieben. Skizzieren Sie
+diese Kriechfunktion im Intervall 0 (cid:5) t (cid:5) 3 fu¨r A ¼ 3, B ¼ 8 und l ¼ 2
+(Wertetabelle mit der Schrittweite Dt ¼ 0,2 anfertigen).
+
+=== PDF PAGE 345 ===
+322 III Funktionen und Kurven
+11) Ein durchha¨ngendes Seil genu¨ge der Gleichung y ¼ a (cid:7) coshðx=aÞ (Kettenlinie).
+Berechnen Sie gema¨ß der Skizze (Bild III-176) den Durchhang H fu¨r die Werte
+a ¼ 20m und l ¼ 90m.
+y
+H
+a
+BildIII-176
+x
+l
+12) Lo¨sen Sie die folgenden Exponentialgleichungen:
+aÞ ex2(cid:4)2x ¼ 2 bÞ ex þ 2 (cid:7) e(cid:4)x ¼ 3
+13) Welche Lo¨sungen besitzen die folgenden logarithmischen Gleichungen?
+pffiffiffiffi
+aÞ ln x þ 1,5 (cid:7) lnx ¼ lnð2xÞ bÞ ðlgxÞ2 (cid:4) lgx ¼ 2
+
+=== PDF PAGE 346 ===
+323
+IV Differentialrechnung
+1 Differenzierbarkeit einer Funktion
+1.1 Das Tangentenproblem
+Zuna¨chst wollen wir anhand eines einfachen und u¨berschaubaren Beispiels die Problem-
+stellung der Differentialrechnung aufzeigen. Ausgangspunkt unserer Betrachtung ist da-
+bei die Normalparabel mit der Funktionsgleichung y ¼ f ðxÞ ¼ x2. Wir stellen uns die
+Aufgabe, die Steigung der Kurventangente an der Stelle x ¼ 0,5, d.h. im Kurven-
+punkt P ¼ ð0,5;0,25Þ zu bestimmen, und lo¨sen dieses Problem schrittweise wie folgt:
+(1) In der Umgebung von P wird ein weiterer, von P verschiedener Parabelpunkt Q
+ausgewa¨hlt. Dieser kann, wie in Bild IV-1 skizziert, rechts von P oder auch links
+von P liegen. Bezeichnen wir die Abszissendifferenz der beiden Punkte mit Dx,
+so lauten ihre Koordinaten wie folgt ðDx 6¼ 0Þ:
+P ¼ ð0,5;0,25Þ, Q ¼ ð0,5 þ Dx;ð0,5 þ DxÞ2Þ ðIV-1Þ
+y
+y=x2
+Sekante
+2
+Q
+TangenteinP
+Δy
+1
+e
+P a
+0,25
+Δx
+BildIV-1
+0,5 1 0,5+Δx x
+Die durch P und Q verlaufende Sekante besitzt dann die Steigung
+Dy ð0,5 þ DxÞ2 (cid:4) 0,25 0,25 þ Dx þ ðDxÞ2 (cid:4) 025
+m ¼ tane ¼ ¼ ¼ ¼
+s Dx Dx Dx
+Dx þ ðDxÞ2 Dxð1 þ DxÞ
+¼ ¼ ¼ 1 þ Dx ðIV-2Þ
+Dx Dx
+L. Papula, Mathematik für Ingenieure und Naturwissenschaftler Band 1,
+DOI 10.1007/978-3-658-05620-9_4, © Springer Fachmedien Wiesbaden 2014
+
+=== PDF PAGE 347 ===
+324 IV Differentialrechnung
+undstellteineersteNa¨herungdergesuchtenTangentedar.DieSekantensteigung m
+s
+ha¨ngtdabeierwartungsgema¨ßnochvon Dx, d.h.derLagedesParabelpunktes Q ab.
+(2) Wir lassen jetzt den Punkt Q la¨ngs der Parabel auf den Punkt P zuwandern
+ðQ ! PÞ. Dabei strebt die Abszissendifferenz Dx gegen Null ðDx ! 0Þ. Beim
+Grenzu¨bergang geht die Sekante in die Tangente und die Sekantensteigung m
+s
+damit in dieTangentensteigung m u¨ber. Inunserem Beispielerhalten wir(und zwar
+t
+unabha¨ngig davon, ob wir den Punkt Q links oder rechts von P gewa¨hlt haben):
+Dy
+m ¼ tana ¼ lim ¼ lim ð1 þ DxÞ ¼ 1 ðIV-3Þ
+t Dx
+Dx!0 Dx!0
+Die Kurventangente im Parabelpunkt P ¼ ð0,5;0,25Þ besitzt somit den Stei-
+gungswert m ¼ 1. Symbolisch schreiben wir dafu¨r:
+t
+y0ð0,5Þ ¼ f 0ð0,5Þ ¼ 1 ðIV-4Þ
+(gelesen: y Strich an der Stelle 0,5 bzw. f Strich an der Stelle 0,5). Man be-
+zeichnet diesen Grenzwert als Ableitung der Funktion y ¼ f ðxÞ ¼ x2 an der
+Stelle x ¼ 0,5 und nennt die Funktion an dieser Stelle differenzierbar.
+1.2 Ableitung einer Funktion
+Wirformulieren nundasimvorangegangenenAbschnittdargestellteTangentenproblemin
+allgemeiner Form: Gegeben sei eine Funktion y ¼ f ðxÞ, gesucht wird die Steigung der
+KurventangenteanderStelle x d.h.imKurvenpunkt P ¼ ðx ;y Þ mit y ¼ f ðx Þ.
+0 0 0 0 0
+Die Lo¨sung der gestellten Aufgabe erfolgt dabei in zwei Schritten:
+(1) Zuna¨chstwa¨hlenwiraufderFunktionskurveinderNachbarschaftvon P ¼ ðx ;y Þ
+0 0
+einenweiteren,von P verschiedenenKurvenpunkt Q aus(BildIV-2).
+y
+y=f(x)
+Sekante
+Q
+Δy
+e
+P a Tangente in P BildIV-2
+Δx ZumBegriff
+y derAbleitung
+0
+einerFunktion
+x x +Δx x
+0 0
+

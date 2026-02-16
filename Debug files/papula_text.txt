@@ -1,0 +1,1532 @@
+=== PDF PAGE 243 ===
+6 Gebrochenrationale Funktionen 219
+y
+4
+2
+–5 –1 2 5 x
+–1
+BildIII-75
+2ðx (cid:4) 2Þ
+Funktionsgraphvon y ¼
+x (cid:4) 1
+–5 &
+6.3 Asymptotisches Verhalten einer gebrochenrationalen Funktion
+im Unendlichen
+Eine echt gebrochenrationale Funktion f ðxÞ na¨hert sich fu¨r große x-Werte stets asym-
+ptotisch der x-Achse, da das Nennerpolynom infolge des ho¨heren Grades schneller
+wa¨chst als das Za¨hlerpolynom. Die Gleichung der Asymptote im Unendlichen, d.h. fu¨r
+x ! (cid:3)1 lautet daher y ¼ 0 (x-Achse).
+& Beispiele
+1 1
+Die echt gebrochenrationalen Funktionen y ¼ (Bild III-72), y ¼ (Bild III-73)
+x x2
+x
+und y ¼ (Bild III-74) na¨hern sich fu¨r x ! (cid:3)1 jeweils asymptotisch
+x2 (cid:4) 4
+der x-Achse. &
+Bei einer unecht gebrochenrationalen Funktion f ðxÞ muss man wie folgt verfahren, um
+ihr Verhalten im Unendlichen beurteilen zu ko¨nnen: Zuna¨chst wird die unecht gebroche-
+ne Funktion f ðxÞ durch Polynomdivision in eineganzrationale Funktion (Polynomfunk-
+tion) pðxÞ und eine echt gebrochene Funktion rðxÞ zerlegt:
+f ðxÞ ¼ pðxÞ þ rðxÞ ðIII-73Þ
+Diese Zerlegung ist stets mo¨glich und eindeutig! Fu¨r x ! (cid:3)1 verschwindet der echt
+gebrochenrationale Anteil rðxÞ der Zerlegung und die gegebene Funktion zeigt daher
+in diesem Bereich ein a¨hnliches Verhalten wie die Polynomfunktion pðxÞ. Diese ist
+somit Asymptote im Unendlichen.
+
+=== PDF PAGE 244 ===
+220 III Funktionen und Kurven
+Wir fassen die Ergebnisse dieses Abschnitts wie folgt zusammen:
+BestimmungderAsymptoteeinergebrochenrationalenFunktionimUnendlichen
+1. Jede echt gebrochenrationale Funktion y ¼ f ðxÞ na¨hert sich fu¨r x ! (cid:3)1
+beliebig der x-Achse. Daher ist y ¼ 0 die Gleichung ihrer Asymptote im
+Unendlichen.
+2. Eine unecht gebrochenrationale Funktion y ¼ f ðxÞ wird zuna¨chst durch
+Polynomdivision in eineganzrationale Funktion (Polynomfunktion) pðxÞ und
+eine echt gebrochenrationale Funktion rðxÞ zerlegt:
+f ðxÞ ¼ pðxÞ þ rðxÞ ðIII-74Þ
+Fu¨r x ! (cid:3)1 strebt rðxÞ ! 0 und die unecht gebrochene Funktion f ðxÞ
+na¨hert sich asymptotisch der Polynomfunktion pðxÞ, d.h. y ¼ pðxÞ ist die
+Gleichung ihrer Asymptote im Unendlichen.
+Anmerkung
+Die Kurve y ¼ f ðxÞ ¼ pðxÞ þ rðxÞ schneidet ihre Asymptote y ¼ pðxÞ u¨berall
+dort, wo die Restfunktion rðxÞ verschwindet. Diese Schnittpunkte lassen somit aus der
+Gleichung rðxÞ ¼ 0 berechnen.
+& Beispiel
+0,5x3 (cid:4) 1,5x þ 1
+y ¼ (unecht gebrochenrationale Funktion)
+x2 þ 3x þ 2
+Za¨hler- und Nennerpolynom werden in Linearfaktoren zerlegt, gemeinsame Faktoren
+(vereinbarungsgema¨ß) herausgeku¨rzt:
+0,5x3 (cid:4) 1,5x þ 1 0,5ðx (cid:4) 1Þ2ðx þ 2Þ
+y ¼ ¼ ðx 6¼ (cid:4)1, (cid:4)2Þ
+x2 þ 3x þ 2 ðx þ 1Þðx þ 2Þ
+(gemeinsamen Faktor x þ 2 ku¨rzen)
+0,5ðx (cid:4) 1Þ2 0,5x2 (cid:4) x þ 0,5
+y ¼ ¼ ðx 6¼ (cid:4)1Þ
+x þ 1 x þ 1
+Nullstellen: x 1=2 ¼ 1 (doppelte Nullstelle, d.h. Beru¨hrungspunkt
+und zugleich Extremwert)
+Polstelle: x ¼ (cid:4)1 (Pol mit Vorzeichenwechsel)
+3
+Die urspru¨ngliche Definitionslu¨cke bei x ¼ (cid:4)2 wurde behoben, die in ihrem Defini-
+tionsbereich nachtra¨glich erweiterte Funktion besitzt damit nur noch eine einzige Defini-
+tionslu¨cke an der Stelle x ¼ (cid:4)1 (Pol mit Vorzeichenwechsel).
+
+=== PDF PAGE 245 ===
+6 Gebrochenrationale Funktionen 221
+Wir zerlegen nun die unecht gebrochene erweiterte Funktion durch Polynomdivision in
+einen ganzrationalen und einen echt gebrochenrationalen Anteil:
+2
+y ¼ ð0,5x2 (cid:4) x þ 0,5Þ : ðx þ 1Þ ¼ 0,5x (cid:4) 1,5 þ
+x þ 1
+(cid:4) ð0,5x2 þ 0,5xÞ
+(cid:4) 1,5x þ 0,5
+(cid:4)ð(cid:4) 1,5x (cid:4) 1,5Þ
+2
+Somit gilt:
+0,5ðx (cid:4) 1Þ2 0,5x2 (cid:4) x þ 0,5 2
+y ¼ ¼ ¼ 0,5x (cid:4) 1,5 þ
+x þ 1 x þ 1 x þ 1
+Die Gleichung der Asymptote im Unendlichen lautet daher:
+y ¼ 0,5x (cid:4) 1,5
+2
+Kurve und Asymptote besitzen keine Schnittpunkte, da die Restfunktion rðxÞ ¼
+x þ 1
+nirgends verschwindet. In Bild III-76 ist der Funktionsverlauf graphisch dargestellt. Die
+urspru¨ngliche Funktion hat den gleichen Verlauf mit Ausnahme der Stelle x ¼ (cid:4)2
+(dort besitzt sie eine Lu¨cke).
+y
+5
+1 Asymptote
+BildIII-76
+–5 –1 1 5 x
+Funktionsgraphvon
+0,5ðx (cid:4) 1Þ2
+y ¼
+x þ 1
+Maximum
+–5
+&
+
+=== PDF PAGE 246 ===
+222 III Funktionen und Kurven
+6.4 Ein Anwendungsbeispiel: Kapazita¨t eines Kugelkondensators
+Wir betrachten einen aus zwei konzentrischen, leitenden Kugelschalen mit den Radien
+r und r bestehenden Kugelkondensator (r < r ; Bild III-77). Seine Kapazita¨t be-
+1 2 1 2
+tra¨gt:
+4pe e r r
+C ¼ 0 r 1 2 ðIII-75Þ
+r (cid:4) r
+2 1
+(e : Elektrische Feldkonstante; e : Dielektrizita¨tskonstante der Kondensatorfu¨llung). Die
+0 r
+Differenz zwischen Außen- und Innenradius bezeichnen wir mit x:
+x ¼ r (cid:4) r > 0 undsomit r ¼ r þ x ðIII-76Þ
+2 1 2 1
+Die Kapazita¨tsformel (III-75) geht dann u¨ber in:
+4pe e r ðr þ xÞ
+C ¼ 0 r 1 1 ðx > 0Þ ðIII-77Þ
+x
+Bei fest vorgegebenem Innenradius r ¼ const: ¼ R ist die Kapazita¨t C nur noch
+1
+von der Gro¨ße x abha¨ngig:
+(cid:9) (cid:10)
+4pe e RðR þ xÞ R
+C ¼ CðxÞ ¼ 0 r ¼ 4pe e R 1 þ ðx > 0Þ ðIII-78Þ
+x 0 r x
+Die Gro¨ßen C und x sind u¨ber eine unecht gebrochenrationale Funktion miteinander
+verknu¨pft, die fu¨r x ! 1 gegen den Grenzwert
+(cid:9) (cid:10)
+R
+lim CðxÞ ¼ lim 4pe e R 1 þ ¼ 4pe e R ðIII-79Þ
+0 r x 0 r
+x!1 x!1
+strebt (Bild III-78).
+C
+r
+2
+r
+1 C=C(x)
+x
+4pe e R
+0 r
+x
+BildIII-77 Kugelkondensator BildIII-78 Kapazita¨teinesKugelkondensatorsin
+Abha¨ngigkeitvomAbstandderbeiden
+Kugelschalen
+
+=== PDF PAGE 247 ===
+7 Potenz- und Wurzelfunktionen 223
+7 Potenz- und Wurzelfunktionen
+7.1 Potenzfunktionen mit ganzzahligen Exponenten
+Die einfachsten Potenzfunktionen sind vom Typ
+y ¼ f ðxÞ ¼ xn ðn 2 N*Þ ðIII-80Þ
+und geho¨ren zu den ganzrationalen Funktionen. Sie sind u¨berall in R definiert und
+stetig und abwechselnd gerade und ungerade:
+8 9
+< f ðxÞ n ¼ gerade =
+f ð(cid:4)xÞ ¼ fu¨r ðIII-81Þ
+: ;
+(cid:4)f ðxÞ n ¼ ungerade
+& Beispiele
+Bild III-79 zeigt die Graphen der ungeraden Potenzfunktionen y ¼ x, y ¼ x3 und
+y ¼ x5, Bild III-80 die dergeraden Potenzfunktionen y ¼ x2, y ¼ x4 und y ¼ x6.
+y y
+y=x2
+2
+y=x
+1
+y=x4
+y=x3
+1
+y=x5
+–1 1 x
+y=x6
+–1 1 x
+–1
+BildIII-79 BildIII-80
+UngeradePotenzfunktionen GeradePotenzfunktionen &
+Fu¨r negativ-ganzzahlige Exponenten erha¨lt man gebrochenrationale Funktionenvom Typ
+1
+y ¼ x(cid:4)n ¼ ðn 2 N*Þ ðIII-82Þ
+xn
+Sie sind fu¨r jedes reelle x 6¼ 0 definiert und stetig und besitzen an der Stelle x ¼ 0
+0
+einen Pol mit oder ohne Vorzeichenwechsel, je nachdem ob n eine ungerade oder ge-
+rade Zahl ist. Fu¨r gerades n sind diese Potenzfunktionen gerade, fu¨r ungerades n un-
+gerade.
+
+=== PDF PAGE 248 ===
+224 III Funktionen und Kurven
+& Beispiele
+(1) Die ersten Vertreter dieser Funktionen lauten wie folgt:
+1
+y ¼ x(cid:4)1 ¼ ðungerade Funktion; Bild III-81Þ
+x
+1
+y ¼ x(cid:4)2 ¼ ðgerade Funktion; Bild III-82Þ
+x2
+BeideFunktionensindfu¨rjedes x 6¼ 0 definiertundbesitzenanderStelle x ¼ 0
+0
+einenPolmitbzw.ohneVorzeichenwechsel.
+y y
+1
+y=
+x
+1
+1 1
+y= y=
+x2 x2
+1 x
+1
+y=
+x
+1
+–1 1 x
+BildIII-81 BildIII-82
+Potenzfunktion y ¼ x(cid:4)1 ¼ 1=x Potenzfunktion y ¼ x(cid:4)2 ¼ 1=x2
+(2) Ein Beispiel aus der physikalischen Chemie liefert die Zustandsgleichung fu¨r 1 Mol
+eines idealen Gases bei konstanter Temperatur T. Druck p und Volumen V sind
+dabei zueinander umgekehrt proportionale Gro¨ßen (Bild III-83):
+pV ¼ RT ¼ const:
+p
+const:
+p ¼ , V > 0
+V
+const.
+(R: allgemeine Gaskonstante) p=
+V
+V
+BildIII-83
+IsothermeeinesidealenGases
+
+=== PDF PAGE 249 ===
+7 Potenz- und Wurzelfunktionen 225
+(3) Gravitationsfeld der Erde
+Eine Masse m erfa¨hrt im Gravitationsfeld der Erde die Anziehungskraft
+Mm 1
+F ¼ FðrÞ ¼ g (cid:7) (cid:15) ðr (cid:8) r Þ
+r2 r2 0
+wobei r der Abstand der Masse vom Erdmittelpunkt ist (M: Erdmasse; r : Erd-
+0
+radius; g: Gravitationskonstante). &
+7.2 Wurzelfunktionen
+Bereits in Abschnitt 2.5 haben wir erkannt, dass die Potenzfunktion y ¼ x2 (Normal-
+parabel) in ihrem Definitionsbereich (cid:4)1 < x < 1 wegen fehlender Monotonie-Ei-
+genschaft nicht umkehrbar ist. Beschra¨nken wir uns jedoch auf den 1.Quadranten, d.h.
+auf das Intervall x (cid:8) 0, so verla¨uft diese Funktion dort streng monoton wachsend und
+ist daher in diesem Intervall auch umkehrbar. Ihre Umkehrfunktion ist die als Wurzel-
+funktion bezeichnete Funktion
+pffiffiffiffi
+y ¼ x ðx (cid:8) 0Þ ðIII-83Þ
+Bild III-84 zeigt den Verlauf der „Halbparabel“ und ihrer Umkehrfunktion. Aus dem
+gleichen Grund ist jede Potenzfunktion mit einem geraden Exponent, d.h. jede Potenz-
+funktionvom Typ y ¼ x2k mit k 2 N* im Intervall x (cid:8) 0 umkehrbar.
+y
+y=x2
+y=x
+y= x
+1 BildIII-84 pffiffiffiffi
+DieWurzelfunktion y ¼ x als
+UmkehrfunktionderaufdasIntervall
+x (cid:8) 0 beschra¨nktenPotenzfunktion
+y ¼ x2 („Halbparabel“)
+1 x
+Wir betrachten nun die Potenzfunktion y ¼ x3 (siehe hierzu Bild III-79). Sie verla¨uft
+in ihrem gesamten Definitionsbereich (cid:4)1 < x < 1 streng monoton wachsend und
+ist so
+p
+mffiffiiffitffi dort umkehrbar. Ihre Umkehrfunktion mu¨sste daher konsequenterweise mit
+y ¼ 3 x bezeichnet werden und wa¨re damit eine fu¨r alle x 2 R definierte Funktion.
+(cid:3)hnlich liegen die Verha¨ltnisse bei den u¨brigen Potenzfunktionen vom Typ y ¼ x2k(cid:4)1
+mit k 2 N* (Potenzen mit ungeraden Exponenten).
+
+=== PDF PAGE 250 ===
+226 III Funktionen und Kurven
+Aus systematischen Gru¨nden erscheint es aber sinnvoll, die Umkehrung der Potenzfunk-
+tionen y ¼ xn mit n 2 N* auf ein allen Potenzen gemeinsames Intervall zu be-
+schra¨nken, in dem diese Funktionen streng monoton verlaufen. Ein solches Intervall ist
+x (cid:8) 0. Diese (cid:2)berlegungen fu¨hren zu der folgenden Definition:
+Definition: Die Umkehrfunktionen der auf das Intervall x (cid:8) 0 beschra¨nkten
+Potenzfunktionen vom Typ y ¼ xn heißen Wurzelfunktionen (mit
+n 2 N*). Symbolische Schreibweise:
+pffiffiffiffi
+y ¼ n x ðx (cid:8) 0Þ ðIII-84Þ
+(gelesen: n-te Wurzel aus x)
+Anmerkungen
+(1) Die Wurzelfunktionen sind streng monoton wachsende Funktionen.
+(2) Die Definition des Begriffs Wurzelfunktion erfolgt in der mathematischen Lite-
+ratur keineswegs einheitlich. Nach unserer Definition (III-84) sind die Wurzel-
+funktionen nur fu¨r nichtnegative Argumente, d.h. fu¨r x (cid:8) 0 erkla¨rt und dort
+stetig. Der Wertebereich ist y (cid:8) 0, die Kurven verlaufen daher alle im ersten
+Quadranten.
+& Beispiele
+(1) Die Umkehrfunktion der auf das Intervall x (cid:8) 0 besch
+p
+ra¨ffiffinffiffikten
+p
+Nffiffiffioffirmalparabel
+y ¼ x2 ist die fu¨r x (cid:8) 0 definierte Wurzelfunktion y ¼ 2 x (cid:16) x (siehe Bild
+III-84).
+(2) Ein Beispiel aus den Anwendungen: In einem LC-Kreis mit der Induktivita¨t L
+und der Kapazita¨t C ha¨ngt die Schwingungsdauer T bei konstanter Induktivita¨t
+L wie folgt von der Kapazita¨t C ab (Bild III-85):
+0
+pffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffi pffiffiffiffiffi pffiffiffiffiffi
+T ¼ 2p (cid:7) L C ¼ 2p (cid:7) L (cid:7) C ¼ const: (cid:7) C ðfu¨r C (cid:8) 0Þ
+0 |fflfflfflfflfflfflffl{zfflfflfflfflfflfflffl}0
+const:
+T
+C
+BildIII-85 Schwingungsdauer T in Abha¨ngigkeit von der Kapazita¨t C in einem LC-Kreis
+(beikonstanterInduktivita¨t L ¼ L )
+0
+
+=== PDF PAGE 251 ===
+7 Potenz- und Wurzelfunktionen 227
+(3) Die sog. kubische Parabel y ¼ x3 verla¨uft in ihrem gesamten Definitionsbereich
+(cid:4)1 < x < 1 streng monoton wachsend, ist dort also umkehrbar. Wie lautet
+ihre Umkehrfunktion?
+pffiffiffiffi
+Lo¨sung: DieWurzelfunktion y ¼ 3 x ðx (cid:8) 0Þ istdefinitionsgema¨ßdieUmkehr-
+funktion der auf den 1.Quadranten beschra¨nkten kubischen Parabel. Die Funk-
+tionsgleichung der Umkehrfunktion von y ¼ x3 fu¨r x < 0 lautet (wegen der
+Punktsymmetrie der Gesamtkurve):
+pffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffi
+y ¼ (cid:4) 3 (cid:4)x ¼ (cid:4) 3 jxj ðx < 0Þ
+Insgesamt erha¨lt man damit im Intervall (cid:4)1 < x < 1 die folgende Darstellung
+fu¨r die gesuchte Umkehrfunktion der kubischen Parabel (Bild III-86):
+8 pffiffiffiffi 9
+< 3 x x (cid:8) 0=
+y ¼ f ðxÞ ¼ pffiffiffiffiffiffiffiffi fu¨r
+: ;
+(cid:4) 3 jxj x < 0
+y
+1
+BildIII-86
+1 x Umkehrfunktionderkubischen
+Parabel y ¼ x3
+Berechnung einiger Funktionswerte:
+pffiffiffiffiffiffiffiffiffi
+f ð125Þ ¼ 3 125 ¼ 5
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffi
+f ð(cid:4)1Þ ¼ (cid:4) 3 j (cid:4) 1j ¼ (cid:4) 3 1 ¼ (cid:4)ð1Þ ¼ (cid:4)1
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffiffiffiffi
+f ð(cid:4)82,5Þ ¼ (cid:4) 3 j (cid:4) 82,5j ¼ (cid:4) 3 82,5 ¼ (cid:4)ð4,3533Þ ¼ (cid:4)4,3533
+&
+
+=== PDF PAGE 252 ===
+228 III Funktionen und Kurven
+7.3 Potenzfunktionen mit rationalen Exponenten
+Unter Verwendung der fu¨r alle x (cid:8) 0 definierten Wurzelfunktionen sind wir jetzt in der
+Lage, den Begriff der Potenzfunktion auch auf rationale Exponenten auszudehnen:
+Definition: Unter einer Potenzfunktion mit dem rationalen Exponenten m=n ver-
+stehen wir die Funktion
+y ¼ f ðxÞ ¼ x m n ¼ p n ffi x ffiffiffi m ffiffiffiffi ðx > 0Þ ðIII-85Þ
+mit m 2 Z und n 2 N*.
+Die Potenzfunktion y ¼
+xm=n
+ist also definitionsgema¨ß die n-te Wurzel aus der Potenz
+xm. Man beachte, dass diese Funktion zuna¨chst nur fu¨r x > 0 erkla¨rt ist. Fu¨r positive
+Exponenten la¨sst sich jedoch der Definitionsbereich auf das Intervall x (cid:8) 0 erweitern.
+pffiffiffiffi
+Die Wurzelfunktionen y ¼ n x ðx (cid:8) 0Þ sind auch als Potenzfunktionen mit rationa-
+lem Exponenten wie folgt darstellbar:
+pffiffiffiffi pffiffiffiffiffiffiffi
+y ¼ n x ¼ n x1 ¼ x1=n ðx (cid:8) 0Þ ðIII-86Þ
+Anmerkungen
+(1) Der Begriff der Potenzfunktion la¨sst sich auch auf beliebige reelle Exponenten a
+ausdehnen. Man setzt in diesem Falle
+y ¼ xa ¼ elnxa ¼ ea(cid:7)lnx ðx > 0Þ ðIII-87Þ
+Dies erkla¨rt auch, warum der Definitionsbereich einer allgemeinen Potenzfunk-
+tion auf das Intervall x > 0 beschra¨nkt werden muss7Þ.
+(2) Die Potenzfunktionen sind fu¨r positive Exponenten streng monoton wachsend, fu¨r
+negative Exponenten dagegen streng monoton fallend (siehe hierzu auch die beiden
+nachfolgenden Beispiele).
+& Beispiele
+(1) Die fu¨r x (cid:8) 0 definierte streng monoton wachsende Potenzfunktion
+pffiffiffiffiffiffiffi
+y ¼ x2=3 ¼ 3 x2
+besitzt den in Bild III-87 dargestellten Verlauf.
+7Þ lnx istdernatu¨rlicheLogarithmusvon x undnurfu¨r x > 0 definiert.InAbschnitt12wirddiesewich-
+tigeFunktionausfu¨hrlichbehandelt.DieBasis e istdieEulerscheZahl.
+
+=== PDF PAGE 253 ===
+7 Potenz- und Wurzelfunktionen 229
+y y
+y=x2/3
+1
+y=x–1/2
+1
+1 2 x 1 x
+BildIII-87 GraphderPotenzfunktion BildIII-88 GraphderPotenzfunktion
+y ¼ x2=3 ðx (cid:8) 0Þ y ¼ x(cid:4)1=2 ðx > 0Þ
+(2) Die fu¨r x > 0 erkla¨rte und streng monoton fallende Potenzfunktion
+1 1
+y ¼ x(cid:4)1=2 ¼ ¼ pffiffiffiffi
+x1=2 x
+ist in Bild III-88 graphisch dargestellt. &
+7.4 Ein Anwendungsbeispiel:
+Beschleunigung eines Elektrons in einem elektrischen Feld
+Ein Elektron erfa¨hrt in einem elektrischen Feld der konstanten Feldsta¨rke E die Kraft
+F ¼ eE entgegen der Feldrichtung (e: Elementarladung)8Þ. Es wird daher beschleu-
+nigt und nimmt dabei kinetische Energie auf. Die vom Feld verrichtete Arbeit betra¨gt
+W ¼ eU, wobei U die vom Elektron durchlaufene Spannung ist. Nach dem Energie-
+satz gilt dann:
+1
+m v2 ¼ eU ðIII-88Þ
+2 0
+(m : Ruhemasse des Elektrons; v: Geschwindigkeit des Elektrons). Das Elektron er-
+0
+reicht damit nach Durchlaufen der Spannung U die Endgeschwindigkeit
+rffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi rffiffiffiffiffiffiffiffiffiffiffiffi
+e e
+pffiffiffiffiffiffi pffiffiffiffiffiffi
+v ¼ 2 U ¼ 2 (cid:7) U ¼ const: (cid:7) U ðIII-89Þ
+m m
+0 0
+Die Gro¨ßen v und U sind demnach u¨ber eine Wurzelfunktion miteinander verknu¨pft.
+8Þ EundF sinddieBetra¨gederFeldsta¨rke EE ~ bzw.derKraft FF ~ .
+
+=== PDF PAGE 254 ===
+230 III Funktionen und Kurven
+8 Kegelschnitte
+8.1 Darstellung eines Kegelschnittes durch eine algebraische
+Gleichung 2. Grades mit konstanten Koeffizienten
+Die durch Schnitt eines geraden Doppelkegels mit einer Ebene entstehenden (ebenen)
+Kurven werden unter der Bezeichnung Kegelschnitte zusammengefasst. Zu ihnen geho¨-
+ren Kreis, Ellipse, Hyperbel und Parabel. Sie lassen sich durch algebraische Gleichun-
+gen 2.Grades vom allgemeinen Typ
+Ax2 þ By2 þ Cx þ Dy þ E ¼ 0 ðA2 þ B2 6¼ 0Þ ðIII-90Þ
+beschreiben, wobei die Symmetrieachsen der Kegelschnitte parallel zu den Koordinaten-
+achsen verlaufen. (cid:2)ber die Art und Lage des Kegelschnittes entscheiden ausschließlich
+die konstanten Koeffizienten A, B, C, D und E in der Gleichung (III-90).
+Im Einzelnen gilt dabei (sog. Entartungsfa¨lle eingeschlossen):
+Kriterium zur Feststellung der Art eines Kegelschnittes
+Kegelschnitte (Kreise, Ellipsen, Hyperbeln und Parabeln) mit achsenparallelen
+Symmetrieachsen lassen sich in einem kartesischen x, y-Koordinatensystem durch
+algebraische Gleichungen 2.Grades vom Typ
+Ax2 þ By2 þ Cx þ Dy þ E ¼ 0 ðA2 þ B2 6¼ 0Þ ðIII-91Þ
+beschreiben, wobei die konstanten Koeffizienten dieser Gleichung wie folgt u¨ber
+die Art eines Kegelschnittes entscheiden:
+Kreis: A ¼ B
+Ellipse: A (cid:7) B > 0, A 6¼ B
+Hyperbel: A (cid:7) B < 0
+Parabel: A ¼ 0, B 6¼ 0 oder B ¼ 0, A 6¼ 0
+Anmerkungen
+(1) Bei gleichem Vorzeichen der Koeffizienten A und B handelt es sich also um eine
+Ellipse (im Sonderfall A ¼ B um einen Kreis), bei unterschiedlichem Vorzeichen
+dagegen um eine Hyperbel. Eine Parabel liegt immer dann vor, wenn einer der
+beiden Koeffizienten verschwindet (die Gleichung entha¨lt dann nur ein quadrati-
+sches Glied).
+(2) Es ko¨nnen sog. Entartungsfa¨lle auftreten, wie das folgende einfache Beispiel zeigt.
+Fu¨r die algebraische Gleichung x2 þ y2 þ 1 ¼ 0 gilt A ¼ B ¼ 1. Wir vermu-
+ten daher, dass es sich hier um einen Kreis handelt (andere Kegelschnitte scheiden
+jedenfalls aus). Eine geringfu¨gige Umstellung der Gleichung auf die Form
+
+=== PDF PAGE 255 ===
+8 Kegelschnitte 231
+x2 þ y2 ¼ (cid:4)1 zeigt jedoch, dass diese einen Widerspruch entha¨lt. Denn die
+Summe zweier Quadrate (linke Seite) kann niemals negativ sein (rechte Seite). Da-
+her gibt es keine Punkte ðx;yÞ, die diese Gleichung erfu¨llen. Die oben angegebe-
+nen Bedingungen sind zwar notwendig, nicht aber hinreichend.
+In den folgenden Abschnitten geben wir zuna¨chst einen kurzen (cid:2)berblick u¨ber die Glei-
+chungen der einzelnen Kegelschnitte (Mittelpunktsgleichung bzw. Scheitelgleichung,
+Hauptform, Funktionsgleichungen). Dann zeigen wir anhand von konkreten Beispielen,
+wie man Art und Lage eines Kegelschnittes bestimmt.
+Zusa¨tzliche Informationen u¨ber die Kegelschnitte findet der Leser in der Mathematischen
+Formelsammlung fu¨r Ingenieure und Naturwissenschaftler.
+8.2 Gleichungen eines Kreises
+Der Kreis ist definitionsgema¨ß der geometrische Ort aller Punkte P einer Ebene, die
+von einem festen Punkt, dem Kreismittelpunkt M, den gleichen Abstand r (Radius
+genannt) besitzen (Bild III-89):
+MP ¼ const: ¼ r
+y
+Bezeichnungen (siehe Bild III-89):
+P BildIII-89
+M: Mittelpunkt Zurgeometrischen
+Definitioneines
+r: Radius r
+Kreises
+M x
+Gleichungen eines Kreises
+Mittelpunktsgleichung (Bild III-90):
+x2 þ y2 ¼ r2 M ¼ ð0;0Þ ðIII-92Þ
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+y ¼ (cid:3) r2 (cid:4) x2 ð(cid:4)r (cid:5) x (cid:5) rÞ ðIII-93Þ
+(Oberer und unterer Halbkreis)
+Hauptform der Kreisgleichung (verschobener Kreis; Bild III-91):
+ðx (cid:4) x Þ2 þ ðy (cid:4) y Þ2 ¼ r2 M ¼ ðx ;y Þ ðIII-94Þ
+0 0 0 0
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+y ¼ y (cid:3) r2 (cid:4) ðx (cid:4) x Þ2 ðx (cid:4) r (cid:5) x (cid:5) x þ rÞ ðIII-95Þ
+0 0 0 0
+(Oberer und unterer Halbkreis)
+
+=== PDF PAGE 256 ===
+232 III Funktionen und Kurven
+Anmerkungen
+(1) Der Mittelpunktskreis wird auch als Ursprungskreis bezeichnet.
+(2) Jede durch den Mittelpunkt M gehende Gerade (Durchmesser) ist zugleich auch
+Symmetrieachse.
+(3) Der verschobene Kreis la¨sst sich stets durch eine Koordinatentransformation (Paral-
+lelverschiebung des Koordinatensystems) auf den Mittelpunktskreis zuru¨ckfu¨hren.
+Als neuen Koordinatenursprung wa¨hlt man dabei den Kreismittelpunkt M. In Bild
+III-91 sind die neuen Koordinatenachsen durch Strichelung angedeutet.
+y y
+P
+P
+r
+r y 0
+M
+M x
+x x
+0
+Bild III-90 Mittelpunktskreis Bild III-91 Zur Hauptform der Kreisgleichung
+(verschobenerKreis)
+8.3 Gleichungen einer Ellipse
+DieEllipseistdefinitionsgema¨ßdieMengeallerPunkte P einerEbene,fu¨rdiedieSumme
+derEntfernungenvonzweifestenPunkten,densog.Brennpunkten F und F , konstant
+1 2
+ist (Bild III-92):
+F P þ F P ¼ const: ¼ 2a
+1 2
+y
+Bezeichnungen (siehe Bild III-92):
+P
+M: Mittelpunkt
+b
+F ,F : Brennpunkte
+1 2
+a > 0: Große Halbachse M
+b > 0: Kleine Halbachse F 2 a e F 1 x
+e > 0: Brennweite
+BildIII-92 ZurgeometrischenDefinition
+einerEllipse
+
+=== PDF PAGE 257 ===
+8 Kegelschnitte 233
+Zwischen den Halbachsen a und b und der Brennweite e besteht die Beziehung
+a2 ¼ b2 þ e2 ðIII-96Þ
+Gleichungen einer Ellipse
+Mittelpunktsgleichung (Bild III-93):
+x2 y2
+þ ¼ 1 oder b2x2 þ a2y2 ¼ a2b2 M ¼ ð0;0Þ ðIII-97Þ
+a2 b2
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+b
+y ¼ (cid:3) a2 (cid:4) x2 ð(cid:4)a (cid:5) x (cid:5) aÞ ðIII-98Þ
+a
+(Obere und untere Halbellipse)
+Hauptform der Ellipsengleichung (verschobene Ellipse; Bild III-94):
+ðx (cid:4) x Þ2 ðy (cid:4) y Þ2
+0 þ 0 ¼ 1 M ¼ ðx ;y Þ ðIII-99Þ
+a2 b2 0 0
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+b
+y ¼ y (cid:3) a2 (cid:4) ðx (cid:4) x Þ2 ðx (cid:4) a (cid:5) x (cid:5) x þ aÞ ðIII-100Þ
+0 a 0 0 0
+(Obere und untere Halbellipse)
+y
+y
+b b
+y
+M a x 0 M a
+x x
+0
+Bild III-93 Mittelpunktsellipse Bild III-94 Zur Hauptform der Ellipsengleichung
+(verschobeneEllipse)
+
+=== PDF PAGE 258 ===
+Anmerkungen
+(1) Die Mittelpunktsellipse wird auch als Ursprungsellipse bezeichnet.
+(2) Die durch den Mittelpunkt M gehenden Parallelen zu den Koordinatenachsen sind
+zugleich auch die (einzigen) Symmetrieachsen.
+(3) Die verschobene Ellipse la¨sst sich stets durch eine Koordinatentransformation (Pa-
+rallelverschiebung des Koordinatensystems) auf die Mittelpunktsellipse zuru¨ckfu¨h-
+ren. Man wa¨hlt dabei den Ellipsenmittelpunkt M als neuen Koordinatenursprung.
+In Bild III-94 sind die neuen Koordinatenachsen durch Strichelung angedeutet.
+(4) Fu¨r den Sonderfall a ¼ b erha¨lt man einen Kreis mit dem Radius r ¼ a.
+(5) Eine Ellipse la¨sst sich aus den vier Scheitelpunkten (Schnittpunkte mit den beiden
+Symmetrieachsen) leicht skizzieren.
+8.4. Gleichungen einer Hyperbel
+Die Hyperbel ist die Menge aller Punkte P einer Ebene, fu¨r die die Differenz der Ent-
+fernungen von zwei festen Punkten, den Brennpunkten F und F , konstant ist (Bild
+1 2
+III-95):
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+F P (cid:4) F P ¼ const: ¼ 2a
+1 2
+Bezeichnungen (siehe Bild III-95):
+M: Mittelpunkt
+F ,F : Brennpunkte
+1 2
+S ,S : Scheitelpunkte
+1 2
+a > 0: Große oder reelle Halbachse
+b > 0: Kleine oder imagina¨re Halbachse
+e > 0: Brennweite
+}fflfflfflfflfflz{fflfflfflfflffl|
+234 III Funktionen und Kurven
+y
+P
+b
+BildIII-95
+ZurgeometrischenDefinitioneiner
+Hyperbel
+F S M S F x
+2 2 1 1
+e a
+e2 ¼ a2 þ b2
+
+=== PDF PAGE 271 ===
+9 Trigonometrische Funktionen 247
+v
+P
+1 sina
+a
+BildIII-111
+–a
+u
+sin(–a)
+P′
+Darstellung der Kosinusfunktion im Einheitskreis
+Den Kosinus eines Winkels a findet man als Abszissenwert des Punktes P auf dem
+Einheitskreis wieder (Bild III-110). Dies folgt unmittelbar aus der Definitionsgleichung
+(III-113) des Kosinus:
+Ankathete AbszissevonP
+cosa ¼ ¼ ¼ AbszissevonP ðIII-122Þ
+Hypotenuse 1
+Analoge (cid:2)berlegungen wie beim Sinus fu¨hren schließlich zu der fu¨r beliebige Winkel a
+definierten Kosinusfunktion cosa. Sie ist ebenfalls periodisch mit der (primitiven) Peri-
+ode p ¼ 360(cid:11) (bzw. p ¼ 2p im Bogenmaß):
+cosða þ 360(cid:11)Þ ¼ cos a ðIII-123Þ
+Entsprechend gilt bei n Umla¨ufen (im positiven oder negativen Drehsinn):
+cosða (cid:3) n (cid:7) 360(cid:11)Þ ¼ cos a ðn 2 N*Þ ðIII-124)
+Im Gegensatz zur Sinusfunktion ist die Kosinusfunktion jedoch einegerade Funktion:
+cosð(cid:4)aÞ ¼ cos a ðIII-125Þ
+Denn die zu den betragsma¨ßig gleichen Winkeln a und (cid:4)a geho¨renden Punkte P
+und P0 auf dem Einheitskreis in Bild III-111 liegen spiegelsymmetrisch zur u-Achse
+und besitzen daher diegleiche Abszisse.
+Anmerkung
+Auch die beiden u¨brigen trigonometrischen Funktionen Tangens und Kotangens lassen
+sich im Einheitskreis durch Strecken bildlich darstellen. Wir verzichten jedoch auf diese
+Darstellung und definieren diese Funktionen in Abschnitt 9.3 mit Hilfe der dann bereits
+bekannten Sinus- und Kosinusfunktion.
+
+=== PDF PAGE 272 ===
+248 III Funktionen und Kurven
+9.2 Sinus- und Kosinusfunktion
+In den Anwendungen treten Sinus- und Kosinusfunktionen fast ausschließlich als Funk-
+tionen eines im Bogenmaß x dargestellten Winkels auf (z.B. im Zusammenhang mit
+mechanischen oder elektromagnetischen Schwingungen). Wir verwenden daher fu¨r die-
+se Funktionen die Schreibweisen y ¼ sinx und y ¼ cosx. Die Eigenschaften bei-
+der Funktionen, die u¨berall definiert und stetig sind, lassen sich unmittelbar aus dem
+Schaubild Bild III-112 ablesen und sind in der folgenden Tabelle 1 im Einzelnen auf-
+gefu¨hrt.
+Tabelle 1: Eigenschaften der Sinus- und Kosinusfunktion (k 2 Z; Bild III-112)
+y ¼ sinx y ¼ cosx
+Definitionsbereich (cid:4)1 < x < 1 (cid:4)1 < x < 1
+Wertebereich (cid:4)1 (cid:5) y (cid:5) 1 (cid:4)1 (cid:5) y (cid:5) 1
+Periode (primitive) 2p 2p
+Symmetrie ungerade gerade
+p
+Nullstellen x k ¼ k (cid:7) p x k ¼ 2 þ k (cid:7) p
+p
+Relative Maxima x ¼ þ k (cid:7) 2p x ¼ k (cid:7) 2p
+k 2 k
+3
+Relative Minima x k ¼ 2 p þ k (cid:7) 2p x k ¼ p þ k (cid:7) 2p
+Hinweis: Wegen der Periodizita¨t der Funktionen genu¨gt es, sich die Eigenschaften und
+den Kurvenverlauf im Periodenintervall 0 (cid:5) x (cid:5) 2p gut einzupra¨gen.
+y
+y=cosx
+1
+y=sinx
+–p p 0 p p 3 2p 5 3p x
+– p p
+2 2 2 2
+–1
+BildIII-112FunktionsgraphenderSinus-undKosinusfunktion
+
+=== PDF PAGE 273 ===
+9 Trigonometrische Funktionen 249
+9.3 Tangens- und Kotangensfunktion
+Die Tangens- und Kotangensfunktion definieren wir in Verallgemeinerung der Beziehun-
+gen (III-114) bzw. (III-115) durch die folgenden Gleichungen:
+sinx cosx 1
+tanx ¼ und cotx ¼ ¼ ðIII-126Þ
+cosx sinx tanx
+Diese Funktionen sind u¨berall definiert und stetig mit Ausnahme der Nennernullstel-
+len. Ihre in Tabelle 2 zusammengestellten Eigenschaften lassen sich daher aus den
+Eigenschaften der Sinus- und Kosinusfunktion herleiten. In den Bildern III-113 und
+III-114 sind die Funktionsgraphen von y ¼ tanx und y ¼ cotx skizziert.
+y
+1
+3 –p p 0 p p 3 2p 5 x
+– p – p p
+2 2 2 2 2
+BildIII-113 FunktionsgraphderTangensfunktion
+y
+1
+–2p 3 –p p 0 p p 3 2p x
+– p – p
+2 2 2 2
+BildIII-114 FunktionsgraphderKotangensfunktion
+
+=== PDF PAGE 274 ===
+250 III Funktionen und Kurven
+Tabelle 2: Eigenschaften der Tangens- und Kotangensfunktion ðk 2 Z; Bild III-113
+bzw. Bild III-114Þ
+y ¼ tanx y ¼ cotx
+Definitionsbereich x 2 R mit Ausnahme x 2 R mit Ausnahme
+der Stellen der Stellen x ¼ k (cid:7) p
+k
+p
+x ¼ þ k (cid:7) p
+k
+2
+Wertebereich (cid:4)1 < y < 1 (cid:4)1 < y < 1
+Periode (primitive) p p
+Symmetrie ungerade ungerade
+p
+Nullstellen x k ¼ k (cid:7) p x k ¼ þ k (cid:7) p
+2
+p
+Pole x k ¼ 2 þ k (cid:7) p x k ¼ k (cid:7) p
+p
+Senkrechte Asymptoten x ¼ þ k (cid:7) p x ¼ k (cid:7) p
+2
+Hinweis: Pra¨gen Sie sich die Eigenschaften und den Kurvenverlauf in einem Perioden-
+intervall gut ein (Periodenintervall des Tangens: (cid:4)p=2 < x < p=2; Periodenintervall
+des Kotangens: 0 < x < p).
+9.4 Wichtige Beziehungen zwischen den trigonometrischen
+Funktionen
+Zwischen den vier trigonometrischen Funktionen bestehen zahlreiche Beziehungen, von
+denen wir an dieser Stelle nur einige besonders ha¨ufig auftretende anfu¨hren ko¨nnen9).
+Aus Bild III-112 folgt unmittelbar, dass die Kosinuskurve als eine um p=2 nach links
+verschobene Sinuskurve aufgefasst werden kann. Daher ist
+(cid:4) (cid:5)
+p
+cosx ¼ sin x þ ðIII-127Þ
+2
+Umgekehrt geht die Sinuskurve aus der Kosinuskurve durch Verschiebung um p=2 nach
+rechts hervor. Dies entspricht der Beziehung
+(cid:4) (cid:5)
+p
+sinx ¼ cos x (cid:4) ðIII-128Þ
+2
+9Þ AllewesentlichentrigonometrischenFormelnfindetderLeserinderMathematischenFormelsammlungdes
+Autors(Kap.III,Abschnitt7).
+
+=== PDF PAGE 275 ===
+9 Trigonometrische Funktionen 251
+Zwischen der Sinus- und Kosinusfunktion besteht ferner die folgende wichtige Relation,
+die man durch Anwendung des Satzes von Pythagoras auf das in Bild III-115 einge-
+zeichnete rechtwinklige Dreieck erha¨lt:
+„Trigonometrischer Pythagoras“ im Bogenmaß (Bild III-115)
+ðsinxÞ2 þ ðcosxÞ2 ¼ sin2 x þ cos2 x ¼ 1 ðIII-129Þ
+v
+BildIII-115
+ZurHerleitungdes„trigonometrischenPythagoras“
+1 sina sin2a þ cos2a ¼ 1 (imGradmaß)bzw.
+a
+sin2x þ cos2x ¼ 1 (imBogenmaß)
+cosa
+u
+Weitere ha¨ufig benutzte Zusammenha¨nge liefern die sog. Additionstheoreme fu¨r Sinus,
+Kosinus und Tangens (x ,x sind Winkel):
+1 2
+Additionstheoreme fu¨r die Sinus-, Kosinus- und Tangensfunktion
+sinðx (cid:3) x Þ ¼ sinx (cid:7) cosx (cid:3) cosx (cid:7) sinx ðIII-130Þ
+1 2 1 2 1 2
+cosðx (cid:3) x Þ ¼ cosx (cid:7) cosx (cid:14) sinx (cid:7) sinx ðIII-131Þ
+1 2 1 2 1 2
+tanx (cid:3) tanx
+tanðx (cid:3) x Þ ¼ 1 2 ðIII-132Þ
+1 2 1 (cid:14) tanx (cid:7) tanx
+1 2
+Aus ihnen lassen sich weitere wichtige Beziehungen herleiten. Setzt man zum Beispiel
+in den Additionstheoremen von Sinus und Kosinus x ¼ x ¼ x und nimmt jeweils
+1 2
+das obere Vorzeichen, so erha¨lt man folgende Formeln:
+sinð2xÞ ¼ 2 (cid:7) sinx (cid:7) cosx ðIII-133Þ
+cosð2xÞ ¼ cos2 x (cid:4) sin2 x ðIII-134Þ
+Aus diesen wiederum ergeben sich zusammen mit dem trigonometrischen Pythagoras
+(III-129) die Beziehungen
+1 1
+sin2 x ¼ ½1 (cid:4) cosð2xÞ(cid:9) und cos2 x ¼ ½1 þ cosð2xÞ(cid:9) ðIII-135Þ
+2 2
+
+=== PDF PAGE 276 ===
+252 III Funktionen und Kurven
+9.5 Anwendungen in der Schwingungslehre
+9.5.1 Harmonische Schwingungen (Sinusschwingungen)
+9.5.1.1 Die allgemeine Sinus- und Kosinusfunktion
+Bei der Beschreibung von (mechanischen oder elektromagnetischen) Schwingungsvor-
+ga¨ngen beno¨tigt man Sinus- und Kosinusfunktionen in der allgemeinsten Form
+y ¼ a (cid:7) sinðbx þ cÞ bzw: y ¼ a (cid:7) cosðbx þ cÞ ðIII-136Þ
+ða > 0,b > 0Þ. Die Bedeutung der drei Konstanten (Kurvenparameter) a, b und c
+und die von ihnen verursachten Vera¨nderungen gegenu¨ber der Ausgangsfunktion
+y ¼ sinx bzw. y ¼ cosx werden im Folgenden ausfu¨hrlich beschrieben, wobei wir
+uns zuna¨chst auf die Sinusfunktion beschra¨nken werden. Wir gehen also von der elemen-
+taren Sinusfunktion y ¼ sinx aus und untersuchen, welchen Einfluss die drei Kurven-
+parameter haben, wenn diese nacheinandereinzeln eingefu¨hrt werden.
+Bedeutung der Konstanten a ðy ¼ sinx (cid:4)(cid:4)(cid:4)(cid:4)(cid:4)I y ¼ a (cid:7) sinxÞ
+Der Faktor a in der Funktion y ¼ a (cid:7) sinx bewirkt eine Vera¨nderung der Funktions-
+werte gegenu¨ber der Ausgangsfunktion y ¼ sinx. Der neue Wertebereich lautet:
+(cid:4)a (cid:5) y (cid:5) a. Die Sinuskurve wird also in der y-Richtung gedehnt (falls a > 1) oder
+gestaucht (falls a < 1).
+& Beispiel
+y ¼ 2 (cid:7) sinx: Die Ordinatenwerte haben sich verdoppelt.
+Wertebereich: (cid:4)2 (cid:5) y (cid:5) 2 (siehe Bild III-116)
+y
+y=2·sinx
+2
+y=sinx
+1
+–p 0 p 2p 3p x
+–1
+–2
+BildIII-116 Funktionsgraphenvon y ¼ sinx und y ¼ 2 (cid:7) sinx
+&
+
+=== PDF PAGE 277 ===
+9 Trigonometrische Funktionen 253
+Bedeutung der Konstanten b ðy ¼ sinx (cid:4)(cid:4)(cid:4)(cid:4)(cid:4)I y ¼ sinðbxÞÞ
+Der Faktor b im Argument der Sinusfunktion y ¼ sinðbxÞ vera¨ndert gegenu¨ber der
+Ausgangsfunktion y ¼ sinx die Periode:
+2p
+y ¼ sinðbxÞ: Periodep ¼ ðvorher: p ¼ 2pÞ
+b
+Denn es gilt:
+(cid:16) (cid:9) (cid:10)(cid:17)
+2p
+sin½bðx þ pÞ(cid:9) ¼ sin b x þ ¼ sinðbx þ 2pÞ ¼ sinðbxÞ ðIII-137Þ
+b
+Dabei bewirkt b > 1 eine Verkleinerung, b < 1 dagegen eine Vergro¨ßerung der Peri-
+ode. Die Sinuskurve wird also in der x-Richtung gestaucht oder gedehnt.
+& Beispiele
+(1) y ¼ sinð2xÞ: Periode p ¼ 2p=2 ¼ p (siehe Bild III-117)
+Die Periode der Sinuskurve wurde halbiert, die Kurve somit in der x-Richtung ge-
+staucht.
+y
+y=sinx y=sin(2x)
+1
+–p p 0 p p 3 2p 5 3p x
+– p p
+2 2 2 2
+–1
+BildIII-117 Funktionsgraphenvon y ¼ sinx und y ¼ sinð2xÞ
+(2) y ¼ sinðpxÞ: p ¼ 2p=p ¼ 2
+y ¼ sinð4xÞ: p ¼ 2p=4 ¼ p=2
+y ¼ sinð0,2xÞ: p ¼ 2p=0,2 ¼ 10p &
+Bedeutung der Konstanten c ðy ¼ sinx (cid:4)(cid:4)(cid:4)(cid:4)(cid:4)I y ¼ sinðx þ cÞÞ
+Die Konstante c in der Sinusfunktion y ¼ sinðx þ cÞ bewirkt eine Verschiebung der
+Sinuskurve y ¼ sinx la¨ngs der x-Achse. Wa¨hrend die erste nichtnegative Nullstelle
+von y ¼ sinx bekanntlich an der Stelle x ¼ 0 liegt, befindet sich die entsprechende
+0
+Nullstelle von y ¼ sinðx þ cÞ an der Stelle x ¼ (cid:4)c (man setzt das Argument der
+0
+Funktion gleich Null):
+y ¼ sinðx þ cÞ ¼ sin0 ¼ 0 ) x þ c ¼ 0 ) x ¼ (cid:4)c ðIII-138Þ
+|fflffl{zfflffl} 0
+0
+
+=== PDF PAGE 278 ===
+254 III Funktionen und Kurven
+Die Kurve y ¼ sinðx þ cÞ „beginnt“ also nicht an der Stelle x ¼ 0 wie die ele-
+0
+mentare Sinusfunktion y ¼ sinx, sondern an der Stelle x ¼ (cid:4)c. Der Kurven-
+0
+parameter c bewirkt also eine Verschiebung der Kurve la¨ngs der x-Achse um die Stre-
+cke jcj. Fu¨r c > 0 ist die Kurve nach links, fu¨r c < 0 dagegen nach rechts
+verschoben.
+& Beispiele
+(1) y ¼ sinðx þ pÞ: Diese Funktion ist gegenu¨ber der Sinusfunktion y ¼ sinx um
+p Einheiten nach links verschoben (die Kurve „beginnt“ an der Stelle x ¼ (cid:4)p,
+0
+siehe hierzu Bild III-118). Sie la¨sst sich auch durch die Funktionsgleichung
+y ¼ (cid:4)sinx beschreiben (an der x-Achse gespiegelte Sinusfunktion). Dies folgt
+auch unmittelbar aus dem Additionstheorem der Sinusfunktion (Gleichung III-130
+mit x ¼ x und x ¼ p):
+1 2
+y ¼ sinðx þ pÞ ¼ sinx (cid:7) cosp þcosx (cid:7) sinp ¼ (cid:4)sinx
+|fflffl{zfflffl} |ffl{zffl}
+(cid:4)1 0
+y
+y=sinx y=sin(x+p)
+1
+–p 0 p 2p 3p x
+–1
+BildIII-118 Funktionsgraphenvon y ¼ sinx und y ¼ sinðx þ pÞ
+(2) y ¼ sinðx (cid:4) 1Þ: Diese Funktion ist gegenu¨ber der elementaren Sinusfunktion
+y ¼ sinx um eine Einheit nach rechts verschoben, die „1.Nullstelle“ liegt also
+bei x ¼ 1 (Bild III-119).
+0
+y
+y=sinx
+y=sin(x–1)
+1
+–p 0 1 p 2p 3p x
+–1
+BildIII-119 Funktionsgraphenvon y ¼ sinx und y ¼ sinðx (cid:4) 1Þ
+&
+
+=== PDF PAGE 279 ===
+9 Trigonometrische Funktionen 255
+Eigenschaften der allgemeinen Sinusfunktion y ¼ a (cid:7) sinðbx þ cÞ
+Die drei Kurvenparameter a > 0, b > 0 und c in der allgemeinen Sinusfunktion
+y ¼ a (cid:7) sinðbx þ cÞ bewirken insgesamt gegenu¨ber der elementaren Sinusfunktion
+y ¼ sinx die folgenden Vera¨nderungen in Periode, „1.Nullstelle“ und Wertebereich:
+EigenschaftenderallgemeinenSinusfunktion y ¼ a (cid:7) sinðbx þ cÞ (BildIII-120)
+Periode: p ¼ 2p=b (vorher: p ¼ 2p)
+1.Nullstelle: x ¼ (cid:4)c=b (vorher: x ¼ 0)
+0 0
+Wertebereich: (cid:4)a (cid:5) y (cid:5) a (vorher: (cid:4)1 (cid:5) y (cid:5) 1)
+y
+p=2p/b
+a
+x x +p x
+0 0
+y=a·sin(bx+c)
+–a
+BildIII-120 AllgemeineSinusfunktion y ¼ a (cid:7) sinðbx þ cÞ (gezeichnetfu¨r c > 0)
+Hinweise fu¨r eine Skizze (siehe Bild III-121)
+Sie wa¨hlen x als Anfangspunkt eines Periodenintervalls der La¨nge p ¼ 2p=b: x
+0 0
+eintragen, dannvon x aus die Strecke p nach rechts abtragen, der Endpunkt des Peri-
+0
+odenintervalls liegt dann bei x þ p. (cid:2)ber diesem Intervall liegt eine volle Sinuskurve
+0
+(Nullstellen in den beiden Randpunkten und in der Mitte, dazwischen jeweils genau in
+der Mitte liegen Maximum bzw. Minimum). Am Schluss mu¨ssen Sie noch den Maßstab
+auf der y-Achse a¨ndern ð(cid:4)a (cid:5) y (cid:5) aÞ.
+y
+a
+BildIII-121
+x x +p x
+0 0
+–a
+
+=== PDF PAGE 317 ===
+12 Logarithmusfunktionen 293
+Fu¨r den Exponenten x fu¨hrt man die Bezeichnung Logarithmus von r zur Basis a
+ein und kennzeichnet ihn durch das Symbol
+x ¼ log r ðIII-168Þ
+a
+Der Logarithmus von r zur Basis a ist demnach diejenige Zahl x, mit dem die Basis
+a zu potenzieren ist, um die Zahl r zu erhalten. Daher gilt:
+r ¼ ax , x ¼ log r ðIII-169Þ
+a
+& Beispiele
+(1) 1000 ¼ 103 , log 1000 ¼ log 103 ¼ 3
+10 10
+(2) log 32 ¼ 5 , 32 ¼ 25
+2
+(3) 0,01 ¼ 10(cid:4)2 , log 0,01 ¼ log 10(cid:4)2 ¼ (cid:4)2 &
+10 10
+Man beachte, dass Logarithmen definitionsgema¨ß nur fu¨r positive Zahlen und eine posi-
+tive Basis a mit a 6¼ 1 erkla¨rt sind. IhreBerechnung erfolgt mit Hilfe spezieller Reihen
+(siehe hierzu auch Kap. VI). Die Werte werden tabelliert und ko¨nnen dann einer sog.
+Logarithmentafel entnommen werden oder (bequemer) auf einem Taschenrechner direkt
+abgelesen werden.
+Fu¨r Logarithmen gelten folgende Rechenregeln (mit u > 0, v > 0 und n 2 R):
+Rechenregeln fu¨r Logarithmen Zahlenbeispiele
+(1) log ðu (cid:7) vÞ ¼ log u þ log v log ð8 (cid:7) 4Þ ¼ log 8 þ log 4 ¼ 3 þ 2 ¼ 5
+a a a 2 2 2
+(cid:9) (cid:10)
+(cid:4) (cid:5)
+u 81
+(2) log ¼ log u (cid:4) log v log ¼ log 81 (cid:4) log 27 ¼ 4 (cid:4) 3 ¼ 1
+a v a a 3 27 3 3
+(3) log un ¼ n (cid:7) log u log 1254 ¼ 4 (cid:7) log 125 ¼ 4 (cid:7) 3 ¼ 12
+a a 5 5
+Spezielle Logarithmen
+Von besonderer Bedeutung ist in den Anwendungen der natu¨rliche Logarithmus: Basis-
+zahl ist die Eulersche Zahl e. Er wird durch das Symbol
+log r (cid:16) lnr ðLogarithmusnaturalisÞ ðIII-170Þ
+e
+gekennzeichnet (gelesen: Natu¨rlicher Logarithmus von r). Daneben spielen auch noch
+die Logarithmen fu¨r die Basiszahlen a ¼ 10 und a ¼ 2 eine gewisse Rolle:
+log r (cid:16) lgr ðZehnerlogarithmusÞ ðIII-171Þ
+10
+(auch Briggscher oder Dekadischer Logarithmus genannt. Gelesen: Zehnerlogarithmus
+von r)
+log r (cid:16) lbr ðZweierlogarithmusÞ ðIII-172Þ
+2
+(auch Bina¨rlogarithmus genannt. Gelesen: Zweierlogarithmus von r)
+
+=== PDF PAGE 318 ===
+294 III Funktionen und Kurven
+& Beispiele
+Die folgenden Logarithmen wurden auf einem Taschenrechner abgelesen:
+ln50,3 ¼ 3,9180 lg108,56 ¼ 2,0357 lb328,9 ¼ 8,3615
+ln0,014 ¼ (cid:4)4,2687 lg0,783 ¼ (cid:4)0,1062 lb1,772 ¼ 0,8254 &
+Basiswechsel a ! b
+Logarithmen lassen sich problemlos von einer Basis a in eine andere Basis b wie folgt
+umrechnen:
+(cid:9) (cid:10)
+log r 1
+log r ¼ a ¼ (cid:7) log r ¼ K (cid:7) log r ðIII-173Þ
+b log b log b a a
+a |fflffl{zafflffl}
+K
+Folgerung: Bei einem Basiswechsel multiplizieren sich die Logarithmen mit einer Kons-
+tanten. Dieser Umrechnungsfaktor bei einem Wechsel von der Basis a zur Basis b ist
+der Kehrwert von log b.
+a
+So gilt beispielsweise fu¨r die Umrechnung zwischen dem Zehnerlogarithmus und dem
+natu¨rlichen Logarithmus:
+lgr lgr
+lnr ¼ ¼ ¼ 2,3026 (cid:7) lgr ðIII-174Þ
+lge 0,4343
+lnr lnr
+lgr ¼ ¼ ¼ 0,4343 (cid:7) lnr ðIII-175Þ
+ln10 2,3026
+& Beispiele
+(1) ln4,765 ¼ 1,5613, lg4,765 ¼ ?
+lg4,765 ¼ 0,4343 (cid:7) ln4,765 ¼ 0,4343 (cid:7) 1,5613 ¼ 0,6781
+(2) lg144,08 ¼ 2,1586, ln144,08 ¼ ?
+ln144,08 ¼ 2,3026 (cid:7) lg144,08 ¼ 2,3026 (cid:7) 2,1586 ¼ 4,9704
+(3) Beim Wechsel von der Basis a ¼ e zur Basis b ¼ 2 multiplizieren sich die
+Logarithmen mit der folgenden Konstante:
+1 1 1
+K ¼ ¼ ¼ ¼ 1,4427 &
+log 2 ln2 0,6931
+e
+
+=== PDF PAGE 319 ===
+12 Logarithmusfunktionen 295
+12.2 Definition und Eigenschaften einer Logarithmusfunktion
+Die Exponentialfunktionen verlaufen streng monoton (wachsend oder fallend) und sind
+somit in ihrem Definitionsbereich umkehrbar. Ihre Umkehrfunktionen werden als Loga-
+rithmusfunktionen bezeichnet.
+Definition: Unter der Logarithmusfunktion y ¼ log x versteht man die Umkehr-
+a
+funktion der Exponentialfunktion y ¼ ax ða > 0,a 6¼ 1Þ.
+Die Eigenschaften der Logarithmusfunktionen sind in Tabelle 8 im Einzelnen aufgefu¨hrt.
+Sie ergeben sich unmittelbar aus den Eigenschaften der zugeho¨rigen Exponentialfunktio-
+nen. Den Funktionsgraph einer speziellen Logarithmusfunktion erha¨lt man durch Spiege-
+lung der entsprechenden Exponentialfunktion an der Winkelhalbierenden des 1. und
+3.Quadranten (siehe hierzu Bild III-167).
+Tabelle 8: Eigenschaften der Logarithmusfunktionen (Bild III-166)
+y ¼ ax y ¼ log x
+a
+Definitionsbereich (cid:4)1 < x < 1 0 < x < 1
+Wertebereich 0 < y < 1 (cid:4)1 < y < 1
+Nullstellen x ¼ 1
+0
+0 < a < 1: streng monoton fallend
+Monotonie
+a > 1: streng monoton wachsend
+Asymptoten y ¼ 0 (x-Achse) x ¼ 0 (y-Achse)
+Anmerkungen
+(1) Man beachte, dass Logarithmen nur fu¨r positive reelle Zahlen ðx > 0Þ und eine
+positive Basis a 6¼ 1 gebildet werden ko¨nnen.
+(2) Die Logarithmusfunktionen besitzen unabha¨ngig von der Basis a genau eine
+Nullstelle bei x ¼ 1:
+0
+log 1 ¼ 0 ðIII-176Þ
+a
+Alle Kurven gehen somit an dieser Stelle durch die x-Achse (siehe hierzu auch
+Bild III-166).
+& Beispiele
+Bild III-166 zeigt den Verlauf der beiden Logarithmusfunktionen y ¼ log 0,5 x (Um-
+kehrfunktionvon y ¼ 0,5x) und y ¼ lnx (Umkehrfunktionvon y ¼ ex).
+
+=== PDF PAGE 320 ===
+296 III Funktionen und Kurven
+y
+3
+y=lnx
+2
+BildIII-166
+1 Funktionsgraphen
+derlogarithmischenFunktionen
+1 2 3 4 5 6 x
+y ¼ log 0,5 x und y ¼ lnx
+–1
+y=log x
+0,5
+–2
+–3
+&
+Spezielle Logarithmusfunktionen
+Von großer praktischer Bedeutung ist die Umkehrfunktion der e-Funktion:
+y ¼ log x (cid:16) lnx ðx > 0Þ ðIII-177Þ
+e
+(natu¨rliche Logarithmusfunktion). Sie wird auch kurz als ln-Funktion bezeichnet. Dane-
+ben spielen die Umkehrfunktionen von y ¼ 10x und y ¼ 2x nur eine untergeordnete
+Rolle. Auch sie werden wie folgt durch eigene Symbole gekennzeichnet:
+y ¼ log x (cid:16) lgx ðx > 0Þ ðIII-178Þ
+10
+y ¼ log x (cid:16) lbx ðx > 0Þ ðIII-179Þ
+2
+In Bild III-167 zeigen wir, wie man die Funktionskurve von y ¼ lnx durch Spiegelung
+der e-Funktion y ¼ ex an der Winkelhalbierenden des 1. und 3.Quadranten erha¨lt.
+y
+y=ex
+y=x
+BildIII-167
+Funktionsgraphen
+1 dere-Funktion y ¼ ex
+y=lnx
+undihrer
+Umkehrfunktion y ¼ lnx
+1 x
+
+=== PDF PAGE 756 ===
+732 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+0 1 0 1 0 1 0 1
+(cid:4)1 (cid:4)2 0 (cid:4) 12 (cid:4)12
+c) ð(cid:4)~aa þ 2~ccÞ (cid:13) ð(cid:4)bb ~ Þ ¼ B @ 0 C A (cid:13) B @ 1 C A ¼ B @(cid:4)24 (cid:4) 2 C A ¼ B @(cid:4)26 C A
+12 (cid:4)2 (cid:4)1 (cid:4) 0 (cid:4)1
+0 1 0 1 0 1 0 1
+2 (cid:4)2 104 þ 132 236
+d) ð2~aaÞ (cid:13) ð(cid:4)bb ~ þ 5~ccÞ ¼ B @ 8 C A (cid:13) B @ 11 C A ¼ B @ 24 (cid:4) 26 C A ¼ B @(cid:4)2 C A
+(cid:4)12 13 22 þ 16 38
+0 1 0 1 0 1 0 1
+4 (cid:4)3 30 þ 5 35
+24) a) ~aa (cid:13) bb ~ ¼ B @(cid:4)10 C A(cid:13) B @(cid:4)1 C A¼ B @(cid:4)15 þ 12 C A¼ B @ (cid:4)3 C A ) A ¼ j~aa (cid:13) bb ~ j ¼ 48,89
+5 (cid:4)3 (cid:4)4 (cid:4) 30 (cid:4)34
+0 1 0 1 0 1 0 1
+1 3 (cid:4)48 (cid:4) 0 (cid:4)48
+b) ~aa (cid:13) bb ~ ¼ B @(cid:4)4 C A(cid:13) B @ 1 C A¼ B @ 0 (cid:4) 12 C A¼ B @(cid:4)12 C A ) A ¼ j~aa (cid:13) bb ~ j ¼51,16
+0 12 1 þ 12 13
+25) 0,2m (cid:7) F þ 0,5m (cid:7) 600N ¼ 1m (cid:7) 400N ) F ¼ 500N
+26) DasSpatprodukt ½~aabb ~~cc(cid:9) mussverschwinden:
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8) 1 l 4(cid:8)
+½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)(cid:4)2 4 11 (cid:8) (cid:8) ¼ 4 (cid:4) 33l (cid:4) 40 þ 48 (cid:4) 55 þ 2l ¼ 0 )
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:4)3 5 1
+(cid:4)31l (cid:4) 43 ¼ 0 ) l ¼ (cid:4)43=31
+27) Die drei Vektoren sind komplanar (liegen in einer Ebene), wenn ihr Spatprodukt verschwin-
+det.DiesistinbeidenTeilaufgabenderFall.
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)(cid:4)3 4 0(cid:8)
+a) ½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)(cid:4)2 3 5 (cid:8) (cid:8) ¼ (cid:4)225 (cid:4) 20 þ 0 (cid:4) 0 þ 45 þ 200 ¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:4)1 3 25
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)1 1 1(cid:8)
+b) ½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)1 0 2 (cid:8) (cid:8) ¼ 0 þ 2 þ 4 (cid:4) 0 (cid:4) 8 þ 2 ¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+1 4 (cid:4)2
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)(cid:4)1 1 (cid:4)1(cid:8)
+28) ½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8) 3 4 7 (cid:8) (cid:8) ¼ 32 þ 7 (cid:4) 6 þ 4 þ 14 þ 24 ¼ 75 )
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+1 2 (cid:4)8
+V ¼ j½~aa bb ~~cc(cid:9)j ¼ 75
+Spat
+
+=== PDF PAGE 757 ===
+II Vektoralgebra 733
+29) BeideSeitenderGleichungfu¨hrenzudemfolgendenVektor:
+0 1
+ða b (cid:4) a b Þc (cid:4) ða b (cid:4) a b Þc
+z x x z z x y y x y
+B C
+B C
+@ða x b y (cid:4) a y b x Þc x (cid:4) ða y b z (cid:4) a z b y Þc zA
+ða b (cid:4) a b Þc (cid:4) ða b (cid:4) a b Þc
+y z z y y z x x z x
+30) a) Aus der Vektorgleichung l ~aa þ l bb ~ ¼ ~ 00 folgt das homogene lineare Gleichungs-
+1 2
+system
+0 1 0 1
+3l þ l 0 3l þ l ¼ 0
+1 2 1 2
+B C B C
+B C B C
+@0l
+1
+þ5l 2A¼@0A oder 5l
+2
+¼ 0 ð) l
+2
+¼ 0Þ
+l 1 þ l 2 0 l 1 þ l 2 ¼ 0 ð) l 1 ¼ (cid:4)l 2 ¼ 0Þ
+mit der eindeutigen Lo¨sung l ¼ l ¼ 0. Die Vektoren ~aa und bb ~ sind somit linear
+1 2
+unabha¨ngig.
+b) DasSpatproduktderdreiVektoren ~aa,bb ~ und ~cc istvonnullverschieden:
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)1 (cid:4)6 (cid:4)4(cid:8)
+½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)1 (cid:4)2 (cid:4)2 (cid:8) (cid:8) ¼ (cid:4)6 þ 12 (cid:4) 8 (cid:4) 8 þ 4 þ 18 ¼ 12 6¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+1 2 3
+DieVektorensindsomitlinearunabha¨ngig.
+31) a) bb ~ ¼ (cid:4)3~aa ) Die Vektoren ~aa und bb ~ sind kollinear (antiparallel) und somit linear
+abha¨ngig.
+b) DasSpatproduktderdreiVektoren ~aa,bb ~ und ~cc verschwindet:
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8) 1 2 5(cid:8)
+½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)(cid:4)1 (cid:4)2 3 (cid:8) (cid:8) ¼ (cid:4)2 þ 30 (cid:4) 50 þ 50 (cid:4) 30 þ 2 ¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+5 10 1
+DieVektorensinddaherlinearabha¨ngig.
+32) WirbildenjeweilsdasSpatproduktderdreiVektoren.
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)1 (cid:4)1 2(cid:8)
+a) ½~aa bb ~~cc(cid:9) ¼ (cid:8) (cid:8)5 1 2 (cid:8) (cid:8) ¼ 3 (cid:4) 2 þ 20 (cid:4) 2 (cid:4) 4 þ 15 ¼ 30 6¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+1 2 3
+DieVektorensindsomitlinearunabha¨ngig.
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8) 1 (cid:4)1 2(cid:8)
+b) ½~aa bb ~ dd ~ (cid:9) ¼ (cid:8) (cid:8) 5 1 2 (cid:8) (cid:8) ¼ 2 (cid:4) 26 þ 50 (cid:4) 26 (cid:4) 10 þ 10 ¼ 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+13 5 2
+DieVektorensindsomitlinearabha¨ngig.
+
+=== PDF PAGE 758 ===
+734 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+Abschnitt 4
+Hinweis: Die in den Vektorgleichungen der Geraden und Ebenen enthaltenen Parameter ðl, l , l ,
+1 2
+m usw:ÞsindjeweilsreellunddurchlaufenalleWertevon (cid:4)1 bis þ1.
+0 1 0 1 0 1
+4 (cid:4)1 4 (cid:4) l
+B C B C B C
+1) a) ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ l~aa ¼ @0A þ l@ 1A ¼ @ l A
+1
+3 (cid:4)1 3 (cid:4) l
+l ¼ 1: Q ¼ ð3;1;2Þ; l ¼ 2: Q ¼ ð2;2;1Þ; l ¼ (cid:4)5: Q ¼ ð9; (cid:4)5;8Þ
+1 2 3
+0 1 0 1 0 1
+3 5 3 þ 5l
+B C B C B C
+b) ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ l~aa ¼ @(cid:4)2A þ l@2A ¼ @(cid:4)2 þ 2lA
+1
+1 3 1 þ 3l
+l ¼ 1: Q ¼ ð8;0;4Þ; l ¼ 2: Q ¼ ð13;2;7Þ;
+1 2
+l ¼ (cid:4)5: Q ¼ ð(cid:4)22; (cid:4)12; (cid:4)14Þ
+3
+0 1 0 1 0 1
+1 6 (cid:4) 1 1 þ 5l
+B C B C B C
+2) a) ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ lð~rr (cid:4)~rr Þ ¼ @ 3A þ l@5 (cid:4) 3A ¼ @ 3 þ 2lA
+1 2 1
+(cid:4)2 8 þ 2 (cid:4)2 þ 10l
+l ¼ (cid:4)2: Q ¼ ð(cid:4)9; (cid:4)1; (cid:4)22Þ; l ¼ 3: Q ¼ ð16;9;28Þ;
+1 2
+l ¼ 5: Q ¼ ð26;13;48Þ
+3
+0 1 0 1 0 1
+(cid:4)2 1 þ 2 (cid:4)2 þ 3l
+B C B C B C
+b) ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ lð~rr (cid:4)~rr Þ ¼ @ 3A þ l@0 (cid:4) 3A ¼ @ 3 (cid:4) 3lA
+1 2 1
+1 5 (cid:4) 1 1 þ 4l
+l ¼ (cid:4)2: Q ¼ ð(cid:4)8;9; (cid:4) 7Þ; l ¼ 3: Q ¼ ð7; (cid:4)6;13Þ;
+1 2
+l ¼ 5: Q ¼ ð13; (cid:4)12;21Þ
+3
+0 1 0 1 0 1
+10 1 (cid:4) 10 10 (cid:4) 9l
+B C B C B C
+3) ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ lð~rr (cid:4)~rr Þ ¼ @ 5A þ l@2 (cid:4) 5A ¼ @ 5 (cid:4) 3lA
+1 2 1
+(cid:4)1 5 þ 1 (cid:4)1 þ 6l
+(cid:11)(cid:11)(cid:11)!
+ZurMitte Q von P P geho¨rtderParameterwert l ¼ 0,5. SomitistQ ¼ ð5,5;3,5;2Þ.
+1 2
+(cid:11)(cid:11)(cid:11)! (cid:11)(cid:11)(cid:11)!
+4) Ja,dadieVektoren P P und P P kollinear(parallel)sind:
+1 2 1 3
+0 1 0 1 0 1
+(cid:4)2 (cid:4)10 (cid:4)2
+(cid:11)(cid:11)(cid:11)! B C (cid:11)(cid:11)(cid:11)! B C B C (cid:11)(cid:11)(cid:11)!
+P P ¼ @ 1A; P P ¼ @ 5A ¼ 5@ 1A ¼ 5P P
+1 2 1 3 1 2
+(cid:4)3 (cid:4)15 (cid:4)3
+0 1 0 1 0 1
+3 (cid:4)2 3 (cid:4) 2l
+(cid:11)(cid:11)(cid:11)! B C B C B C
+Geradengleichung: ~rrðlÞ ¼ ~rr þ lP P ¼ @0A þ l@ 1A ¼ @ l A
+1 1 2
+4 (cid:4)3 4 (cid:4) 3l
+
+=== PDF PAGE 759 ===
+II Vektoralgebra 735
+0 1 0 1 0 1 0 1
+2 0 (cid:4)2 þ 3 1
+B C B C B C B C
+5) ~aa (cid:13) ð~rr (cid:4)~rr Þ ¼ @1A (cid:13) @(cid:4)1A ¼ @ 0 þ 4A ¼ @ 4A
+Q 1
+3 (cid:4)2 (cid:4)2 (cid:4) 0 (cid:4)2
+pffiffiffiffiffiffi
+j~aa (cid:13) ð~rr (cid:4)~rr Þj 21
+Abstand: d ¼ Q 1 ¼ pffiffiffiffiffiffi ¼ 1,22
+j~aaj
+14
+0 1 0 1 0 1 0 1
+3 4 3 þ 2 5
+B C B C B C B C
+6) ~aa (cid:13) ð~rr (cid:4)~rr Þ ¼ @(cid:4)1A (cid:13) @(cid:4)1A ¼ @ 8 þ 9A ¼ @17A
+2 1
+2 (cid:4)3 (cid:4)3 þ 4 1
+pffiffiffiffiffiffiffiffi
+j~aa (cid:13) ð~rr (cid:4)~rr Þj 315
+Abstand: d ¼ 2 1 ¼ pffiffiffiffiffiffi ¼ 4,74
+j~aaj
+14
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+7) cosa ¼ 1 (cid:4) cos2b (cid:4) cos2g ¼ 1 (cid:4) cos260(cid:11) (cid:4) cos245(cid:11) ¼ 0,5 ) a ¼ 60(cid:11)
+0 1 0 1 0 1
+a (cid:7) cosa 1 (cid:7) cos60(cid:11) 0,5
+B C B C B C
+Richtungsvektor: ~aa ¼ @a (cid:7) cosbA ¼ @1 (cid:7) cos60(cid:11)A ¼ @0,5 A
+a (cid:7) cosg 1 (cid:7) cos45(cid:11) 0,707
+0 1 0 1 0 1
+1 0,5 1 þ 0,5l
+B C B C B C
+Geradengleichung: ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr þ l~aa ¼@(cid:4)2Aþ l@0,5 A¼@(cid:4)2 þ 0,5l A
+1
+8 0,707 8 þ 0,707l
+Schnittpunktmitderx,y-Ebeneðz ¼ 0, d:h: l ¼ (cid:4)11,315Þ: S ¼ ð(cid:4)4,66; (cid:4)7,66;0Þ
+xy
+Schnittpunktmitdery,z-Ebeneðx ¼ 0, d:h: l ¼ (cid:4)2Þ: S ¼ ð0; (cid:4)3;6,59Þ
+yz
+Schnittpunktmitderx,z-Ebeneðy ¼ 0, d:h: l ¼ 4Þ: S ¼ ð3;0;10,83Þ
+xz
+pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+8) cosg ¼ (cid:4) 1 (cid:4) cos2a (cid:4) cos2b ¼ (cid:4) 1 (cid:4) cos230(cid:11) (cid:4) cos290(cid:11) ¼ (cid:4)0,5 ) g ¼ 120(cid:11)
+DerBetragdesRichtungsvektors ~aa istfreiwa¨hlbar.Wirsetzen j~aaj ¼ a ¼ 2 underhalten:
+0 1 0 1 0pffiffiffiffi1
+a (cid:7) cosa 2 (cid:7) cos30(cid:11) 3
+B C B C B C
+~aa ¼ @a (cid:7) cosbA ¼ @ 2 (cid:7) cos90(cid:11) A ¼ @ 0A
+a (cid:7) cosg 2 (cid:7) cos120(cid:11) (cid:4)1
+0 1 0pffiffiffiffi1 0 pffiffiffiffi 1
+5 3 5 þ 3l
+Geradengleichung: ~rrðPÞ ¼ ~rrðlÞ ¼ ~rr 1 þ l~aa ¼ B @3 C A þ l B @ 0 C A ¼ B B @ 3 C C A
+1 (cid:4)1 1 (cid:4) l
+(cid:11)(cid:11)(cid:11)! (cid:11)(cid:11)(cid:11)!
+9) a) GleichungenderGeraden(Richtungsvektoren: ~aa ¼ P P bzw. ~aa ¼ P P ):
+1 1 2 2 3 4
+0 1 0 1 0 1
+3 (cid:4)4 3 (cid:4) 4l
+(cid:11)(cid:11)(cid:11)! B C B C B 1 C
+g : ~rrðl Þ ¼ ~rr þ l P P ¼ @4A þ l @(cid:4)6A ¼ @4 (cid:4) 6l A
+1 1 1 1 1 2 1 1
+6 (cid:4)2 6 (cid:4) 2l
+1
+
+=== PDF PAGE 760 ===
+736 Anhang: Lo¨sungen der (cid:2)bungsaufgaben
+0 1 0 1 0 1
+3 2 3 þ 2l
+(cid:11)(cid:11)(cid:11)! B C B C B 2 C
+g : ~rrðl Þ ¼ ~rr þ l P P ¼ @ 7A þ l @ 8A ¼ @ 7 þ 8l A
+2 2 3 2 3 4 2 2
+(cid:4)2 (cid:4)4 (cid:4)2 (cid:4) 4l
+2
+g und g sindwindschiefwegen ~aa (cid:13) ~aa 6¼ ~ 00 und ½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) 6¼ 0:
+1 2 1 2 1 2 3 1
+0 1 0 1 0 1 0 1
+(cid:4)4 2 24 þ 16 40
+~aa (cid:13) ~aa ¼ B @(cid:4)6 C A (cid:13) B @ 8 C A ¼ B @ (cid:4)4 (cid:4) 16 C A ¼ B @(cid:4)20 C A 6¼ ~ 00
+1 2
+(cid:4)2 (cid:4)4 (cid:4)32 þ 12 (cid:4)20
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)(cid:4)4 (cid:4)6 (cid:4)2(cid:8)
+(cid:8) (cid:8)
+½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) ¼ (cid:8) 2 8 (cid:4)4(cid:8) ¼ 256 þ 0 (cid:4) 12 (cid:4) 0 (cid:4) 48 (cid:4) 96 ¼ 100 6¼ 0
+1 2 3 1 (cid:8) (cid:8)
+(cid:8) (cid:8)
+0 3 (cid:4)8
+j½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9)j 100
+AbstandderGeraden: d ¼ 1 2 3 1 ¼ pffiffiffiffi ¼ 2,04
+j~aa 1 (cid:13) ~aa 2 j 20 6
+b) DieGeradensindparallel: ~aa ¼ (cid:4)3~aa (kollineareRichtungsvektoren).
+0 1 2 0 11 0 1 0 1
+(cid:4)2 (cid:4)4 5 (cid:4) 0 5
+B C B C B C B C
+~aa (cid:13) ð~rr (cid:4)~rr Þ ¼ @ 1A (cid:13) @ 0A ¼ @(cid:4)12 þ 10A ¼ @(cid:4)2A
+1 2 1
+3 5 0 þ 4 4
+pffiffiffiffiffiffi
+j~aa (cid:13) ð~rr (cid:4)~rr Þj 45
+AbstandderGeraden: d ¼ 1 2 1 ¼ pffiffiffiffiffiffi ¼ 1,79
+j~aa 1 j 14
+c) Die Geraden schneiden sich wegen ~aa (cid:13) ~aa 6¼ ~ 00 und ½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) ¼ 0 in ei-
+1 2 1 2 2 1
+nemPunkt S:
+0 1 0 1 0 1 0 1
+2 1 0 þ 10 10
+~aa (cid:13)~aa ¼ B @0 C A (cid:13) B @(cid:4)2 C A ¼ B @ 5 (cid:4) 6 C A ¼ B @(cid:4)1 C A 6¼ ~ 00
+1 2
+5 3 (cid:4)4 (cid:4) 0 (cid:4)4
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)2 0 5(cid:8)
+(cid:8) (cid:8)
+½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) ¼ (cid:8)1 (cid:4)2 3(cid:8) ¼ (cid:4)52 þ 0 (cid:4) 10 þ 50 þ 12 (cid:4) 0 ¼ 0
+1 2 2 1 (cid:8) (cid:8)
+(cid:8) (cid:8)
+5 (cid:4)2 13
+Geradengleichungen: 0 1 0 1 0 1
+1 2 1 þ 2l
+1
+B C B C B C
+g : ~rrðl Þ ¼ ~rr þ l ~aa ¼ @2A þ l @0A ¼ @ 2 A
+1 1 1 1 1 1
+0 5 5l
+1
+0 1 0 1 0 1
+6 1 6 þ l
+2
+B C B C B C
+g : ~rrðl Þ ¼ ~rr þ l ~aa ¼ @ 0A þ l @(cid:4)2A ¼ @ (cid:4)2l A
+2 2 2 2 2 2 2
+13 3 13 þ 3l
+2
+
+=== PDF PAGE 761 ===
+II Vektoralgebra 737
+BerechnungdesSchnittpunktes S mitdemOrtsvektor ~rr ¼ ~rrðl Þ ¼ ~rrðl Þ:
+S 1 2
+0 1 0 1 9
+1 þ 2l
+1
+6 þ l
+2
+2l
+1
+(cid:4) l
+2
+¼ 5>=
+B C B C
+@ 2 A ¼ @ (cid:4)2l A ) 2l ¼ (cid:4)2 ) l ¼ 2; l ¼ (cid:4)1
+2 2 >; 1 2
+5l 13 þ 3l 5l (cid:4) 3l ¼ 13
+1 2 1 2
+0 1
+5
+B C
+~rr ¼ ~rrðl ¼ 2Þ ¼ ~rrðl ¼ (cid:4)1Þ ¼ @ 2A ) S ¼ ð5;2;10Þ
+S 1 2
+10
+(cid:9) (cid:10) (cid:9) (cid:10)
+~aa (cid:7)~aa 17
+Schnittwinkel: j¼ arccos 1 2 ¼ arccos pffiffiffiffiffiffi pffiffiffiffiffiffi ¼ 32,47(cid:11)
+j~aa 1 j (cid:7) j~aa 2 j 29 (cid:7) 14
+10) g und g sindwegen ~aa (cid:13) ~aa 6¼ ~ 00 und ½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) 6¼ 0 windschiefzueinander:
+1 2 1 2 1 2 2 1
+0 1 0 1 0 1 0 1
+1 0 1 (cid:4) 2 (cid:4)1
+B C B C B C B C
+~aa (cid:13) ~aa ¼ @1A (cid:13) @2A ¼ @0 (cid:4) 1A ¼ @(cid:4)1A 6¼ 0
+1 2
+1 1 2 (cid:4) 0 2
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)1 1 1(cid:8)
+(cid:8) (cid:8)
+½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) ¼ (cid:8)0 2 1(cid:8) ¼ 0 þ 2 þ 0 (cid:4) 4 (cid:4) 5 (cid:4) 0 ¼ (cid:4)7 6¼ 0
+1 2 2 1 (cid:8) (cid:8)
+(cid:8) (cid:8)
+2 5 0
+j½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9)j j(cid:4)7 j
+AbstandderGeraden: d ¼ 1 2 2 1 ¼ pffiffiffiffi ¼ 2,86
+j~aa 1 (cid:13) ~aa 2 j 6
+11) GleichungderGeradendurchdieAchsenschnittpunkte P ¼ ð3;0;0Þ und P ¼ ð0;3;0Þ:
+1 2
+0 1 0 1
+3 (cid:4)3
+(cid:11)(cid:11)(cid:11)! B C B C
+g : ~rrðl Þ ¼ ~rr þ l P P ¼ ~rr þ l ~aa ¼ @0A þ l @ 3A
+1 1 1 1 1 2 1 1 1 1
+0 0
+Gleichungderz-Achsedurch P ¼ ð0;0;0Þ und P ¼ ð0;0;1Þ:
+3 4
+0 1 0 1
+0 0
+(cid:11)(cid:11)(cid:11)! B C B C
+g : ~rrðl Þ ¼ ~rr þ l P P ¼ ~rr þ l ~aa ¼ @0A þ l @0A
+2 2 3 2 3 4 3 2 2 2
+0 1
+DieGeradensindwindschiefzueinander,da ~aa (cid:13) ~aa 6¼ ~ 00 und½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) 6¼ 0 ist:
+1 2 1 2 3 1
+0 1 0 1 0 1 0 1
+(cid:4)3 0 3 (cid:4) 0 3
+~aa (cid:13) ~aa ¼ B @ 3 C A (cid:13) B @0 C A ¼ B @0 þ 3 C A ¼ B @3 C A 6¼ ~ 00
+1 2
+0 1 0 (cid:4) 0 0
+(cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:8)(cid:4)3 3 0(cid:8)
+(cid:8) (cid:8)
+½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9) ¼ (cid:8) 0 0 1(cid:8) ¼ 0 (cid:4) 9 þ 0 (cid:4) 0 (cid:4) 0 (cid:4) 0 ¼ (cid:4)9 6¼ 0
+1 2 3 1 (cid:8) (cid:8)
+(cid:8) (cid:8)
+(cid:4)3 0 0
+j½~aa ~aa ð~rr (cid:4)~rr Þ(cid:9)j j(cid:4)9 j
+AbstandderGeraden: d ¼ 1 2 3 1 ¼ pffiffiffiffiffiffi ¼ 2,12
+j~aa 1 (cid:13) ~aa 2 j 18
+

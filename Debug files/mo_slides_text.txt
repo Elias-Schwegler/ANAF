@@ -1,0 +1,54 @@
+=== PAGE 1 ===
+Fortgeschrittene Analysis (ANA-F)
+Semesterwoche 1
+Trigonometrische Funktionen
+Ron Porath und Joachim Wirth
+16. Februar 2026
+Porath|Wirth FortgeschritteneAnalysis(ANA-F) 16.Februar2026 1/4
+
+=== PAGE 2 ===
+Themen und Lernziele
+Themen
+▶ Trigonometrische Funktionen:
+Sinus, Kosinus, Tangens, Cotangens
+▶ Umkehrfunktionen der trignometrischen Funktionen:
+Arkussinus, Arkuskosinus, Arkustangens, Arkuskotangens
+▶ Trigonometrische Gleichungen
+Lernziele
+▶ Sicherer Umgang mit den obengenannten Funktionen
+▶ Ableitungen der trigonometrischen Funktionen und ihrer Umkehrfunktionen berechnen
+▶ L¨osen trigonometrischer Gleichungen
+Porath|Wirth FortgeschritteneAnalysis(ANA-F) 16.Februar2026 2/4
+
+=== PAGE 10 ===
+Wichtige Formeln
+Trigonometrischer Pythagoras
+sin2(x)+cos2(x) = 1
+Additionstheoreme
+sin(x ±y) = sin(x) cos(y) ± cos(x) sin(y)
+cos(x ±y) = cos(x) cos(y) ∓ sin(x) sin(y)
+Tangens und Kotangens
+sin(x)
+tan(x) =
+cos(x)
+cos(x) 1
+cot(x) = =
+sin(x) tan(x)
+Porath|Wirth FortgeschritteneAnalysis(ANA-F) 16.Februar2026 3/4
+
+=== PAGE 11 ===
+Do It Yourself“
+”
+Theorie
+Papula Band 1 III
+9, Seiten 243 – 258, Trigonometrische Funktionen
+10, Seiten 271 – 277, Arkusfunktionen
+10.5, Seiten 278 – 279, Trigonometrische Gleichungen
+U¨bungen
+Papula Band 1 III
+U¨bungsaufgaben zu den Abschnitten 9 und 10, Seiten 317 – 320
+Empfohlen: Aufgaben 1, 4, 5, 13 und 16
+Andere Aufgaben: Optional
+L¨osungen: Seiten 756 – 761
+Porath|Wirth FortgeschritteneAnalysis(ANA-F) 16.Februar2026 4/4
+
