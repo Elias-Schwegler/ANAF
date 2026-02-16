@@ -37,6 +37,14 @@
 | sin | 0 | 1/2 | √2/2 | √3/2 | 1 | √2/2 | 0 | −√2/2 | −1 | −√2/2 | 0 |
 | cos | 1 | √3/2 | √2/2 | 1/2 | 0 | −√2/2 | −1 | −√2/2 | 0 | √2/2 | 1 |
 
+### Intuition am Einheitskreis
+
+- **Sinus** = projizierte Distanz vom Punkt auf dem Einheitskreis auf die **X-Achse** (Ordinate)
+- **Kosinus** = projizierte Distanz vom Punkt auf dem Einheitskreis auf die **Y-Achse** (Abszisse)
+- **Bei 45°:** Gleichschenkliges Dreieck → x = y, mit x² + y² = 1 → x = y = 1/√2 = **√2/2**
+- **Merke:** √2/2 = 1/√2 (gleicher Wert, andere Schreibweise)
+- **Kosinus-Herkunft:** cos(α) = sin(Komplementärwinkel) = sin(90° − α)
+
 ### Umrechnung Grad ↔ Radiant
 
 Grundgleichung: φ / 360 = s / 2π
@@ -125,6 +133,18 @@ $$y = a \cdot \sin(bx + c)$$
 
 Trigonometrische Funktionen sind **nicht umkehrbar** (fehlende Monotonie durch Periodizität). Lösung: Einschränkung auf ein **monotones Intervall**.
 
+### Prinzip der Umkehrung
+
+Bei einer Umkehrung werden **Definitionsbereich und Wertebereich vertauscht**. Graphisch entsteht die Umkehrfunktion durch **Spiegelung an der Winkelhalbierenden y = x**.
+
+**Beispiel:** y = x² → x = y² → **y = √x** (nur positive Wurzel)
+
+![Spiegelung von y=x² an y=x → Umkehrfunktion y=√x](Spielgelung_xhochzwei.png)
+
+- **Blau:** Originalfunktion f: ℝ₀⁺ → ℝ₀⁺, x ↦ x²
+- **Grün:** Umkehrfunktion f⁻¹: ℝ₀⁺ → ℝ₀⁺, x ↦ √x
+- **Grau:** Spiegelachse y = x
+
 ## 2.2 Übersicht Arkusfunktionen
 
 | Funktion | Einschränkungsintervall | Definitionsbereich | Wertebereich | Monotonie |
@@ -157,7 +177,69 @@ $$\text{arccot}(x) = \frac{\pi}{2} - \arctan(x)$$
 
 arctan(1) = π/4 (45°)
 
-## 2.4 Aufgabentypen
+## 2.4 Ableitungen der trigonometrischen Funktionen und Arkusfunktionen
+
+> Lernziel: "Ableitungen der trigonometrischen Funktionen und ihrer Umkehrfunktionen berechnen"
+
+### Ableitungen der trig. Funktionen
+
+| Funktion | Ableitung |
+|---|---|
+| sin(x) | cos(x) |
+| cos(x) | −sin(x) |
+| tan(x) | 1/cos²(x) = 1 + tan²(x) |
+| cot(x) | −1/sin²(x) |
+
+### Allgemeine Formel: Ableitung einer Umkehrfunktion
+
+Aus f⁻¹(f(x)) = x und f(f⁻¹(x)) = x folgt durch Ableiten (Kettenregel):
+
+$$f'(f^{-1}(x)) \cdot (f^{-1}(x))' = 1$$
+
+$$\boxed{(f^{-1}(x))' = \frac{1}{f'(f^{-1}(x))}}$$
+
+![Herleitung der Ableitung der Umkehrfunktion](Ableitung%20der%20umkehrunktion%20usw.png)
+
+### Anwendung auf arcsin(x) – Schritt für Schritt
+
+Wir setzen: f(x) = sin(x), also f⁻¹(x) = arcsin(x), und f'(x) = cos(x)
+
+![Start: arcsin-Ableitung einsetzen](Ableitung%20von%20arcsin.png)
+
+**Schritt 1:** Allgemeine Formel anwenden:
+
+$$(arcsin(x))' = \frac{1}{f'(f^{-1}(x))} = \frac{1}{\cos(\arcsin(x))}$$
+
+**Schritt 2:** cos(arcsin(x)) vereinfachen mit trig. Pythagoras:
+
+$$\sin^2(x) + \cos^2(x) = 1 \quad \Rightarrow \quad \cos(x) = \pm\sqrt{1 - \sin^2(x)}$$
+
+![Vereinfachung: sin²+cos²=1 anwenden, ± wird zu +](arcsin%20in%20sin%20start%20der%20vereinfachung.png)
+
+**Schritt 3:** Einsetzen → sin(arcsin(x)) = x:
+
+$$\frac{1}{\pm\sqrt{1 - (\sin(\arcsin(x)))^2}} = \frac{1}{\pm\sqrt{1 - x^2}}$$
+
+**Schritt 4:** Warum **+** und nicht ±?
+
+> **Entscheidend:** arcsin(x) liefert nur Winkel y ∈ [−π/2, π/2].
+> In diesem Intervall ist **cos(y) immer ≥ 0** (Kosinus ist im 1. und 4. Quadranten positiv).
+> Deshalb fällt das ± weg und es bleibt **nur +√**.
+
+$$\boxed{\frac{d}{dx}\arcsin(x) = \frac{1}{\sqrt{1 - x^2}}}$$
+
+### Ableitungen aller Arkusfunktionen
+
+| Funktion | Ableitung |
+|---|---|
+| arcsin(x) | 1/√(1 − x²) |
+| arccos(x) | −1/√(1 − x²) |
+| arctan(x) | 1/(1 + x²) |
+| arccot(x) | −1/(1 + x²) |
+
+**Merke:** arcsin und arccos haben die gleiche Ableitung mit umgekehrtem Vorzeichen (ebenso arctan und arccot).
+
+## 2.5 Aufgabentypen
 
 1. **Arkusfunktionswerte berechnen** mit Taschenrechner (Aufg. 13)
 2. **Schwingungsüberlagerung**: Amplitude und Phase aus Zeigerdiagramm bestimmen (Aufg. 14, 15)
@@ -394,7 +476,48 @@ def arccot(x):
 print(arccot(1))                 # π/4 = 0.7854
 ```
 
-## 6.6 Trigonometrische Gleichungen lösen (→ Aufg. 16)
+## 6.6 Ableitung von arcsin – Zusammenhang mit trig. Pythagoras
+
+```python
+import numpy as np
+
+# === HERLEITUNG ===
+# y = arcsin(x)  →  sin(y) = x
+# Ableiten (Kettenregel): cos(y) · y' = 1  →  y' = 1/cos(y)
+#
+# HIER kommt der trig. Pythagoras ins Spiel:
+#   sin²(y) + cos²(y) = 1
+#   cos²(y) = 1 - sin²(y)
+#   cos(y)  = √(1 - sin²(y))
+#
+# Da sin(y) = x:
+#   cos(y)  = √(1 - x²)
+#   y'      = 1/√(1 - x²)
+
+# === NUMERISCHE VERIFIKATION ===
+x = 0.6
+
+# Analytische Ableitung: 1/√(1 - x²)
+ableitung_analytisch = 1 / np.sqrt(1 - x**2)
+
+# Numerische Ableitung (Differenzenquotient)
+h = 1e-8
+ableitung_numerisch = (np.arcsin(x + h) - np.arcsin(x)) / h
+
+print(f"Analytisch:  {ableitung_analytisch:.8f}")   # 1.25000000
+print(f"Numerisch:   {ableitung_numerisch:.8f}")     # 1.25000001
+print(f"Stimmt überein: {np.isclose(ableitung_analytisch, ableitung_numerisch)}")  # True
+
+# === WARUM trig. Pythagoras? ===
+# Ohne sin²+cos²=1 könnten wir cos(arcsin(x)) nicht vereinfachen!
+y = np.arcsin(x)                    # y = arcsin(0.6) = 0.6435 rad
+print(f"\nsin(y) = {np.sin(y):.4f}")          # 0.6 = x  ✓
+print(f"cos(y) = {np.cos(y):.4f}")            # 0.8
+print(f"√(1-x²) = {np.sqrt(1-x**2):.4f}")    # 0.8  ← gleich! (trig. Pythagoras)
+print(f"sin²+cos² = {np.sin(y)**2 + np.cos(y)**2:.1f}")  # 1.0 ✓
+```
+
+## 6.7 Trigonometrische Gleichungen lösen (→ Aufg. 16)
 
 ```python
 import numpy as np
