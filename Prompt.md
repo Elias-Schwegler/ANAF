@@ -53,4 +53,32 @@ Erstelle eine strukturierte Zusammenfassung der Semesterwoche als Markdown-Datei
 2. "Do It Yourself" Folie → Theorie-Referenzen und empfohlene Aufgaben notieren
 3. Papula-Kapitel extrahieren (PDF-Seiten lesen) → Formeln, Definitionen, Beispiele
 4. Übungsaufgaben und Lösungen aus dem Papula extrahieren
-5. Zusammenfassung nach obiger Struktur erstellen
+5. Vorlesungsnotizen (Screenshots) prüfen und in die Zusammenfassung einbauen
+6. Zusammenfassung nach obiger Struktur erstellen
+
+---
+
+## Umgang mit PDFs und Bildern
+
+### Papula-PDF (Textbook)
+- **Ingestion:** Relevante Seiten des Papula-PDF als Bilder rendern (via Python/fitz) in einen Ordner `papula_images/`. Diese Bilder dienen **nur** zur visuellen Content-Extraction durch den Agenten.
+- **Content verwenden, Bilder NICHT committen:** Die Inhalte (Formeln, Definitionen, Beispiele) aus den gerenderten Seiten in LaTeX in die Zusammenfassung übertragen. Die gerenderten Bilder selbst werden **niemals** committed – sie sind in `.gitignore` ausgeschlossen.
+- **Seitenoffset:** Der Papula Band 1 hat einen Offset von +23 (Buchseite X = PDF-Seite X+23).
+
+### Folien-PDF (Slides)
+- **Ingestion:** Folien-PDF als Bilder rendern in einen Ordner `slides_images/`. Diese dienen nur zur Inhalts-Extraktion.
+- **NICHT committen:** Die gerenderten Slide-Bilder sind ebenfalls in `.gitignore` ausgeschlossen.
+
+### Vorlesungsnotizen / Screenshots
+- **IMMER committen:** PNG-Screenshots direkt im Wochenordner (z.B. `Taylor_Reihe_Beispiel.png`, `Maxima_polinom.png`) sind handschriftliche Notizen oder CAS-Demonstrationen aus der Vorlesung.
+- Diese Screenshots werden in die Zusammenfassung **eingebettet** mit beschreibendem Alt-Text und Erklärungen.
+- **Qualitätsprüfung:** Nur Screenshots einbinden, die einen Mehrwert bieten (z.B. visuelle Erklärungen, Schritt-für-Schritt-Herleitungen, Maxima-Plots). Notizen, die zu chaotisch sind oder Inhalte duplizieren, die bereits sauber als LaTeX im Dokument stehen, können weggelassen werden.
+
+### .gitignore Regeln
+```
+# Automatisch generierte Bilder aus PDFs (nicht committen)
+**/papula_images/
+**/slides_images/
+```
+
+> **Merke:** Lecture screenshots (direkt im Wochenordner) = ✅ committen. Gerenderte PDF-Seiten (in `papula_images/` oder `slides_images/`) = ❌ nicht committen.

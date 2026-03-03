@@ -131,6 +131,8 @@ $$y = a \cdot \sin(bx + c)$$
 
 ## 2.1 Das Problem
 
+> **Begriffliche Klarstellung:** *Abbildung* und *Funktion* sind **dasselbe** — beide beschreiben eine Zuordnung f: A → B, die jedem Element aus A genau ein Element aus B zuweist. In der Analysis wird meist "Funktion" verwendet, in der Linearen Algebra eher "Abbildung".
+
 Trigonometrische Funktionen sind **nicht umkehrbar** (fehlende Monotonie durch Periodizität). Lösung: Einschränkung auf ein **monotones Intervall**.
 
 ### Prinzip der Umkehrung
@@ -321,6 +323,17 @@ Maximum bei x = π/2: y(π/2) = 1 → a = −4/π²
 
 **Ergebnis:** y = −(4/π²)·x² + (4/π)·x
 
+### Visualisierung (Fragerunde)
+
+![Aufgabe 4 – Parabelapproximation an sin(x): Die grüne Parabel nähert die Sinuskurve im Intervall [0, π] an](Aufgabe4_Papula_Lösung_Visualisiert.png)
+
+> **Erläuterung:** Die Skizze zeigt den Lösungsweg grafisch:
+> - **Ansatz:** y = ax² + bx + c mit den drei Bedingungen y(0)=0, y(π)=0, y(π/2)=1
+> - Aus y(0)=0 folgt sofort c=0
+> - Der Produktansatz y = a·x·(x − π) nutzt die bekannten Nullstellen direkt
+> - Einsetzen des Maximums y(π/2)=1 liefert a = −4/π²
+> - Die **grüne Kurve** (Parabel) liegt eng an der **schwarzen Kurve** (sin(x)) im ersten Halbwellen-Intervall [0, π]
+
 ## Aufgabe 5 – Allgemeine Sinusfunktion
 
 Für y = A·sin(bx + c) bzw. y = A·cos(bx + c): Bestimme A, p = 2π/b, x₀ = −c/b
@@ -358,6 +371,25 @@ Rücksubstitution x = 0.5·(u − 5):
 - x₁ₖ = −2.2943 + k·π
 - x₂ₖ = −1.1350 + k·π
 
+#### Visualisierung am Einheitskreis (Fragerunde)
+
+![Aufgabe 16a – Einfache Visualisierung: sin(u) = 0.4 am Einheitskreis mit Hauptwert und Symmetrielösung](Aufgabe16.a_Papula_Visualisiert.png)
+
+> **Erläuterung:** Der Einheitskreis zeigt, wie man die **zwei Lösungen pro Periode** findet:
+> - Die horizontale Linie bei y = 0.4 schneidet den Einheitskreis an **zwei Stellen**
+> - **Hauptwert:** u₁ = arcsin(0.4) ≈ 0.4115 (1. Quadrant)
+> - **Symmetrielösung:** u₂ = π − arcsin(0.4) ≈ 2.7301 (2. Quadrant, Spiegelung an der y-Achse)
+> - Die Periodizität +k·2π liefert dann alle weiteren Lösungen
+
+![Aufgabe 16a – Erweiterte Visualisierung: Zusammenhang arcsin/arccos mit allen Lösungsfamilien](Einheitskreis%20Aufgabe%2016.a_Visualisierung++.png)
+
+> **Ergänzende Erläuterung (erweiterte Darstellung):**
+> - Diese Skizze zeigt zusätzlich die Winkel **arccos(0.4)** und **π − arccos(0.4)** (rot markiert)
+> - **Blau:** Die arcsin-basierten Lösungen (oben, y = 0.4)
+> - **Rot:** Die arccos-Winkel als Ergänzung → Zusammenhang: arcsin(a) + arccos(a) = π/2
+> - Unten: Weitere Lösungsfamilien bei **−arccos(0.4)** und **π + arccos(0.4)** (negative Sinuswerte)
+> - Dies verdeutlicht, warum man bei sin(x)=a **zwei verschiedene Lösungsfamilien** angeben muss
+
 ### b) tan(2(x + 1)) = 1
 
 Substitution u = 2(x + 1) → tan(u) = 1
@@ -381,6 +413,40 @@ Quadrieren: sin²(x) = cos²(x) → tan²(x) = 1 → tan(x) = ±1
 Da sin(x) ≥ 0 (Wurzel!), nur 1./2. Quadrant:
 - x₁ₖ = π/4 + k·2π
 - x₂ₖ = 3π/4 + k·2π
+
+#### Schritt-für-Schritt-Herleitung (Fragerunde)
+
+**Schritt 1: Algebraische Umformung**
+
+![Aufgabe 16d – Substitution: y = sin(x) einsetzen und nach y auflösen](Aufgabe16.b_Papula_Lösung_Substitution.png)
+
+> **Erläuterung:** Mit der Substitution y := sin(x) wird die Gleichung zu:
+> - y = √(1 − y²) → Quadrieren: y² = 1 − y² → 2y² = 1 → y² = 1/2
+> - Also: y = ±1/√2 = sin(x)
+> - **Wichtig:** Da die linke Seite eine Wurzel ist (≥ 0), muss sin(x) ≥ 0 gelten → nur positive Lösung relevant für die Einschränkung
+
+**Schritt 2: Rückführung auf tan(x)**
+
+![Aufgabe 16d – Lösung: sin(x) = ±cos(x) umschreiben zu tan(x) = ±1](Aufgabe16.d_Papula_Lösung.png)
+
+> **Erläuterung:** Alternativ direkt ohne Substitution:
+> - sin(x) = √(1 − sin²(x)) = √(cos²(x)) = |cos(x)|
+> - Da unter der Wurzel cos²(x) steht: sin(x) = ±cos(x)
+> - Division durch cos(x): **tan(x) = ±1** bzw. sin(x)/cos(x) = ±1
+> - Der Stern (*) markiert die entscheidende Umformungsstelle
+
+**Schritt 3: Lösungen am Einheitskreis**
+
+![Aufgabe 16d – Einheitskreis: Alle vier Winkel mit tan(x) = ±1, davon nur π/4 und 3π/4 gültig](Aufgabe16.d_Papula_Einheitskreis_ergänzung.png)
+
+> **Erläuterung:** Der Einheitskreis zeigt alle Kandidaten-Winkel:
+> - **tan(x) = +1:** x = π/4 (1. Quadrant) und x = 5π/4 (3. Quadrant)
+> - **tan(x) = −1:** x = 3π/4 (2. Quadrant) und x = 7π/4 (4. Quadrant)
+> - **Einschränkung sin(x) ≥ 0** (wegen der Wurzel): Nur Quadranten 1 und 2 sind gültig!
+> - ✅ **x₁ = π/4 + k·2π** (1. Quadrant, sin > 0)
+> - ✅ **x₂ = 3π/4 + k·2π** (2. Quadrant, sin > 0)
+> - ❌ x = 5π/4, 7π/4 entfallen (sin < 0 im 3./4. Quadrant)
+> - Die allgemeine Lösung x = π/4 + k·π/2 wird durch die Nebenbedingung eingeschränkt
 
 ---
 
