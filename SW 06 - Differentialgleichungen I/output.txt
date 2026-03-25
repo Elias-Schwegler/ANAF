@@ -1,0 +1,57 @@
+PDF Page 350 (0-indexed) starts with: ['Nach dem Satz von Steiner ist dann:', 'J z ¼ J S þ m d 2', ')']
+PDF Page 351 (0-indexed) starts with: ['Wir legen die Grundfla¨che des Flu¨gels in die x, y-Ebene. Die Deckfla¨che befindet', 'sich dann in der Parallelebene mit der Gleichung z ¼ d ¼ 0,05 m. In Zylinder-', 'koordinaten ergeben sich damit bei Beschra¨nkung auf den 1. Quadrant folgende']
+PDF Page 352 (0-indexed) starts with: ['\x02bungsaufgaben', 'Zu Abschnitt 1', '1)']
+PDF Page 353 (0-indexed) starts with: ['3)', 'Gegeben ist die Funktion z ðx; yÞ ¼ 3 x y \x04 cos ðx \x04 yÞ þ x 3 y 5.', 'Zeigen Sie die Gleichheit der folgenden partiellen Ableitungen 2. bzw. 3. Ordnung']
+PDF Page 354 (0-indexed) starts with: ['13)', 'Berechnen Sie unter Verwendung des totalen Differentials die Oberfla¨chena¨nderung', 'DO \t dO eines Zylinders mit Boden und Deckel, dessen Radius r ¼ 10 cm um']
+PDF Page 355 (0-indexed) starts with: ['19)', 'Das Widerstandsmoment', 'W']
+PDF Page 356 (0-indexed) starts with: ['28)', 'Bestimmen Sie die Parameter a und b in den Exponentialfunktionen y 1 ¼ e a x', 'und']
+PDF Page 357 (0-indexed) starts with: ['33)', 'Mit einer Bru¨ckenschaltung wurden die Einzelwidersta¨nde R 1 und R 2 wie folgt', 'je 6-mal gemessen:']
+PDF Page 358 (0-indexed) starts with: ['35)', 'Fu¨r den Radius R und die Dichte r einer homogenen Kugel wurden die Werte', '(Mittelwerte) \x02R ¼ 12,2 cm und \x02r ¼ 2,50 g=cm 3 ermittelt. Eine Scha¨tzung der']
+PDF Page 359 (0-indexed) starts with: ['10)', 'Berechnen Sie den Schwerpunkt der', 'in Bild III-96 skizzierten Fla¨che.']
+PDF Page 360 (0-indexed) starts with: ['16)', 'Berechnen Sie das polare Fla¨chenmoment I p des in Bild III-99 skizzierten Fla¨-', 'chenstu¨cks.']
+PDF Page 361 (0-indexed) starts with: ['20)', 'Zeigen Sie: Durch Rotation einer Ellipse mit den Halbachsen a und b um die', 'z-Achse entsteht ein Rotationsellipsoid vom Volumen V z ¼ 4']
+PDF Page 362 (0-indexed) starts with: ['24)', 'Wo befindet sich der Schwerpunkt eines Kreiskegels (Radius: R;', 'Ho¨he: H)?']
+PDF Page 363 (0-indexed) starts with: ['IV Gewo¨hnliche Differentialgleichungen', '1 Grundbegriffe', '1.1 Ein einfu¨hrendes Beispiel']
+PDF Page 364 (0-indexed) starts with: ['Die Lo¨sung der Differentialgleichung (IV-1) ist eine Funktion, na¨mlich die Weg-Zeit-', 'Funktion s ¼ s ðtÞ der Fallbewegung. Wir erhalten sie, indem wir die Differentialglei-', 'chung zweimal nacheinander integrieren. Der 1. Integrationsschritt fu¨hrt zuna¨chst zur']
+PDF Page 365 (0-indexed) starts with: ['1.2 Definition einer gewo¨hnlichen Differentialgleichung', 'Definition: Eine Gleichung, in der Ableitungen einer unbekannten Funktion', 'y ¼ y ðxÞ bis zur n-ten Ordnung auftreten, heißt gewo¨hnliche Differen-']
+PDF Page 366 (0-indexed) starts with: ['Wir unterscheiden dabei noch zwischen der allgemeinen Lo¨sung und der speziellen oder', 'partikula¨ren Lo¨sung:', '1. Die allgemeine Lo¨sung einer Differentialgleichung n-ter Ordnung entha¨lt noch n']
+PDF Page 367 (0-indexed) starts with: ['(2)', 'Die Differentialgleichung y 0 þ y 2 ¼ 0 besitzt die allgemeine Lo¨sung', 'y ¼']
+PDF Page 368 (0-indexed) starts with: ['Die Sinusfunktion x ðtÞ ¼ A \x04 sin ðw 0 t þ jÞ ist dabei die allgemeine Lo¨sung', 'dieser Gleichung, da sie mit der Amplitude A und der Phase j zwei unabha¨ngi-', 'ge Parameter entha¨lt (Bild IV-4).']
+PDF Page 369 (0-indexed) starts with: ['x ¼ x ðtÞ: Auslenkung der Feder', 'zum Zeitpunkt t', 'Welche Kra¨fte mu¨ssen wir dabei beru¨cksichtigen? Zuna¨chst wirkt auf die Masse']
+TOC: 5.3 Lösungsverhalten eines linearen (m, n)-Gleichungssystems -> 97
+TOC: 5.4 Lösungsverhalten eines quadratischen linearen Gleichungssystems -> 104
+TOC: 1.3 Lösungen einer Differentialgleichung -> 366
+TOC: 2.5.3.2 Aufsuchen einer partikulären Lösung -> 398
+TOC: 7.1.4.1 Aufsuchen einer partikulären Lösung -> 519
+TOC: 5.1.1 Allgemeines Lösungsverfahren mit Hilfe der Laplace-Transformation -> 688
+TOC: Anhang: Lösungen der Übungsaufgaben -> 716
+TOC END: III Differential- und Integralrechnung für Funktionen von mehreren Variablen -> 750
+TOC END: Abschnitt 1 -> 750
+TOC END: Abschnitt 2 -> 751
+TOC END: Abschnitt 3 -> 760
+TOC END: IV Gewöhnliche Differentialgleichungen -> 773
+TOC END: Abschnitt 1 -> 773
+TOC END: Abschnitt 2 -> 773
+TOC END: Abschnitt 3 -> 782
+TOC END: Abschnitt 4 -> 787
+TOC END: Abschnitt 5 -> 793
+TOC END: Abschnitt 6 -> 798
+TOC END: Abschnitt 7 -> 799
+TOC END: V Fourier-Transformationen -> 805
+TOC END: Abschnitt 1 -> 805
+TOC END: Abschnitt 2 -> 807
+TOC END: Abschnitt 3 -> 811
+TOC END: Abschnitt 4 -> 813
+TOC END: Abschnitt 5 -> 818
+TOC END: Abschnitt 6 -> 819
+TOC END: VI Laplace-Transformationen -> 822
+TOC END: Abschnitt 1 -> 822
+TOC END: Abschnitt 2 -> 823
+TOC END: Abschnitt 3 -> 828
+TOC END: Abschnitt 4 -> 829
+TOC END: Abschnitt 5 -> 830
+TOC END: Literaturhinweise -> 840
+TOC END: Formelsammlungen -> 840
+TOC END: Aufgabensammlungen -> 840
+TOC END: Weiterführende und ergänzende Literatur -> 840
+TOC END: Sachwortverzeichnis -> 841
