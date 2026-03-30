@@ -134,7 +134,104 @@ Diese Form eignet sich besonders gut für Multiplikation, Division, Potenzieren 
 
 ---
 
-## 6. Lösungen der empfohlenen Aufgaben
+## 6. Maxima & Python -- Elektronische Hilfsmittel (MEP Teil 2)
+
+### Maxima (wxMaxima)
+
+```maxima
+/* Komplexe Zahl definieren */
+z: 3 + 4*%i;
+
+/* Zwei komplexe Zahlen fuer Rechenoperationen */
+z1: 3 + 4*%i;
+z2: 1 - 2*%i;
+
+/* Grundrechenarten */
+z1 + z2;        /* Addition */
+z1 - z2;        /* Subtraktion */
+z1 * z2;        /* Multiplikation */
+z1 / z2;        /* Division */
+
+/* Realteil, Imaginaerteil, Betrag, Konjugierte */
+realpart(z);     /* Realteil: 3 */
+imagpart(z);     /* Imaginaerteil: 4 */
+abs(z);          /* Betrag |z| = 5 */
+conjugate(z);    /* Konjugiert komplexe Zahl: 3 - 4i */
+
+/* Argument (Winkel) der komplexen Zahl */
+carg(z);         /* Winkel in Radiant */
+
+/* Polarform und zurueck */
+polarform(z);    /* Umwandlung in Exponentialform r * e^(j*phi) */
+rectform(z);     /* Zurueck in kartesische Form x + j*y */
+
+/* Komplexe Gleichung loesen: z^3 = 8i */
+solve(z^3 = 8*%i, z);
+
+/* Formel von de Moivre anwenden */
+demoivre(exp(%i * 3 * %pi / 4));
+/* Wandelt e^(j*phi) in cos(phi) + j*sin(phi) um */
+```
+
+### Python (NumPy / Matplotlib)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Komplexe Zahlen definieren (j ist die imaginaere Einheit in Python)
+z = 3 + 4j
+z1 = 3 + 4j
+z2 = 1 - 2j
+
+# Grundrechenarten
+print(z1 + z2)   # Addition
+print(z1 - z2)   # Subtraktion
+print(z1 * z2)   # Multiplikation
+print(z1 / z2)   # Division
+
+# Realteil, Imaginaerteil
+print(z.real)     # Realteil: 3.0
+print(z.imag)     # Imaginaerteil: 4.0
+
+# Betrag, Argument (Winkel), Konjugierte
+print(np.abs(z))        # Betrag |z| = 5.0
+print(np.angle(z))      # Winkel in Radiant
+print(np.angle(z, deg=True))  # Winkel in Grad
+print(np.conj(z))       # Konjugiert komplexe Zahl: 3 - 4j
+
+# Komplexe Gleichung z^3 = 8i -> z^3 - 8i = 0
+# Koeffizienten: 1*z^3 + 0*z^2 + 0*z - 8j
+wurzeln = np.roots([1, 0, 0, -8j])
+print("Loesungen von z^3 = 8i:")
+for k, w in enumerate(wurzeln):
+    print(f"  z_{k} = {w:.4f}, |z| = {np.abs(w):.4f}, phi = {np.angle(w, deg=True):.2f}°")
+
+# Komplexe Zahlen in der Gaussschen Zahlenebene darstellen
+zahlen = [z1, z2, z1 + z2, z1 * z2]
+namen = ["z1", "z2", "z1+z2", "z1*z2"]
+
+fig, ax = plt.subplots(figsize=(6, 6))
+for zi, name in zip(zahlen, namen):
+    ax.plot(zi.real, zi.imag, 'o', markersize=8)
+    ax.annotate(f"{name} = {zi}", (zi.real, zi.imag),
+                textcoords="offset points", xytext=(10, 5))
+    ax.plot([0, zi.real], [0, zi.imag], '--', alpha=0.5)
+
+ax.axhline(0, color='k', linewidth=0.5)
+ax.axvline(0, color='k', linewidth=0.5)
+ax.set_xlabel("Realteil (Re)")
+ax.set_ylabel("Imaginaerteil (Im)")
+ax.set_title("Gausssche Zahlenebene")
+ax.grid(True, alpha=0.3)
+ax.set_aspect('equal')
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 7. Lösungen der empfohlenen Aufgaben
 *(Lösungswege aus Papula Band 1, S. 822 -- 828)*
 
 ### Abschnitt 1

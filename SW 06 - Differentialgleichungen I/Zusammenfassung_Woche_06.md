@@ -141,6 +141,244 @@ Ein anschauliches Vorlesungsbeispiel zur DGL: $y' = x - y$ bzw. $y' + y = x$
 
 ---
 
+### 6. Maxima & Python – Elektronische Hilfsmittel (MEP Teil 2)
+
+#### 6.1 Maxima – Computeralgebra für DGL 1. Ordnung
+
+##### DGL lösen mit `ode2` und Anfangsbedingungen mit `ic1`
+
+```maxima
+/* --- DGL 1. Ordnung lösen: y' + y = x^2 --- */
+
+/* Gleichung definieren: 'diff(y,x) steht für y' */
+dgl: 'diff(y,x) + y = x^2;
+
+/* Allgemeine Lösung mit ode2 */
+lsg: ode2(dgl, y, x);
+/* Ergebnis: y = (x^2 - 2*x + 2) + %c * %e^(-x) */
+
+/* Anfangsbedingung anwenden: y(0) = 1 */
+part_lsg: ic1(lsg, x=0, y=1);
+/* Ergebnis: y = (x^2 - 2*x + 2) - %e^(-x) */
+```
+
+##### Separation der Variablen – Beispiel
+
+```maxima
+/* --- Separierbare DGL: y' = x * y --- */
+dgl_sep: 'diff(y,x) = x * y;
+
+/* ode2 erkennt den Typ automatisch (separabel) */
+lsg_sep: ode2(dgl_sep, y, x);
+/* Ergebnis: y = %c * %e^(x^2/2) */
+
+/* Partikuläre Lösung mit y(0) = 3 */
+ic1(lsg_sep, x=0, y=3);
+/* Ergebnis: y = 3 * %e^(x^2/2) */
+```
+
+##### Integrale berechnen (für manuelle Separation)
+
+```maxima
+/* --- Integrale, die bei Trennung der Variablen auftreten --- */
+
+/* Integral von 1/y dy */
+integrate(1/y, y);
+/* Ergebnis: log(y) */
+
+/* Integral von x * e^x dx (partielle Integration) */
+integrate(x * exp(x), x);
+/* Ergebnis: (x - 1) * %e^x */
+
+/* Bestimmtes Integral für numerische Kontrolle */
+integrate(x^2, x, 0, 1);
+/* Ergebnis: 1/3 */
+```
+
+##### Richtungsfeld zeichnen mit `plotdf`
+
+```maxima
+/* --- Richtungsfeld der DGL y' = x - y --- */
+plotdf(x - y, [x, -3, 3], [y, -3, 3]);
+
+/* Mit Anfangswert-Trajektorie */
+plotdf(x - y, [x, -3, 3], [y, -3, 3],
+       [trajectory_at, 0, 1]);
+
+/* Separierbare DGL: y' = x * y */
+plotdf(x * y, [x, -2, 2], [y, -2, 2]);
+```
+
+---
+
+#### 6.2 Python – Numerische und symbolische Lösung von DGL
+
+##### Euler-Verfahren (einfache Implementierung)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def euler_verfahren(f, x0, y0, xn, h):
+    """
+    Euler-Polygonzugverfahren fuer eine DGL y' = f(x, y).
+
+    Parameter:
+        f  : rechte Seite der DGL y' = f(x, y)
+        x0 : Startwert x
+        y0 : Startwert y (Anfangsbedingung)
+        xn : Endwert x
+        h  : Schrittweite
+    Rueckgabe:
+        x_werte, y_werte als NumPy-Arrays
+    """
+    x_werte = [x0]
+    y_werte = [y0]
+    x, y = x0, y0
+    while x < xn - 1e-12:
+        y = y + h * f(x, y)       # Euler-Schritt: y_{n+1} = y_n + h * f(x_n, y_n)
+        x = x + h
+        x_werte.append(x)
+        y_werte.append(y)
+    return np.array(x_werte), np.array(y_werte)
+
+# --- Beispiel: y' = x - y, y(0) = 1 ---
+f = lambda x, y: x - y
+
+x_euler, y_euler = euler_verfahren(f, x0=0, y0=1, xn=5, h=0.1)
+
+plt.plot(x_euler, y_euler, 'o-', markersize=2, label='Euler (h=0.1)')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title("Euler-Verfahren: y' = x - y, y(0) = 1")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+##### Runge-Kutta mit `scipy.integrate.solve_ivp`
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import solve_ivp
+
+# --- DGL: y' = x - y, y(0) = 1 ---
+def f(x, y):
+    return x - y
+
+# Loesung mit Runge-Kutta 4. Ordnung (method='RK45')
+lsg = solve_ivp(f, t_span=[0, 5], y0=[1], method='RK45',
+                dense_output=True, max_step=0.1)
+
+# Feine Auswertung fuer glatten Plot
+x_plot = np.linspace(0, 5, 200)
+y_plot = lsg.sol(x_plot)[0]
+
+plt.plot(x_plot, y_plot, label='RK45 (solve_ivp)')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title("Runge-Kutta: y' = x - y, y(0) = 1")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+##### Vergleichsplot: Euler vs. Runge-Kutta vs. exakte Lösung
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import solve_ivp
+
+# DGL: y' = x - y,  y(0) = 1
+f = lambda x, y: x - y
+
+# Exakte Loesung (analytisch): y = x - 1 + 2*e^(-x)
+y_exakt = lambda x: x - 1 + 2 * np.exp(-x)
+
+# Euler-Verfahren
+def euler(f, x0, y0, xn, h):
+    xs, ys = [x0], [y0]
+    x, y = x0, y0
+    while x < xn - 1e-12:
+        y = y + h * f(x, y)
+        x = x + h
+        xs.append(x); ys.append(y)
+    return np.array(xs), np.array(ys)
+
+x_e, y_e = euler(f, 0, 1, 5, 0.5)   # grosse Schrittweite zum Vergleich
+
+# Runge-Kutta (solve_ivp)
+sol = solve_ivp(f, [0, 5], [1], method='RK45', dense_output=True)
+x_rk = np.linspace(0, 5, 200)
+y_rk = sol.sol(x_rk)[0]
+
+# Exakte Loesung
+x_ex = np.linspace(0, 5, 200)
+y_ex = y_exakt(x_ex)
+
+# Plot
+plt.figure(figsize=(8, 5))
+plt.plot(x_ex, y_ex, 'k-', linewidth=2, label='Exakte Loesung')
+plt.plot(x_rk, y_rk, 'b--', label='Runge-Kutta (RK45)')
+plt.plot(x_e, y_e, 'ro-', markersize=5, label='Euler (h=0.5)')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title("Vergleich: Euler vs. RK45 vs. Exakt")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
+
+##### SymPy: Symbolisches Lösen einer DGL 1. Ordnung
+
+```python
+import sympy as sp
+
+x = sp.Symbol('x')
+y = sp.Function('y')
+
+# --- DGL definieren: y' + y = x^2 ---
+dgl = sp.Eq(y(x).diff(x) + y(x), x**2)
+
+# Allgemeine Loesung
+allg_lsg = sp.dsolve(dgl, y(x))
+print("Allgemeine Loesung:", allg_lsg)
+# Ergebnis: y(x) = C1*exp(-x) + x**2 - 2*x + 2
+
+# Partikulaere Loesung mit Anfangsbedingung y(0) = 1
+part_lsg = sp.dsolve(dgl, y(x), ics={y(0): 1})
+print("Partikulaere Loesung:", part_lsg)
+# Ergebnis: y(x) = x**2 - 2*x + 2 - exp(-x)
+
+# --- Separierbare DGL: y' = x * y, y(0) = 3 ---
+dgl2 = sp.Eq(y(x).diff(x), x * y(x))
+lsg2 = sp.dsolve(dgl2, y(x), ics={y(0): 3})
+print("Separierbare DGL:", lsg2)
+# Ergebnis: y(x) = 3*exp(x**2/2)
+```
+
+---
+
+#### 6.3 Kurzreferenz – Maxima-Befehle für DGL 1. Ordnung
+
+| Befehl | Beschreibung | Beispiel |
+| :--- | :--- | :--- |
+| `ode2(dgl, y, x)` | Löst eine DGL 1. Ordnung analytisch | `ode2('diff(y,x) + y - x^2, y, x)` |
+| `ic1(lsg, x=a, y=b)` | Anfangsbedingung $y(a)=b$ anwenden | `ic1(lsg, x=0, y=1)` |
+| `integrate(f, x)` | Unbestimmtes Integral berechnen | `integrate(1/y, y)` |
+| `integrate(f, x, a, b)` | Bestimmtes Integral $\int_a^b f\,dx$ | `integrate(x^2, x, 0, 1)` |
+| `plotdf(f, ...)` | Richtungsfeld einer DGL $y'=f(x,y)$ zeichnen | `plotdf(x - y, [x,-3,3], [y,-3,3])` |
+| `diff(f, x)` | Symbolische Ableitung berechnen | `diff(x^2 * exp(x), x)` |
+| `expand(...)` | Ausdruck ausmultiplizieren/vereinfachen | `expand((x+1)^3)` |
+| `subst(a, b, expr)` | Wert $a$ für $b$ in Ausdruck einsetzen | `subst(0, x, lsg)` |
+| `atvalue(y(x), x=0, 1)` | Anfangswert für `desolve` setzen | `atvalue(y(x), x=0, 1)` |
+| `desolve(dgl, y(x))` | Alternative DGL-Lösung (nutzt Laplace) | `desolve('diff(y(x),x)+y(x)=x, y(x))` |
+
+---
+
 ### Nach allen Themenblöcken:
 
 ### 4. Empfohlene Übungsaufgaben

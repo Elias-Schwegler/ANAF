@@ -36,6 +36,24 @@ Erstelle eine strukturierte Zusammenfassung der Semesterwoche als Markdown-Datei
 
 ---
 
+## Prüfungsformat (MEP)
+
+> ⚠️ **WICHTIG: Die Modulendprüfung (MEP) ist zweiteilig!** Dies muss bei der Zusammenfassung berücksichtigt werden.
+
+| | **Teil 1: Ohne Hilfsmittel** | **Teil 2: Mit elektronischen Hilfsmitteln** |
+|---|---|---|
+| **Erlaubt** | Papier-Unterlagen (Open-Book), Taschenrechner | Laptop mit Maxima, Python, etc. |
+| **Nicht erlaubt** | Elektronische Geräte | — |
+| **Aufgabentyp** | Formeln anwenden, von Hand rechnen, Konzepte erklären, klassifizieren | Komplexere Aufgaben, die mit CAS/Code in begrenzter Zeit lösbar sind |
+| **Vorbereitung** | Formeln & Lösungswege beherrschen, Kochrezepte parat haben | Maxima- & Python-Befehle kennen und schnell eintippen können |
+
+### Konsequenz für die Zusammenfassung:
+- **Jede Woche** muss einen Abschnitt **"Maxima & Python – Elektronische Hilfsmittel (MEP Teil 2)"** enthalten
+- Dieser Abschnitt enthält **kopierbereite Code-Beispiele** in Maxima und Python für die Themen der Woche
+- Fokus auf: **Welche Befehle lösen welche Aufgabentypen?** (nicht theoretische Erklärung des Codes)
+- Zusätzlich eine **Kurzreferenz-Tabelle** der wichtigsten Maxima-Befehle pro Woche
+- Der Dozent verwendet **wxMaxima** und **Python** im Unterricht – die Zusammenfassung sollte beides abdecken
+
 ## Regeln
 
 - **Sprache:** Deutsch
@@ -54,7 +72,38 @@ Erstelle eine strukturierte Zusammenfassung der Semesterwoche als Markdown-Datei
 3. Papula-Kapitel extrahieren (PDF-Seiten lesen) → Formeln, Definitionen, Beispiele
 4. Übungsaufgaben und Lösungen aus dem Papula extrahieren
 5. Vorlesungsnotizen (Screenshots) prüfen und in die Zusammenfassung einbauen
-6. Zusammenfassung nach obiger Struktur erstellen
+6. **Visualisierungen erstellen** (siehe Abschnitt unten)
+7. Zusammenfassung nach obiger Struktur erstellen
+
+---
+
+## Visualisierungen & Graphen
+
+Wo immer es sinnvoll ist, sollen **eigene Graphen/Plots** mit Python (matplotlib) generiert und in die Zusammenfassung eingebettet werden. Das hilft enorm beim Verständnis mathematischer Konzepte.
+
+### Wann Graphen erstellen?
+- **Funktionsverläufe** visualisieren (z.B. verschiedene Lösungstypen einer DGL im Vergleich)
+- **Vergleiche** zwischen Methoden oder Fällen (z.B. Kriechfall vs. Schwingfall vs. Grenzfall)
+- **Numerische vs. analytische** Lösungen gegenüberstellen
+- **Konvergenzverhalten** von Reihen, Folgen, Iterationsverfahren
+- **Geometrische Interpretationen** (z.B. komplexe Zahlen in der Gaussschen Ebene, Richtungsfelder)
+
+### Wie Graphen erstellen?
+1. **Python-Script** mit `matplotlib` direkt im Wochenordner ausführen
+2. **PNG-Dateien** mit beschreibendem Namen speichern (z.B. `vergleich_drei_faelle.png`, `schwingfall.png`)
+3. In der Zusammenfassung **einbetten** mit `![Beschreibung](dateiname.png)` und einem erklärenden Kursiv-Text darunter
+4. **Beschriftung:** Achsenbeschriftung (deutsch), Titel, Legende, Grid
+5. **Auflösung:** `dpi=150` für gute Lesbarkeit
+6. **Farben:** Konsistente Farbgebung (z.B. blau = Fall 1, rot = Fall 2, grün = Fall 3)
+
+### Zusätzlich: Mermaid-Diagramme
+Für **Ablauf-/Entscheidungsdiagramme** (z.B. Lösungsschemata, Fallunterscheidungen) sollen `mermaid`-Codeblöcke direkt im Markdown eingebettet werden. Beispiel: Flussdiagramm für das Lösungsschema einer DGL.
+
+### Was NICHT als Graph?
+- Konzepte die bereits als Screenshot aus der Vorlesung vorhanden sind (Duplikate vermeiden)
+- Triviale Darstellungen, die keinen Mehrwert gegenüber der Formel bieten
+
+> **Merke:** Generierte Graphen (PNG) werden **committed** (im Gegensatz zu den temporären PDF-Renders). Sie sind ein fester Bestandteil der Zusammenfassung.
 
 ---
 
