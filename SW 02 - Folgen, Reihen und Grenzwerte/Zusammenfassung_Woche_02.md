@@ -613,7 +613,207 @@ Prüfung: Bilden $|a_n|$ eine monoton fallende Nullfolge?
 
 ---
 
-# 9. Wichtige Formeln auf einen Blick
+# 9. Maxima & Python – Elektronische Hilfsmittel (MEP Teil 2)
+
+> Prüfungsrelevant: Maxima und Python können an der Prüfung als Hilfsmittel eingesetzt werden. Die folgenden Befehle decken die wichtigsten Aufgabentypen zu Folgen, Reihen und Grenzwerten ab.
+
+## 9.1 Maxima
+
+### Grenzwerte von Folgen und Funktionen
+
+```maxima
+/* Grenzwert einer Folge a_n fuer n -> inf */
+limit((2*n+1)/(3*n-5), n, inf);
+/* Ergebnis: 2/3 */
+
+limit((1 + 1/n)^n, n, inf);
+/* Ergebnis: %e (Euler'sche Zahl) */
+
+/* Einseitige Grenzwerte */
+limit(1/x, x, 0, plus);   /* von rechts: +inf */
+limit(1/x, x, 0, minus);  /* von links: -inf */
+
+/* Grenzwert einer Funktion */
+limit(sin(x)/x, x, 0);
+/* Ergebnis: 1 */
+```
+
+### Reihen berechnen
+
+```maxima
+/* Endliche Summe */
+sum(k, k, 1, 100);
+/* Ergebnis: 5050 */
+
+/* Unendliche Reihe (symbolisch vereinfachen) */
+sum(1/k^2, k, 1, inf), simpsum;
+/* Ergebnis: %pi^2/6 (Basel-Problem) */
+
+/* Geometrische Reihe */
+sum((1/2)^k, k, 0, inf), simpsum;
+/* Ergebnis: 2 */
+
+/* Geschlossene Form mit nusum */
+nusum(k^2, k, 1, n);
+/* Ergebnis: n*(n+1)*(2*n+1)/6 */
+
+nusum(1/k/(k+1), k, 1, n);
+/* Teleskopsumme: Ergebnis: n/(n+1) */
+```
+
+### Konvergenz ueberpruefen
+
+```maxima
+/* Quotientenkriterium: limit(|a_(n+1)/a_n|, n, inf) */
+a(n) := 1/n!;
+limit(abs(a(n+1)/a(n)), n, inf);
+/* Ergebnis: 0 < 1 → konvergent */
+
+/* Wurzelkriterium: limit(|a_n|^(1/n), n, inf) */
+a(n) := (2/3)^n;
+limit(abs(a(n))^(1/n), n, inf);
+/* Ergebnis: 2/3 < 1 → konvergent */
+```
+
+### Folgen und Konvergenz plotten
+
+```maxima
+/* Folge als Punkte visualisieren */
+punkte: makelist([k, (2*k+1)/(3*k-5)], k, 1, 50)$
+plot2d([discrete, punkte], [style, points],
+       [xlabel, "n"], [ylabel, "a_n"],
+       [title, "Konvergenz gegen 2/3"]);
+
+/* Partialsummen der harmonischen Reihe */
+partial(n) := sum(1/k, k, 1, n);
+punkte: makelist([k, partial(k)], k, 1, 30)$
+plot2d([discrete, punkte], [style, points],
+       [title, "Harmonische Reihe (divergent)"]);
+```
+
+## 9.2 Python (NumPy + SymPy + Matplotlib)
+
+### Grenzwerte berechnen
+
+```python
+from sympy import *
+
+n, x = symbols('n x')
+
+# Grenzwert einer Folge
+limit((2*n + 1) / (3*n - 5), n, oo)
+# Ergebnis: 2/3
+
+limit((1 + 1/n)**n, n, oo)
+# Ergebnis: E (Euler'sche Zahl)
+
+# Grenzwert einer Funktion
+limit(sin(x)/x, x, 0)
+# Ergebnis: 1
+
+# Einseitige Grenzwerte
+limit(1/x, x, 0, '+')  # von rechts: oo
+limit(1/x, x, 0, '-')  # von links: -oo
+```
+
+### Partialsummen und Reihen
+
+```python
+import numpy as np
+
+# Partialsummen mit numpy cumsum
+n = 100
+terms = 1 / np.arange(1, n+1)**2       # Terme 1/k^2
+partial_sums = np.cumsum(terms)
+print(f"S_100 = {partial_sums[-1]:.6f}")
+print(f"pi^2/6 = {np.pi**2/6:.6f}")
+# Vergleich: Numerisch vs. exakter Wert
+
+# Geometrische Reihe
+q = 0.5
+terms = q ** np.arange(0, 30)
+partial_sums = np.cumsum(terms)
+print(f"S_30 = {partial_sums[-1]:.10f}, exakt = {1/(1-q)}")
+```
+
+### Symbolische Reihen mit SymPy
+
+```python
+from sympy import *
+
+k, n = symbols('k n', positive=True, integer=True)
+
+# Unendliche Reihe
+summation(1/k**2, (k, 1, oo))
+# Ergebnis: pi**2/6
+
+# Endliche Summe (geschlossene Form)
+summation(k**2, (k, 1, n))
+# Ergebnis: n*(n+1)*(2*n+1)/6
+
+# Teleskopsumme
+summation(1/(k*(k+1)), (k, 1, oo))
+# Ergebnis: 1
+```
+
+### Konvergenz visualisieren
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Folge und Grenzwert plotten
+n_vals = np.arange(1, 51)
+a_n = (2*n_vals + 1) / (3*n_vals - 5)
+
+plt.figure(figsize=(10, 4))
+plt.subplot(1, 2, 1)
+plt.scatter(n_vals, a_n, s=15, color='blue')
+plt.axhline(y=2/3, color='red', linestyle='--', label='Grenzwert 2/3')
+plt.xlabel('n')
+plt.ylabel('$a_n$')
+plt.title('Konvergenz der Folge')
+plt.legend()
+plt.grid(True)
+
+# Partialsummen vergleichen: harmonisch vs. geometrisch
+plt.subplot(1, 2, 2)
+N = 30
+harm = np.cumsum(1 / np.arange(1, N+1))          # divergent
+geom = np.cumsum(0.5 ** np.arange(0, N))          # konvergent gegen 2
+
+plt.plot(range(1, N+1), harm, 'o-', markersize=3, label='Harmonische Reihe')
+plt.plot(range(1, N+1), geom, 's-', markersize=3, label='Geom. Reihe (q=0.5)')
+plt.axhline(y=2, color='green', linestyle='--', alpha=0.5, label='Grenzwert 2')
+plt.xlabel('N (Anzahl Terme)')
+plt.ylabel('Partialsumme $S_N$')
+plt.title('Konvergent vs. Divergent')
+plt.legend()
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+```
+
+### Konvergenzkriterien numerisch pruefen
+
+```python
+import numpy as np
+
+# Quotientenkriterium numerisch: |a_(n+1) / a_n| fuer grosse n
+def check_ratio_test(a, n_max=50):
+    """Prueft das Quotientenkriterium numerisch."""
+    ratios = [abs(a(n+1) / a(n)) for n in range(1, n_max) if a(n) != 0]
+    q = ratios[-1]
+    print(f"q ≈ {q:.6f} → {'konvergent' if q < 1 else 'divergent' if q > 1 else 'keine Aussage'}")
+
+check_ratio_test(lambda n: 1 / np.math.factorial(n))  # 1/n! → konvergent
+check_ratio_test(lambda n: 1 / n)                      # 1/n → keine Aussage
+```
+
+---
+
+# 10. Wichtige Formeln auf einen Blick
 
 | Formel | Beschreibung |
 |---|---|

@@ -469,7 +469,172 @@ Potenzreihenentwicklungen können verwendet werden, um **unbestimmte Ausdrücke*
 
 ---
 
-# 11. Lösungen der empfohlenen Aufgaben
+# 11. Maxima & Python – Elektronische Hilfsmittel (MEP Teil 2)
+
+> Prüfungsrelevant: Maxima und Python können an der Prüfung als Hilfsmittel eingesetzt werden. Die folgenden Befehle decken die wichtigsten Aufgabentypen zu Potenzreihen ab.
+
+## 11.1 Maxima
+
+### Taylor-Entwicklung berechnen
+
+```maxima
+/* Taylor-Reihe von f(x) um x0 bis Ordnung n */
+taylor(sin(x), x, 0, 5);
+/* Ergebnis: x - x^3/6 + x^5/120 + ... */
+
+taylor(exp(x), x, 0, 4);
+/* Ergebnis: 1 + x + x^2/2 + x^3/6 + x^4/24 + ... */
+
+/* Taylor-Reihe um einen anderen Entwicklungspunkt */
+taylor(ln(x), x, 1, 4);
+/* Entwicklung von ln(x) um x0 = 1 */
+```
+
+### Potenzreihe bestimmen
+
+```maxima
+/* Automatische Potenzreihenentwicklung */
+powerseries(1/(1-x), x, 0);
+/* Ergebnis: sum(x^n, n, 0, inf) */
+
+powerseries(exp(x), x, 0);
+```
+
+### Konvergenzradius bestimmen (Quotientenkriterium)
+
+```maxima
+/* Konvergenzradius mit dem Quotientenkriterium */
+/* Fuer sum(a_n * x^n): R = limit(abs(a_n / a_(n+1)), n, inf) */
+a(n) := 1/n!;
+limit(abs(a(n) / a(n+1)), n, inf);
+/* Ergebnis: inf → R = inf (konvergent fuer alle x) */
+
+a(n) := n / 3^n;
+limit(abs(a(n) / a(n+1)), n, inf);
+/* Ergebnis: 3 → Konvergenzradius R = 3 */
+```
+
+### Taylor-Approximation grafisch vergleichen
+
+```maxima
+/* Vergleich: Originalfunktion vs. Taylor-Approximation */
+plot2d([sin(x), taylor(sin(x), x, 0, 1),
+        taylor(sin(x), x, 0, 3),
+        taylor(sin(x), x, 0, 5)],
+       [x, -2*%pi, 2*%pi], [y, -2, 2],
+       [legend, "sin(x)", "T1", "T3", "T5"]);
+
+/* Approximationsfehler visualisieren */
+plot2d([sin(x) - taylor(sin(x), x, 0, 5)],
+       [x, -2*%pi, 2*%pi],
+       [legend, "Fehler T5"]);
+```
+
+### Typische Pruefungsaufgaben in Maxima
+
+```maxima
+/* MacLaurin-Reihe (Spezialfall: x0 = 0) */
+taylor(cos(x), x, 0, 6);
+
+/* Binomialreihe: (1+x)^alpha */
+taylor((1+x)^(1/2), x, 0, 4);
+
+/* Koeffizienten einer Potenzreihe extrahieren */
+coeff(taylor(sin(x), x, 0, 7), x, 5);
+/* Ergebnis: 1/120 (Koeffizient von x^5) */
+```
+
+## 11.2 Python (SymPy + Matplotlib)
+
+### Taylor-Reihe berechnen
+
+```python
+from sympy import *
+
+x = symbols('x')
+
+# Taylor-Reihe von sin(x) um x=0 bis Ordnung 10
+series(sin(x), x, 0, n=10)
+# Ergebnis: x - x**3/6 + x**5/120 - x**7/5040 + x**9/362880 + O(x**10)
+
+# Taylor-Reihe um anderen Entwicklungspunkt
+series(ln(x), x, 1, n=5)
+
+# Reihe ohne O-Term (fuer Weiterverarbeitung)
+taylor_poly = series(exp(x), x, 0, n=6).removeO()
+```
+
+### Konvergenzradius numerisch bestimmen
+
+```python
+from sympy import *
+
+n = symbols('n', positive=True)
+
+# Quotientenkriterium: R = lim |a_n / a_(n+1)|
+a_n = 1 / factorial(n)
+R = limit(abs(a_n / a_n.subs(n, n+1)), n, oo)
+print(f"Konvergenzradius R = {R}")
+# Ergebnis: R = oo (konvergent fuer alle x)
+
+# Beispiel mit endlichem Radius
+a_n = n / 3**n
+R = limit(abs(a_n / a_n.subs(n, n+1)), n, oo)
+print(f"Konvergenzradius R = {R}")
+# Ergebnis: R = 3
+```
+
+### Taylor-Approximation plotten
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sympy import *
+
+x = symbols('x')
+f = sin(x)
+
+# Verschiedene Taylor-Ordnungen plotten
+x_vals = np.linspace(-2*np.pi, 2*np.pi, 500)
+plt.plot(x_vals, np.sin(x_vals), 'k-', linewidth=2, label='sin(x)')
+
+for order in [1, 3, 5, 9]:
+    taylor_poly = series(f, x, 0, n=order+1).removeO()
+    f_taylor = lambdify(x, taylor_poly, 'numpy')
+    plt.plot(x_vals, f_taylor(x_vals), '--', label=f'T_{order}')
+
+plt.ylim(-2, 2)
+plt.legend()
+plt.grid(True)
+plt.title('Taylor-Approximation von sin(x)')
+plt.xlabel('x')
+plt.show()
+```
+
+### Partielle Summen einer Potenzreihe
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Geometrische Reihe: sum(x^n) = 1/(1-x) fuer |x| < 1
+x_vals = np.linspace(-0.95, 0.95, 200)
+plt.plot(x_vals, 1/(1 - x_vals), 'k-', linewidth=2, label='1/(1-x)')
+
+for N in [2, 5, 10, 20]:
+    partial = sum(x_vals**n for n in range(N))
+    plt.plot(x_vals, partial, '--', label=f'N={N}')
+
+plt.ylim(-5, 20)
+plt.legend()
+plt.grid(True)
+plt.title('Partielle Summen der geometrischen Reihe')
+plt.show()
+```
+
+---
+
+# 12. Lösungen der empfohlenen Aufgaben
 
 > Papula Band 1, Kap. VI, Lösungen (am Ende des Buches)
 

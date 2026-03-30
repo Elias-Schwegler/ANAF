@@ -265,3 +265,200 @@ $$ b_n = -(-1)^n \cdot \frac{e^{\pi} - e^{-\pi}}{\pi} \cdot \frac{n}{1 + n^2} $$
 
 **Reelle Fourier-Reihe:**
 $$ f(x) = \frac{e^{\pi} - e^{-\pi}}{2\pi} + \frac{e^{\pi} - e^{-\pi}}{\pi} \sum_{n=1}^{\infty} (-1)^n \left[\frac{\cos(nx)}{1+n^2} - \frac{n \cdot \sin(nx)}{1+n^2}\right] $$
+
+---
+
+## 6. Maxima & Python – Elektronische Hilfsmittel (MEP Teil 2)
+
+### 6.1 Maxima – Fourier-Koeffizienten & Newton-Verfahren
+
+**Fourier-Koeffizienten berechnen (Periode $2\pi$):**
+
+```maxima
+/* --- Fourier-Koeffizienten einer stueckweisen Funktion --- */
+
+/* Rechteckkurve definieren */
+f(x) := if (x >= 0 and x <= %pi) then 1 else -1;
+
+/* a0 berechnen */
+a0 : (1/%pi) * integrate(f(x), x, 0, 2*%pi);
+
+/* an berechnen (allgemein fuer n) */
+an(n) := (1/%pi) * integrate(f(x)*cos(n*x), x, 0, 2*%pi);
+
+/* bn berechnen (allgemein fuer n) */
+bn(n) := (1/%pi) * integrate(f(x)*sin(n*x), x, 0, 2*%pi);
+
+/* Konkrete Werte anzeigen */
+bn(1);   /* => 4/%pi */
+bn(3);   /* => 4/(3*%pi) */
+```
+
+**Fourier-Reihe als Partialsumme aufbauen und plotten:**
+
+```maxima
+/* Fourier-Partialsumme mit N Gliedern */
+fourier_summe(x, N) := a0/2 + sum(an(k)*cos(k*x) + bn(k)*sin(k*x), k, 1, N);
+
+/* Fuer Rechteckkurve (nur ungerade Sinus-Glieder): */
+rechteck_fourier(x, N) := (4/%pi) * sum(sin((2*k-1)*x)/(2*k-1), k, 1, N);
+
+/* Plot: Approximation vs. Originalfunktion */
+plot2d([rechteck_fourier(x, 1), rechteck_fourier(x, 5), rechteck_fourier(x, 20)],
+       [x, -%pi, 3*%pi],
+       [legend, "N=1", "N=5", "N=20"],
+       [ylabel, "f(x)"]);
+```
+
+**Newton-Verfahren (reell und komplex):**
+
+```maxima
+/* --- Newton-Verfahren --- */
+
+/* Variante 1: Eingebaute Funktion (Paket newton1 laden) */
+load(newton1);
+newton(x^3 - 1, 0.5, 1e-8);  /* Startwert 0.5, Toleranz 1e-8 */
+
+/* Variante 2: Manuelle Iteration (auch fuer komplexe Startwerte) */
+f(z) := z^3 - 1;
+df(z) := 3*z^2;
+
+z : 0.5 + 0.5*%i;    /* Komplexer Startwert */
+for i:1 thru 20 do (
+    z : z - f(z)/df(z),
+    print("Schritt", i, ":", z)
+);
+/* Ergebnis: konvergiert gegen eine der drei Nullstellen */
+```
+
+> **Prüfungstipp Maxima:** Mit `integrate()` lassen sich Fourier-Koeffizienten direkt symbolisch berechnen. Bei stueckweisen Funktionen die Integrale einzeln aufsetzen.
+
+---
+
+### 6.2 Python – Fourier-Koeffizienten & Newton im Komplexen
+
+**Fourier-Koeffizienten numerisch berechnen:**
+
+```python
+import numpy as np
+from scipy.integrate import quad
+
+# --- Fourier-Koeffizienten numerisch (Periode 2*pi) ---
+
+# Rechteckkurve definieren
+def f(x):
+    x_mod = x % (2 * np.pi)
+    return np.where(x_mod <= np.pi, 1.0, -1.0)
+
+T = 2 * np.pi  # Periode
+
+# a0 berechnen
+a0, _ = quad(f, 0, T)
+a0 = a0 / np.pi
+print(f"a0 = {a0:.6f}")  # => 0.0
+
+# an und bn fuer beliebiges n
+def an(n):
+    integrand = lambda x: f(x) * np.cos(n * x)
+    val, _ = quad(integrand, 0, T)
+    return val / np.pi
+
+def bn(n):
+    integrand = lambda x: f(x) * np.sin(n * x)
+    val, _ = quad(integrand, 0, T)
+    return val / np.pi
+
+# Erste Koeffizienten anzeigen
+for n in range(1, 6):
+    print(f"a{n} = {an(n):.6f},  b{n} = {bn(n):.6f}")
+```
+
+**Fourier-Partialsumme plotten:**
+
+```python
+import matplotlib.pyplot as plt
+
+# Partialsumme mit N Gliedern
+def fourier_partialsumme(x, N):
+    s = a0 / 2
+    for n in range(1, N + 1):
+        s += an(n) * np.cos(n * x) + bn(n) * np.sin(n * x)
+    return s
+
+x = np.linspace(-np.pi, 3 * np.pi, 1000)
+
+plt.figure(figsize=(10, 5))
+plt.plot(x, f(x), 'k--', label='Original', linewidth=2)
+for N in [1, 5, 20]:
+    plt.plot(x, fourier_partialsumme(x, N), label=f'N = {N}')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.title('Fourier-Approximation der Rechteckkurve')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
+
+**Newton-Verfahren im Komplexen:**
+
+```python
+# --- Newton-Verfahren fuer f(z) = z^3 - 1 ---
+
+def newton_komplex(f, df, z0, tol=1e-10, max_iter=100):
+    """Newton-Verfahren mit komplexem Startwert."""
+    z = z0
+    for i in range(max_iter):
+        dz = f(z) / df(z)
+        z = z - dz
+        if abs(dz) < tol:
+            print(f"Konvergiert nach {i+1} Schritten")
+            return z
+    print("Keine Konvergenz!")
+    return z
+
+# Beispiel: z^3 - 1 = 0 (drei Nullstellen)
+f = lambda z: z**3 - 1
+df = lambda z: 3 * z**2
+
+# Verschiedene Startwerte testen
+for z0 in [1+1j, -1+0.5j, 0.5-1j]:
+    ergebnis = newton_komplex(f, df, z0)
+    print(f"  z0 = {z0}  =>  Nullstelle: {ergebnis:.6f}\n")
+```
+
+**Newton-Fraktal visualisieren (Einzugsgebiete):**
+
+```python
+# --- Newton-Fraktal: Einzugsgebiete der Nullstellen ---
+
+def newton_fraktal(f, df, xrange, yrange, res=500, max_iter=50):
+    """Erzeugt ein Bild der Einzugsgebiete fuer f(z) = z^3 - 1."""
+    x = np.linspace(*xrange, res)
+    y = np.linspace(*yrange, res)
+    X, Y = np.meshgrid(x, y)
+    Z = X + 1j * Y
+
+    # Newton-Iteration auf dem gesamten Gitter
+    for _ in range(max_iter):
+        Z = Z - f(Z) / df(Z)
+
+    # Einfaerben nach Phase (= welche Nullstelle erreicht wurde)
+    farben = np.angle(Z)  # Argument bestimmt die Nullstelle
+
+    plt.figure(figsize=(8, 8))
+    plt.imshow(farben, extent=[*xrange, *yrange], cmap='hsv', origin='lower')
+    plt.title('Newton-Fraktal: $z^3 - 1 = 0$')
+    plt.xlabel('Re(z)')
+    plt.ylabel('Im(z)')
+    plt.colorbar(label='arg(z)')
+    plt.tight_layout()
+    plt.show()
+
+# Fraktal erzeugen
+f = lambda z: z**3 - 1
+df = lambda z: 3 * z**2
+newton_fraktal(f, df, (-2, 2), (-2, 2), res=800)
+```
+
+> **Prüfungstipp Python:** Das Newton-Verfahren im Komplexen funktioniert identisch zum Reellen -- einfach `z = z - f(z)/df(z)` in einer Schleife. Python rechnet mit `complex`-Zahlen nativ. Fuer Fourier-Koeffizienten ist `scipy.integrate.quad` die zuverlaessigste Methode.
