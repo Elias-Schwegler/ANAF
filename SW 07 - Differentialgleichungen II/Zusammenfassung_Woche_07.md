@@ -584,6 +584,13 @@ Schritt 7: Spezielle Lösung aufschreiben
 # 8. Prüfungsrelevante Hinweise (MEP)
 
 > 🎯 **Aussage des Dozenten:** An der MEP kommt vor allem das **Lineare** dran – also genau die homogenen linearen DGL 2. Ordnung mit konstanten Koeffizienten, wie sie in den Folien behandelt werden. Man muss **nicht** die ganze "Schwarte" (Papula) für exotische DGL-Typen durcharbeiten. Fokus = das, was in den Folien steht + einfache Konzepte sauber beherrschen.
+>
+> 🎯 **Konkret zur MEP:** Wenn eine **homogene DGL 2. Ordnung** kommt → sofort den **$e^{\lambda x}$-Ansatz** verwenden! Das ist DAS Standardverfahren:
+> 1. Ansatz $y = e^{\lambda x}$ einsetzen → Charakteristische Gleichung $a\lambda^2 + b\lambda + c = 0$
+> 2. $\lambda$-Werte berechnen → Fall bestimmen → Allgemeine Lösung aufschreiben
+> 3. Bei AWP: $y'$ ableiten, Anfangsbedingungen einsetzen, $C_1$/$C_2$ bestimmen
+>
+> **Das muss sitzen!**
 
 ### Was ist an der MEP sicher relevant?
 
