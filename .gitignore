@@ -3,3 +3,18 @@
 
 # Slide rendered images (generated from PDF, not to be committed)
 **/slides_images/
+
+# Zip-Backup-Ordner und eingebettete Zips (lokal, nicht versionieren)
+ZIPs/
+*.zip
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
