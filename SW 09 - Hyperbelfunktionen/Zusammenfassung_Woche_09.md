@@ -1,4 +1,4 @@
-# Zusammenfassung Woche 08 – Hyperbelfunktionen
+# Zusammenfassung Woche 09 – Hyperbelfunktionen
 
 **Modul:** Fortgeschrittene Analysis (ANA-F)
 **Dozenten:** Ron Porath, Joachim Wirth
@@ -704,12 +704,14 @@ print("∫ 1/√(x²-1) dx =", integrate(1/sqrt(x**2-1), x))  # → acosh(x)
 
 ---
 
-# 14. Verbindung zu vorherigen Wochen
+# 14. Verbindung zu anderen Wochen
 
-| Woche | Thema | Verbindung zu SW08 |
+| Woche | Thema | Verbindung zu SW09 |
 |---|---|---|
+| **SW01** | Trigonometrie | cosh/sinh sind die "hyperbolischen Geschwister" von cos/sin. Der hyperbolische Pythagoras $\cosh^2 - \sinh^2 = 1$ ist das Gegenstück zu $\cos^2 + \sin^2 = 1$. Die Additionstheoreme folgen derselben Logik. |
 | **SW02** | Folgen, Reihen, Grenzwerte | Die MacLaurin-Reihen von cosh/sinh sind Spezialfälle der Potenzreihen aus SW02. |
 | **SW03** | Potenzreihen | Taylor-Entwicklung von cosh/sinh wird mit den Methoden aus SW03 hergeleitet. |
 | **SW04** | Komplexe Zahlen | Die Euler-Formel $e^{ix} = \cos x + i\sin x$ ist der Ausgangspunkt: Hyperbelfunktionen = "Euler ohne $i$". |
 | **SW05** | Newton im Komplexen, Fourier | cosh/sinh tauchen als Realteil/Imaginärteil von $\cos(iz)$ und $\sin(iz)$ auf. |
 | **SW06/07** | Differentialgleichungen | Die Kettenlinie führt auf eine DGL, die über arsinh-Integration gelöst wird → $y = \frac{1}{k}\cosh(kx + C)$. Die DGL-Lösungsmethoden (Separation der Variablen) werden direkt angewendet. |
+| *(Ausblick SW10)* | **Kurven** | Die Parametrisierung der Einheitshyperbel $\vec{c}(t) = (\cosh t, \sinh t)$ ist eine **Kurve** – genau das Thema der nächsten Woche! Der hyperbolische Pythagoras wird dort genutzt, um zu zeigen, dass $x^2 - y^2 = 1$ tatsächlich eine Hyperbel ist. Die Kettenlinie $y = \cosh(x)$ lässt sich als Funktionsgraph-Kurve $\vec{c}(x) = (x, \cosh x)$ betrachten – ihre Bogenlänge berechnet man mit den Methoden aus SW10! |
